@@ -27,7 +27,7 @@ I have also provided ``.zip`` files for each version if you just want to downloa
 **NOTICE**: However very unlikely, there may be some imperfections in any of the environment logs. If you _do_ find any imperfections please let me know. All logs were taken from a fresh installation of Beatsaber, so there shouldn't be any extra mod objects.
 
 
-Environment Releases:
+Environment Releases (Environments that have been added from the previous version)
 | 1.29.1 | 1.34.0 | 1.37.0 |
 | :------:| :-------: | :------:|
 | Default | Queen | DaftPunk
