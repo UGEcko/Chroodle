@@ -59,8 +59,7 @@ type BeatsaberVersionEnvironment<T> =
 
 export async function VerifyRegex<T extends BeatsaberVersion>(expression: string, BeatsaberVersion: T, environment: BeatsaberVersionEnvironment<T>, log: boolean = false): Promise<boolean> {
     let URL: string = "https://raw.githubusercontent.com/UGEcko/Chroodle/main/ChromaLogs/"
-    URL += BeatsaberVersion // Add the version to the end of the URL.
-    URL += `/${environment}Environment.log`
+    URL += `${BeatsaberVersion}/${environment}Environment.log` // Add the version and environment to the end of the URL.
 
     const match = new RegExp(expression, "gm").test(await (await fetch(URL)).text());
 
