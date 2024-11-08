@@ -57,7 +57,7 @@ type BeatsaberVersionEnvironment<T> =
     T extends "1.37.0" ? Environment_1_37 :
     never;
 
-export async function VerifyRegex<T extends BeatsaberVersion>(expression: string, BeatsaberVersion: T, environment: BeatsaberVersionEnvironment<T>) {
+export async function VerifyRegex<T extends BeatsaberVersion>(expression: string, BeatsaberVersion: T, environment: BeatsaberVersionEnvironment<T>, log: boolean = false): Promise<boolean> {
     let URL: string = "https://raw.githubusercontent.com/UGEcko/Chroodle/main/ChromaLogs/"
     URL += BeatsaberVersion // Add the version to the end of the URL.
     URL += `/${environment}Environment.log`
@@ -67,5 +67,7 @@ export async function VerifyRegex<T extends BeatsaberVersion>(expression: string
     let verdict = DCol.green("exists")
     if(!match) verdict = DCol.red("does not exist")
 
-    console.log(`${DCol.bold(expression)} ${verdict} in the ${environment} Environment`);
+    log ? console.log(`${DCol.bold(expression)} ${verdict} in the ${environment} Environment`) : undefined;
+
+    return match;
 }
