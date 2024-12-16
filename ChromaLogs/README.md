@@ -17,8 +17,7 @@ Some environment names that may confuse you:
 | Rocket Environment | Rocket League |
 
 
-Any environments that have a 2 in their name is the "Remastered" version. 
-
+Any environments that have a 2 in their name is the "Remastered" version. <br>
 Ex: ``LinkinPark2Environment``
 
 
@@ -64,6 +63,9 @@ Environment Releases (Environments that have been added from the previous versio
 | Dragons2
 | Panic2
 
+
+<hr>
+
 (INFO)
 Im not exactly sure how helpful this may be to some of you, but there is now a regex verifier posted on here (Developed in TS, but you're not required to use ReMapper), that uses chroodle to check if regular expressions are valid to the environment (version specific). Its pretty much Regex101.com but in your script...
 <br> Import it into your script here: <br> ``
@@ -71,5 +73,6 @@ import { VerifyRegex } from "https://raw.githubusercontent.com/UGEcko/Chroodle/m
 
 Example: 
 ```ts
-VerifyRegex("BasicGameHUD", "1.34.0", "CrabRave")
+VerifyRegex("BasicGameHUD", "1.34.0", "CrabRave", true); // (Expression, BSVersion, Environment, LogToConsole)
+// Returns a boolean, but can also just log to console for other purposes.
 ```
