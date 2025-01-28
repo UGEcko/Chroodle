@@ -1,0 +1,298 @@
+GlassDesertEnvironment.[0]Environment
+GlassDesertEnvironment.[0]Environment.[0]DecoratorContext
+GlassDesertEnvironment.[0]Environment.[1]SceneSetup
+GlassDesertEnvironment.[0]Environment.[10]TopLightMesh
+GlassDesertEnvironment.[0]Environment.[11]TopLightMesh
+GlassDesertEnvironment.[0]Environment.[12]TopLightMesh
+GlassDesertEnvironment.[0]Environment.[13]TopLightMesh
+GlassDesertEnvironment.[0]Environment.[14]TopLightMesh
+GlassDesertEnvironment.[0]Environment.[15]TopLightMesh
+GlassDesertEnvironment.[0]Environment.[16]Floor
+GlassDesertEnvironment.[0]Environment.[16]Floor.[0]FloorSetDepth
+GlassDesertEnvironment.[0]Environment.[17]SeparatorWall
+GlassDesertEnvironment.[0]Environment.[17]SeparatorWall.[0]Mesh
+GlassDesertEnvironment.[0]Environment.[17]SeparatorWall.[1]Shadow
+GlassDesertEnvironment.[0]Environment.[18]SeparatorWall (1)
+GlassDesertEnvironment.[0]Environment.[18]SeparatorWall (1).[0]Mesh
+GlassDesertEnvironment.[0]Environment.[18]SeparatorWall (1).[1]Shadow
+GlassDesertEnvironment.[0]Environment.[19]SeparatorWall (2)
+GlassDesertEnvironment.[0]Environment.[19]SeparatorWall (2).[0]Mesh
+GlassDesertEnvironment.[0]Environment.[19]SeparatorWall (2).[1]Shadow
+GlassDesertEnvironment.[0]Environment.[2]LightWithIdManager
+GlassDesertEnvironment.[0]Environment.[20]SeparatorWall (3)
+GlassDesertEnvironment.[0]Environment.[20]SeparatorWall (3).[0]Mesh
+GlassDesertEnvironment.[0]Environment.[20]SeparatorWall (3).[1]Shadow
+GlassDesertEnvironment.[0]Environment.[21]SeparatorWall (4)
+GlassDesertEnvironment.[0]Environment.[21]SeparatorWall (4).[0]Mesh
+GlassDesertEnvironment.[0]Environment.[21]SeparatorWall (4).[1]Shadow
+GlassDesertEnvironment.[0]Environment.[22]SeparatorWall (5)
+GlassDesertEnvironment.[0]Environment.[22]SeparatorWall (5).[0]Mesh
+GlassDesertEnvironment.[0]Environment.[22]SeparatorWall (5).[1]Shadow
+GlassDesertEnvironment.[0]Environment.[23]SeparatorWall (6)
+GlassDesertEnvironment.[0]Environment.[23]SeparatorWall (6).[0]Mesh
+GlassDesertEnvironment.[0]Environment.[23]SeparatorWall (6).[1]Shadow
+GlassDesertEnvironment.[0]Environment.[24]SeparatorWall (7)
+GlassDesertEnvironment.[0]Environment.[24]SeparatorWall (7).[0]Mesh
+GlassDesertEnvironment.[0]Environment.[24]SeparatorWall (7).[1]Shadow
+GlassDesertEnvironment.[0]Environment.[25]SeparatorWall (8)
+GlassDesertEnvironment.[0]Environment.[25]SeparatorWall (8).[0]Mesh
+GlassDesertEnvironment.[0]Environment.[25]SeparatorWall (8).[1]Shadow
+GlassDesertEnvironment.[0]Environment.[26]SeparatorWall (9)
+GlassDesertEnvironment.[0]Environment.[26]SeparatorWall (9).[0]Mesh
+GlassDesertEnvironment.[0]Environment.[26]SeparatorWall (9).[1]Shadow
+GlassDesertEnvironment.[0]Environment.[27]SeparatorWall (10)
+GlassDesertEnvironment.[0]Environment.[27]SeparatorWall (10).[0]Mesh
+GlassDesertEnvironment.[0]Environment.[27]SeparatorWall (10).[1]Shadow
+GlassDesertEnvironment.[0]Environment.[28]SeparatorWall (11)
+GlassDesertEnvironment.[0]Environment.[28]SeparatorWall (11).[0]Mesh
+GlassDesertEnvironment.[0]Environment.[28]SeparatorWall (11).[1]Shadow
+GlassDesertEnvironment.[0]Environment.[29]SeparatorWall (12)
+GlassDesertEnvironment.[0]Environment.[29]SeparatorWall (12).[0]Mesh
+GlassDesertEnvironment.[0]Environment.[29]SeparatorWall (12).[1]Shadow
+GlassDesertEnvironment.[0]Environment.[3]SpawnRotationChevronManager
+GlassDesertEnvironment.[0]Environment.[30]SeparatorWall (13)
+GlassDesertEnvironment.[0]Environment.[30]SeparatorWall (13).[0]Mesh
+GlassDesertEnvironment.[0]Environment.[30]SeparatorWall (13).[1]Shadow
+GlassDesertEnvironment.[0]Environment.[31]SeparatorWall (14)
+GlassDesertEnvironment.[0]Environment.[31]SeparatorWall (14).[0]Mesh
+GlassDesertEnvironment.[0]Environment.[31]SeparatorWall (14).[1]Shadow
+GlassDesertEnvironment.[0]Environment.[32]SeparatorWall (15)
+GlassDesertEnvironment.[0]Environment.[32]SeparatorWall (15).[0]Mesh
+GlassDesertEnvironment.[0]Environment.[32]SeparatorWall (15).[1]Shadow
+GlassDesertEnvironment.[0]Environment.[33]====== DYNAMIC ======
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[0]EnergyPanel
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[0]EnergyPanel.[0]BG
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[0]EnergyPanel.[1]BarBG
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[0]EnergyPanel.[2]EnergyIconEmpty
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[0]EnergyPanel.[3]EnergyIconFull
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[0]EnergyPanel.[4]EnergyBarWrapper
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[0]EnergyPanel.[4]EnergyBarWrapper.[0]EnergyBar
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[0]EnergyPanel.[5]Laser
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[0]EnergyPanel.[5]Laser.[0]BoxLight
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[0]EnergyPanel.[5]Laser.[1]BakedBloom
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[0]EnergyPanel.[6]FailIcon
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[1]ComboPanel
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[1]ComboPanel.[0]ComboText
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[1]ComboPanel.[1]ComboCanvas
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[1]ComboPanel.[1]ComboCanvas.[0]NumText
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[1]ComboPanel.[2]Line0
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[1]ComboPanel.[3]Line1
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[2]ScoreCanvas
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[2]ScoreCanvas.[0]ScoreText
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[2]ScoreCanvas.[1]ImmediateRankText
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[2]ScoreCanvas.[2]RelativeScoreText
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[3]MultiplierCanvas
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[3]MultiplierCanvas.[0]BGCircle
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[3]MultiplierCanvas.[1]FGCircle
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[3]MultiplierCanvas.[2]AnimationCircle
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[3]MultiplierCanvas.[3]TextOverlayPanelOutline1
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[3]MultiplierCanvas.[3]TextOverlayPanelOutline1.[0]XText
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[3]MultiplierCanvas.[3]TextOverlayPanelOutline1.[1]NumText
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[3]MultiplierCanvas.[4]TextOverlayPanelOutline0
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[3]MultiplierCanvas.[4]TextOverlayPanelOutline0.[0]XText
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[3]MultiplierCanvas.[4]TextOverlayPanelOutline0.[1]NumText
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[3]MultiplierCanvas.[5]TextPanel
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[3]MultiplierCanvas.[5]TextPanel.[0]XText
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[3]MultiplierCanvas.[5]TextPanel.[1]NumText
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[4]SongProgressCanvas
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[4]SongProgressCanvas.[0]Progress
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[4]SongProgressCanvas.[1]Slider
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[4]SongProgressCanvas.[1]Slider.[0]Background
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[4]SongProgressCanvas.[1]Slider.[1]Handle Slide Area
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[4]SongProgressCanvas.[1]Slider.[1]Handle Slide Area.[0]Handle
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[4]SongProgressCanvas.[2]DurationMinutes
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[4]SongProgressCanvas.[3]DurationSeconds
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[4]SongProgressCanvas.[4]ProgressMinutes
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[4]SongProgressCanvas.[5]ProgressSeconds
+GlassDesertEnvironment.[0]Environment.[34]FlyingGameHUD.[0]Container.[4]SongProgressCanvas.[6]BG
+GlassDesertEnvironment.[0]Environment.[35]BigSmokePS
+GlassDesertEnvironment.[0]Environment.[36]DustPS
+GlassDesertEnvironment.[0]Environment.[37]====== LIGHTS ======
+GlassDesertEnvironment.[0]Environment.[38]CoreLighting
+GlassDesertEnvironment.[0]Environment.[38]CoreLighting.[0]LightManager
+GlassDesertEnvironment.[0]Environment.[38]CoreLighting.[1]LightWrapper2
+GlassDesertEnvironment.[0]Environment.[38]CoreLighting.[1]LightWrapper2.[0]DirectionalLight
+GlassDesertEnvironment.[0]Environment.[38]CoreLighting.[1]LightWrapper2.[1]DirectionalLight
+GlassDesertEnvironment.[0]Environment.[38]CoreLighting.[1]LightWrapper2.[2]DirectionalLight
+GlassDesertEnvironment.[0]Environment.[38]CoreLighting.[1]LightWrapper2.[3]DirectionalLight
+GlassDesertEnvironment.[0]Environment.[38]CoreLighting.[1]LightWrapper2.[4]DirectionalLight
+GlassDesertEnvironment.[0]Environment.[39]LightEffects
+GlassDesertEnvironment.[0]Environment.[4]FakeMirrorSettings
+GlassDesertEnvironment.[0]Environment.[40]DownLaser (9)
+GlassDesertEnvironment.[0]Environment.[40]DownLaser (9).[0]BakedBloom
+GlassDesertEnvironment.[0]Environment.[40]DownLaser (9).[1]BoxLight
+GlassDesertEnvironment.[0]Environment.[41]DownLaser (12)
+GlassDesertEnvironment.[0]Environment.[41]DownLaser (12).[0]BakedBloom
+GlassDesertEnvironment.[0]Environment.[41]DownLaser (12).[1]BoxLight
+GlassDesertEnvironment.[0]Environment.[42]DownLaser (10)
+GlassDesertEnvironment.[0]Environment.[42]DownLaser (10).[0]BakedBloom
+GlassDesertEnvironment.[0]Environment.[42]DownLaser (10).[1]BoxLight
+GlassDesertEnvironment.[0]Environment.[43]DownLaser (11)
+GlassDesertEnvironment.[0]Environment.[43]DownLaser (11).[0]BakedBloom
+GlassDesertEnvironment.[0]Environment.[43]DownLaser (11).[1]BoxLight
+GlassDesertEnvironment.[0]Environment.[44]DownLaser (4)
+GlassDesertEnvironment.[0]Environment.[44]DownLaser (4).[0]BakedBloom
+GlassDesertEnvironment.[0]Environment.[44]DownLaser (4).[1]BoxLight
+GlassDesertEnvironment.[0]Environment.[45]DownLaser (5)
+GlassDesertEnvironment.[0]Environment.[45]DownLaser (5).[0]BakedBloom
+GlassDesertEnvironment.[0]Environment.[45]DownLaser (5).[1]BoxLight
+GlassDesertEnvironment.[0]Environment.[46]DownLaser (6)
+GlassDesertEnvironment.[0]Environment.[46]DownLaser (6).[0]BakedBloom
+GlassDesertEnvironment.[0]Environment.[46]DownLaser (6).[1]BoxLight
+GlassDesertEnvironment.[0]Environment.[47]DownLaser (7)
+GlassDesertEnvironment.[0]Environment.[47]DownLaser (7).[0]BakedBloom
+GlassDesertEnvironment.[0]Environment.[47]DownLaser (7).[1]BoxLight
+GlassDesertEnvironment.[0]Environment.[48]TopLaser
+GlassDesertEnvironment.[0]Environment.[48]TopLaser.[0]BakedBloom
+GlassDesertEnvironment.[0]Environment.[48]TopLaser.[1]BoxLight
+GlassDesertEnvironment.[0]Environment.[49]TopLaser (1)
+GlassDesertEnvironment.[0]Environment.[49]TopLaser (1).[0]BakedBloom
+GlassDesertEnvironment.[0]Environment.[49]TopLaser (1).[1]BoxLight
+GlassDesertEnvironment.[0]Environment.[5]BakedReflectionProbeInstaller
+GlassDesertEnvironment.[0]Environment.[50]TopLaser (2)
+GlassDesertEnvironment.[0]Environment.[50]TopLaser (2).[0]BakedBloom
+GlassDesertEnvironment.[0]Environment.[50]TopLaser (2).[1]BoxLight
+GlassDesertEnvironment.[0]Environment.[51]TopLaser (3)
+GlassDesertEnvironment.[0]Environment.[51]TopLaser (3).[0]BakedBloom
+GlassDesertEnvironment.[0]Environment.[51]TopLaser (3).[1]BoxLight
+GlassDesertEnvironment.[0]Environment.[52]TopLaser (4)
+GlassDesertEnvironment.[0]Environment.[52]TopLaser (4).[0]BakedBloom
+GlassDesertEnvironment.[0]Environment.[52]TopLaser (4).[1]BoxLight
+GlassDesertEnvironment.[0]Environment.[53]TopLaser (5)
+GlassDesertEnvironment.[0]Environment.[53]TopLaser (5).[0]BakedBloom
+GlassDesertEnvironment.[0]Environment.[53]TopLaser (5).[1]BoxLight
+GlassDesertEnvironment.[0]Environment.[54]LightPillar (9)
+GlassDesertEnvironment.[0]Environment.[54]LightPillar (9).[0]Shadow
+GlassDesertEnvironment.[0]Environment.[54]LightPillar (9).[1]Cube
+GlassDesertEnvironment.[0]Environment.[54]LightPillar (9).[2]RotatingLasersPair
+GlassDesertEnvironment.[0]Environment.[54]LightPillar (9).[2]RotatingLasersPair.[0]BaseL
+GlassDesertEnvironment.[0]Environment.[54]LightPillar (9).[2]RotatingLasersPair.[0]BaseL.[0]Laser
+GlassDesertEnvironment.[0]Environment.[54]LightPillar (9).[2]RotatingLasersPair.[0]BaseL.[0]Laser.[0]BakedBloom
+GlassDesertEnvironment.[0]Environment.[54]LightPillar (9).[2]RotatingLasersPair.[0]BaseL.[0]Laser.[1]BoxLight
+GlassDesertEnvironment.[0]Environment.[54]LightPillar (9).[2]RotatingLasersPair.[1]BaseR
+GlassDesertEnvironment.[0]Environment.[54]LightPillar (9).[2]RotatingLasersPair.[1]BaseR.[0]Laser
+GlassDesertEnvironment.[0]Environment.[54]LightPillar (9).[2]RotatingLasersPair.[1]BaseR.[0]Laser.[0]BakedBloom
+GlassDesertEnvironment.[0]Environment.[54]LightPillar (9).[2]RotatingLasersPair.[1]BaseR.[0]Laser.[1]BoxLight
+GlassDesertEnvironment.[0]Environment.[55]LightPillar (19)
+GlassDesertEnvironment.[0]Environment.[55]LightPillar (19).[0]Shadow
+GlassDesertEnvironment.[0]Environment.[55]LightPillar (19).[1]Cube
+GlassDesertEnvironment.[0]Environment.[55]LightPillar (19).[2]RotatingLasersPair
+GlassDesertEnvironment.[0]Environment.[55]LightPillar (19).[2]RotatingLasersPair.[0]BaseL
+GlassDesertEnvironment.[0]Environment.[55]LightPillar (19).[2]RotatingLasersPair.[0]BaseL.[0]Laser
+GlassDesertEnvironment.[0]Environment.[55]LightPillar (19).[2]RotatingLasersPair.[0]BaseL.[0]Laser.[0]BakedBloom
+GlassDesertEnvironment.[0]Environment.[55]LightPillar (19).[2]RotatingLasersPair.[0]BaseL.[0]Laser.[1]BoxLight
+GlassDesertEnvironment.[0]Environment.[55]LightPillar (19).[2]RotatingLasersPair.[1]BaseR
+GlassDesertEnvironment.[0]Environment.[55]LightPillar (19).[2]RotatingLasersPair.[1]BaseR.[0]Laser
+GlassDesertEnvironment.[0]Environment.[55]LightPillar (19).[2]RotatingLasersPair.[1]BaseR.[0]Laser.[0]BakedBloom
+GlassDesertEnvironment.[0]Environment.[55]LightPillar (19).[2]RotatingLasersPair.[1]BaseR.[0]Laser.[1]BoxLight
+GlassDesertEnvironment.[0]Environment.[56]LightPillar (20)
+GlassDesertEnvironment.[0]Environment.[56]LightPillar (20).[0]Shadow
+GlassDesertEnvironment.[0]Environment.[56]LightPillar (20).[1]Cube
+GlassDesertEnvironment.[0]Environment.[56]LightPillar (20).[2]RotatingLasersPair
+GlassDesertEnvironment.[0]Environment.[56]LightPillar (20).[2]RotatingLasersPair.[0]BaseL
+GlassDesertEnvironment.[0]Environment.[56]LightPillar (20).[2]RotatingLasersPair.[0]BaseL.[0]Laser
+GlassDesertEnvironment.[0]Environment.[56]LightPillar (20).[2]RotatingLasersPair.[0]BaseL.[0]Laser.[0]BakedBloom
+GlassDesertEnvironment.[0]Environment.[56]LightPillar (20).[2]RotatingLasersPair.[0]BaseL.[0]Laser.[1]BoxLight
+GlassDesertEnvironment.[0]Environment.[56]LightPillar (20).[2]RotatingLasersPair.[1]BaseR
+GlassDesertEnvironment.[0]Environment.[56]LightPillar (20).[2]RotatingLasersPair.[1]BaseR.[0]Laser
+GlassDesertEnvironment.[0]Environment.[56]LightPillar (20).[2]RotatingLasersPair.[1]BaseR.[0]Laser.[0]BakedBloom
+GlassDesertEnvironment.[0]Environment.[56]LightPillar (20).[2]RotatingLasersPair.[1]BaseR.[0]Laser.[1]BoxLight
+GlassDesertEnvironment.[0]Environment.[57]LightPillar (21)
+GlassDesertEnvironment.[0]Environment.[57]LightPillar (21).[0]Shadow
+GlassDesertEnvironment.[0]Environment.[57]LightPillar (21).[1]Cube
+GlassDesertEnvironment.[0]Environment.[57]LightPillar (21).[2]RotatingLasersPair
+GlassDesertEnvironment.[0]Environment.[57]LightPillar (21).[2]RotatingLasersPair.[0]BaseL
+GlassDesertEnvironment.[0]Environment.[57]LightPillar (21).[2]RotatingLasersPair.[0]BaseL.[0]Laser
+GlassDesertEnvironment.[0]Environment.[57]LightPillar (21).[2]RotatingLasersPair.[0]BaseL.[0]Laser.[0]BakedBloom
+GlassDesertEnvironment.[0]Environment.[57]LightPillar (21).[2]RotatingLasersPair.[0]BaseL.[0]Laser.[1]BoxLight
+GlassDesertEnvironment.[0]Environment.[57]LightPillar (21).[2]RotatingLasersPair.[1]BaseR
+GlassDesertEnvironment.[0]Environment.[57]LightPillar (21).[2]RotatingLasersPair.[1]BaseR.[0]Laser
+GlassDesertEnvironment.[0]Environment.[57]LightPillar (21).[2]RotatingLasersPair.[1]BaseR.[0]Laser.[0]BakedBloom
+GlassDesertEnvironment.[0]Environment.[57]LightPillar (21).[2]RotatingLasersPair.[1]BaseR.[0]Laser.[1]BoxLight
+GlassDesertEnvironment.[0]Environment.[58]LightPillar (10)
+GlassDesertEnvironment.[0]Environment.[58]LightPillar (10).[0]Shadow
+GlassDesertEnvironment.[0]Environment.[58]LightPillar (10).[1]Cube
+GlassDesertEnvironment.[0]Environment.[58]LightPillar (10).[2]RotatingLasersPair
+GlassDesertEnvironment.[0]Environment.[58]LightPillar (10).[2]RotatingLasersPair.[0]BaseL
+GlassDesertEnvironment.[0]Environment.[58]LightPillar (10).[2]RotatingLasersPair.[0]BaseL.[0]Laser
+GlassDesertEnvironment.[0]Environment.[58]LightPillar (10).[2]RotatingLasersPair.[0]BaseL.[0]Laser.[0]BakedBloom
+GlassDesertEnvironment.[0]Environment.[58]LightPillar (10).[2]RotatingLasersPair.[0]BaseL.[0]Laser.[1]BoxLight
+GlassDesertEnvironment.[0]Environment.[58]LightPillar (10).[2]RotatingLasersPair.[1]BaseR
+GlassDesertEnvironment.[0]Environment.[58]LightPillar (10).[2]RotatingLasersPair.[1]BaseR.[0]Laser
+GlassDesertEnvironment.[0]Environment.[58]LightPillar (10).[2]RotatingLasersPair.[1]BaseR.[0]Laser.[0]BakedBloom
+GlassDesertEnvironment.[0]Environment.[58]LightPillar (10).[2]RotatingLasersPair.[1]BaseR.[0]Laser.[1]BoxLight
+GlassDesertEnvironment.[0]Environment.[59]LightPillar (23)
+GlassDesertEnvironment.[0]Environment.[59]LightPillar (23).[0]Shadow
+GlassDesertEnvironment.[0]Environment.[59]LightPillar (23).[1]Cube
+GlassDesertEnvironment.[0]Environment.[59]LightPillar (23).[2]RotatingLasersPair
+GlassDesertEnvironment.[0]Environment.[59]LightPillar (23).[2]RotatingLasersPair.[0]BaseL
+GlassDesertEnvironment.[0]Environment.[59]LightPillar (23).[2]RotatingLasersPair.[0]BaseL.[0]Laser
+GlassDesertEnvironment.[0]Environment.[59]LightPillar (23).[2]RotatingLasersPair.[0]BaseL.[0]Laser.[0]BakedBloom
+GlassDesertEnvironment.[0]Environment.[59]LightPillar (23).[2]RotatingLasersPair.[0]BaseL.[0]Laser.[1]BoxLight
+GlassDesertEnvironment.[0]Environment.[59]LightPillar (23).[2]RotatingLasersPair.[1]BaseR
+GlassDesertEnvironment.[0]Environment.[59]LightPillar (23).[2]RotatingLasersPair.[1]BaseR.[0]Laser
+GlassDesertEnvironment.[0]Environment.[59]LightPillar (23).[2]RotatingLasersPair.[1]BaseR.[0]Laser.[0]BakedBloom
+GlassDesertEnvironment.[0]Environment.[59]LightPillar (23).[2]RotatingLasersPair.[1]BaseR.[0]Laser.[1]BoxLight
+GlassDesertEnvironment.[0]Environment.[6]====== STATIC ======
+GlassDesertEnvironment.[0]Environment.[60]LightPillar (11)
+GlassDesertEnvironment.[0]Environment.[60]LightPillar (11).[0]Shadow
+GlassDesertEnvironment.[0]Environment.[60]LightPillar (11).[1]Cube
+GlassDesertEnvironment.[0]Environment.[60]LightPillar (11).[2]RotatingLasersPair
+GlassDesertEnvironment.[0]Environment.[60]LightPillar (11).[2]RotatingLasersPair.[0]BaseL
+GlassDesertEnvironment.[0]Environment.[60]LightPillar (11).[2]RotatingLasersPair.[0]BaseL.[0]Laser
+GlassDesertEnvironment.[0]Environment.[60]LightPillar (11).[2]RotatingLasersPair.[0]BaseL.[0]Laser.[0]BakedBloom
+GlassDesertEnvironment.[0]Environment.[60]LightPillar (11).[2]RotatingLasersPair.[0]BaseL.[0]Laser.[1]BoxLight
+GlassDesertEnvironment.[0]Environment.[60]LightPillar (11).[2]RotatingLasersPair.[1]BaseR
+GlassDesertEnvironment.[0]Environment.[60]LightPillar (11).[2]RotatingLasersPair.[1]BaseR.[0]Laser
+GlassDesertEnvironment.[0]Environment.[60]LightPillar (11).[2]RotatingLasersPair.[1]BaseR.[0]Laser.[0]BakedBloom
+GlassDesertEnvironment.[0]Environment.[60]LightPillar (11).[2]RotatingLasersPair.[1]BaseR.[0]Laser.[1]BoxLight
+GlassDesertEnvironment.[0]Environment.[61]LightPillar (24)
+GlassDesertEnvironment.[0]Environment.[61]LightPillar (24).[0]Shadow
+GlassDesertEnvironment.[0]Environment.[61]LightPillar (24).[1]Cube
+GlassDesertEnvironment.[0]Environment.[61]LightPillar (24).[2]RotatingLasersPair
+GlassDesertEnvironment.[0]Environment.[61]LightPillar (24).[2]RotatingLasersPair.[0]BaseL
+GlassDesertEnvironment.[0]Environment.[61]LightPillar (24).[2]RotatingLasersPair.[0]BaseL.[0]Laser
+GlassDesertEnvironment.[0]Environment.[61]LightPillar (24).[2]RotatingLasersPair.[0]BaseL.[0]Laser.[0]BakedBloom
+GlassDesertEnvironment.[0]Environment.[61]LightPillar (24).[2]RotatingLasersPair.[0]BaseL.[0]Laser.[1]BoxLight
+GlassDesertEnvironment.[0]Environment.[61]LightPillar (24).[2]RotatingLasersPair.[1]BaseR
+GlassDesertEnvironment.[0]Environment.[61]LightPillar (24).[2]RotatingLasersPair.[1]BaseR.[0]Laser
+GlassDesertEnvironment.[0]Environment.[61]LightPillar (24).[2]RotatingLasersPair.[1]BaseR.[0]Laser.[0]BakedBloom
+GlassDesertEnvironment.[0]Environment.[61]LightPillar (24).[2]RotatingLasersPair.[1]BaseR.[0]Laser.[1]BoxLight
+GlassDesertEnvironment.[0]Environment.[62]LightPillar (12)
+GlassDesertEnvironment.[0]Environment.[62]LightPillar (12).[0]Shadow
+GlassDesertEnvironment.[0]Environment.[62]LightPillar (12).[1]Cube
+GlassDesertEnvironment.[0]Environment.[62]LightPillar (12).[2]RotatingLasersPair
+GlassDesertEnvironment.[0]Environment.[62]LightPillar (12).[2]RotatingLasersPair.[0]BaseL
+GlassDesertEnvironment.[0]Environment.[62]LightPillar (12).[2]RotatingLasersPair.[0]BaseL.[0]Laser
+GlassDesertEnvironment.[0]Environment.[62]LightPillar (12).[2]RotatingLasersPair.[0]BaseL.[0]Laser.[0]BakedBloom
+GlassDesertEnvironment.[0]Environment.[62]LightPillar (12).[2]RotatingLasersPair.[0]BaseL.[0]Laser.[1]BoxLight
+GlassDesertEnvironment.[0]Environment.[62]LightPillar (12).[2]RotatingLasersPair.[1]BaseR
+GlassDesertEnvironment.[0]Environment.[62]LightPillar (12).[2]RotatingLasersPair.[1]BaseR.[0]Laser
+GlassDesertEnvironment.[0]Environment.[62]LightPillar (12).[2]RotatingLasersPair.[1]BaseR.[0]Laser.[0]BakedBloom
+GlassDesertEnvironment.[0]Environment.[62]LightPillar (12).[2]RotatingLasersPair.[1]BaseR.[0]Laser.[1]BoxLight
+GlassDesertEnvironment.[0]Environment.[63]LightPillar (25)
+GlassDesertEnvironment.[0]Environment.[63]LightPillar (25).[0]Shadow
+GlassDesertEnvironment.[0]Environment.[63]LightPillar (25).[1]Cube
+GlassDesertEnvironment.[0]Environment.[63]LightPillar (25).[2]RotatingLasersPair
+GlassDesertEnvironment.[0]Environment.[63]LightPillar (25).[2]RotatingLasersPair.[0]BaseL
+GlassDesertEnvironment.[0]Environment.[63]LightPillar (25).[2]RotatingLasersPair.[0]BaseL.[0]Laser
+GlassDesertEnvironment.[0]Environment.[63]LightPillar (25).[2]RotatingLasersPair.[0]BaseL.[0]Laser.[0]BakedBloom
+GlassDesertEnvironment.[0]Environment.[63]LightPillar (25).[2]RotatingLasersPair.[0]BaseL.[0]Laser.[1]BoxLight
+GlassDesertEnvironment.[0]Environment.[63]LightPillar (25).[2]RotatingLasersPair.[1]BaseR
+GlassDesertEnvironment.[0]Environment.[63]LightPillar (25).[2]RotatingLasersPair.[1]BaseR.[0]Laser
+GlassDesertEnvironment.[0]Environment.[63]LightPillar (25).[2]RotatingLasersPair.[1]BaseR.[0]Laser.[0]BakedBloom
+GlassDesertEnvironment.[0]Environment.[63]LightPillar (25).[2]RotatingLasersPair.[1]BaseR.[0]Laser.[1]BoxLight
+GlassDesertEnvironment.[0]Environment.[64]GradientBackground
+GlassDesertEnvironment.[0]Environment.[7]Collider
+GlassDesertEnvironment.[0]Environment.[8]PlayersPlace
+GlassDesertEnvironment.[0]Environment.[8]PlayersPlace.[0]Mirror
+GlassDesertEnvironment.[0]Environment.[8]PlayersPlace.[1]Feet
+GlassDesertEnvironment.[0]Environment.[8]PlayersPlace.[2]Construction
+GlassDesertEnvironment.[0]Environment.[8]PlayersPlace.[3]RectangleFakeGlow
+GlassDesertEnvironment.[0]Environment.[8]PlayersPlace.[4]SaberBurnMarksParticles
+GlassDesertEnvironment.[0]Environment.[8]PlayersPlace.[4]SaberBurnMarksParticles.[0]SaberBurnMarkSparklePS
+GlassDesertEnvironment.[0]Environment.[8]PlayersPlace.[5]SaberBurnMarksArea
+GlassDesertEnvironment.[0]Environment.[8]PlayersPlace.[6]Collider
+GlassDesertEnvironment.[0]Environment.[9]TopLightMesh
