@@ -2,8 +2,8 @@
 Beatsaber Versions:
 
 - [1.29.1](https://github.com/UGEcko/Chroodle/tree/main/ChromaLogs/1.29.1)
-- [1.34.2](https://github.com/UGEcko/Chroodle/tree/main/ChromaLogs/1.34.0)
-- [1.37.1](https://github.com/UGEcko/Chroodle/tree/main/ChromaLogs/1.37.0)
+- [1.34.2](https://github.com/UGEcko/Chroodle/tree/main/ChromaLogs/1.34.2)
+- [1.37.1](https://github.com/UGEcko/Chroodle/tree/main/ChromaLogs/1.37.1)
 - [1.39.1](https://github.com/UGEcko/Chroodle/tree/main/ChromaLogs/1.39.1)
 - [1.40.0](https://github.com/UGEcko/Chroodle/tree/main/ChromaLogs/1.40.0)
 
