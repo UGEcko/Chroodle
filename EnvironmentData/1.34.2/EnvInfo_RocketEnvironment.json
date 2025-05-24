@@ -1,0 +1,8776 @@
+{
+  "environmentData": {
+    "colorScheme": {
+      "colorLeft": [
+        1.0,
+        0.498039216,
+        0.0
+      ],
+      "colorRight": [
+        0.0,
+        0.5294118,
+        1.0
+      ],
+      "envColorLeft": [
+        0.9,
+        0.486627877,
+        0.3244186
+      ],
+      "envColorRight": [
+        0.399999976,
+        0.718072355,
+        1.0
+      ],
+      "obstacleColor": [
+        0.31764707,
+        0.6117647,
+        0.7254902
+      ],
+      "envColorLeftBoost": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "envColorRightBoost": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "fogParams": {
+      "offset": 0.0,
+      "height": 10.0,
+      "startY": -30.0,
+      "attenuation": 0.002
+    }
+  },
+  "objects": [
+    {
+      "name": "Environment",
+      "id": "RocketEnvironment.[0]Environment",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "BloomFogEnvironment": {}
+        }
+      ]
+    },
+    {
+      "name": "DecoratorContext",
+      "id": "RocketEnvironment.[0]Environment.[0]DecoratorContext",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "SceneSetup",
+      "id": "RocketEnvironment.[0]Environment.[1]SceneSetup",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "DustPS",
+      "id": "RocketEnvironment.[0]Environment.[10]DustPS",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "ParticleSystem": {}
+        }
+      ]
+    },
+    {
+      "name": "NarrowGameHUD",
+      "id": "RocketEnvironment.[0]Environment.[12]NarrowGameHUD",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "EnergyPanel",
+      "id": "RocketEnvironment.[0]Environment.[12]NarrowGameHUD.[0]EnergyPanel",
+      "components": [
+        {
+          "Canvas": {}
+        },
+        {
+          "Animator": {
+            "animatorParameters": [],
+            "animatorLayerNames": []
+          }
+        }
+      ]
+    },
+    {
+      "name": "BG",
+      "id": "RocketEnvironment.[0]Environment.[12]NarrowGameHUD.[0]EnergyPanel.[0]BG",
+      "components": [
+        {
+          "RawImage": {}
+        }
+      ]
+    },
+    {
+      "name": "BarBG",
+      "id": "RocketEnvironment.[0]Environment.[12]NarrowGameHUD.[0]EnergyPanel.[1]BarBG",
+      "components": []
+    },
+    {
+      "name": "EnergyIconEmpty",
+      "id": "RocketEnvironment.[0]Environment.[12]NarrowGameHUD.[0]EnergyPanel.[2]EnergyIconEmpty",
+      "components": []
+    },
+    {
+      "name": "EnergyIconFull",
+      "id": "RocketEnvironment.[0]Environment.[12]NarrowGameHUD.[0]EnergyPanel.[3]EnergyIconFull",
+      "components": []
+    },
+    {
+      "name": "EnergyBarWrapper",
+      "id": "RocketEnvironment.[0]Environment.[12]NarrowGameHUD.[0]EnergyPanel.[4]EnergyBarWrapper",
+      "components": []
+    },
+    {
+      "name": "EnergyBar",
+      "id": "RocketEnvironment.[0]Environment.[12]NarrowGameHUD.[0]EnergyPanel.[4]EnergyBarWrapper.[0]EnergyBar",
+      "components": [
+        {
+          "Canvas": {}
+        }
+      ]
+    },
+    {
+      "name": "Laser",
+      "id": "RocketEnvironment.[0]Environment.[12]NarrowGameHUD.[0]EnergyPanel.[5]Laser",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              0.0,
+              5.7
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              -40.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              90.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              90.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "TubeBloomPrePassLight": {
+            "colorAlphaMultiplier": 1.0,
+            "bloomFogIntensityMultiplier": 1.5,
+            "length": 500.0,
+            "width": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "BoxLight",
+      "id": "RocketEnvironment.[0]Environment.[12]NarrowGameHUD.[0]EnergyPanel.[5]Laser.[0]BoxLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              0.0,
+              5.7
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              90.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.0,
+              250.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedBloom",
+      "id": "RocketEnvironment.[0]Environment.[12]NarrowGameHUD.[0]EnergyPanel.[5]Laser.[1]BakedBloom",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              0.0,
+              5.7
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              90.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "FailIcon",
+      "id": "RocketEnvironment.[0]Environment.[12]NarrowGameHUD.[0]EnergyPanel.[6]FailIcon",
+      "components": []
+    },
+    {
+      "name": "LeftPanel",
+      "id": "RocketEnvironment.[0]Environment.[12]NarrowGameHUD.[1]LeftPanel",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -2.0,
+              0.4,
+              7.0
+            ],
+            "localPosition": [
+              -2.0,
+              0.4,
+              7.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "ComboPanel",
+      "id": "RocketEnvironment.[0]Environment.[12]NarrowGameHUD.[1]LeftPanel.[0]ComboPanel",
+      "components": [
+        {
+          "Animator": {
+            "animatorParameters": [
+              "ComboLost"
+            ],
+            "animatorLayerNames": [
+              "Base Layer"
+            ]
+          }
+        },
+        {
+          "Canvas": {}
+        }
+      ]
+    },
+    {
+      "name": "ComboText",
+      "id": "RocketEnvironment.[0]Environment.[12]NarrowGameHUD.[1]LeftPanel.[0]ComboPanel.[0]ComboText",
+      "components": []
+    },
+    {
+      "name": "ComboCanvas",
+      "id": "RocketEnvironment.[0]Environment.[12]NarrowGameHUD.[1]LeftPanel.[0]ComboPanel.[1]ComboCanvas",
+      "components": [
+        {
+          "Canvas": {}
+        }
+      ]
+    },
+    {
+      "name": "NumText",
+      "id": "RocketEnvironment.[0]Environment.[12]NarrowGameHUD.[1]LeftPanel.[0]ComboPanel.[1]ComboCanvas.[0]NumText",
+      "components": []
+    },
+    {
+      "name": "Line0",
+      "id": "RocketEnvironment.[0]Environment.[12]NarrowGameHUD.[1]LeftPanel.[0]ComboPanel.[2]Line0",
+      "components": []
+    },
+    {
+      "name": "Line1",
+      "id": "RocketEnvironment.[0]Environment.[12]NarrowGameHUD.[1]LeftPanel.[0]ComboPanel.[3]Line1",
+      "components": []
+    },
+    {
+      "name": "ScoreCanvas",
+      "id": "RocketEnvironment.[0]Environment.[12]NarrowGameHUD.[1]LeftPanel.[1]ScoreCanvas",
+      "components": [
+        {
+          "Canvas": {}
+        }
+      ]
+    },
+    {
+      "name": "RightPanel",
+      "id": "RocketEnvironment.[0]Environment.[12]NarrowGameHUD.[2]RightPanel",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              2.0,
+              0.4,
+              7.0
+            ],
+            "localPosition": [
+              2.0,
+              0.4,
+              7.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "MultiplierCanvas",
+      "id": "RocketEnvironment.[0]Environment.[12]NarrowGameHUD.[2]RightPanel.[0]MultiplierCanvas",
+      "components": [
+        {
+          "Canvas": {}
+        },
+        {
+          "Animator": {
+            "animatorParameters": [
+              "MultiplierIncreased"
+            ],
+            "animatorLayerNames": [
+              "Base Layer"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BGCircle",
+      "id": "RocketEnvironment.[0]Environment.[12]NarrowGameHUD.[2]RightPanel.[0]MultiplierCanvas.[0]BGCircle",
+      "components": []
+    },
+    {
+      "name": "FGCircle",
+      "id": "RocketEnvironment.[0]Environment.[12]NarrowGameHUD.[2]RightPanel.[0]MultiplierCanvas.[1]FGCircle",
+      "components": []
+    },
+    {
+      "name": "AnimationCircle",
+      "id": "RocketEnvironment.[0]Environment.[12]NarrowGameHUD.[2]RightPanel.[0]MultiplierCanvas.[2]AnimationCircle",
+      "components": []
+    },
+    {
+      "name": "TextOverlayPanelOutline1",
+      "id": "RocketEnvironment.[0]Environment.[12]NarrowGameHUD.[2]RightPanel.[0]MultiplierCanvas.[3]TextOverlayPanelOutline1",
+      "components": []
+    },
+    {
+      "name": "XText",
+      "id": "RocketEnvironment.[0]Environment.[12]NarrowGameHUD.[2]RightPanel.[0]MultiplierCanvas.[3]TextOverlayPanelOutline1.[0]XText",
+      "components": []
+    },
+    {
+      "name": "NumText",
+      "id": "RocketEnvironment.[0]Environment.[12]NarrowGameHUD.[2]RightPanel.[0]MultiplierCanvas.[3]TextOverlayPanelOutline1.[1]NumText",
+      "components": []
+    },
+    {
+      "name": "TextOverlayPanelOutline0",
+      "id": "RocketEnvironment.[0]Environment.[12]NarrowGameHUD.[2]RightPanel.[0]MultiplierCanvas.[4]TextOverlayPanelOutline0",
+      "components": []
+    },
+    {
+      "name": "XText",
+      "id": "RocketEnvironment.[0]Environment.[12]NarrowGameHUD.[2]RightPanel.[0]MultiplierCanvas.[4]TextOverlayPanelOutline0.[0]XText",
+      "components": []
+    },
+    {
+      "name": "NumText",
+      "id": "RocketEnvironment.[0]Environment.[12]NarrowGameHUD.[2]RightPanel.[0]MultiplierCanvas.[4]TextOverlayPanelOutline0.[1]NumText",
+      "components": []
+    },
+    {
+      "name": "TextPanel",
+      "id": "RocketEnvironment.[0]Environment.[12]NarrowGameHUD.[2]RightPanel.[0]MultiplierCanvas.[5]TextPanel",
+      "components": []
+    },
+    {
+      "name": "XText",
+      "id": "RocketEnvironment.[0]Environment.[12]NarrowGameHUD.[2]RightPanel.[0]MultiplierCanvas.[5]TextPanel.[0]XText",
+      "components": []
+    },
+    {
+      "name": "NumText",
+      "id": "RocketEnvironment.[0]Environment.[12]NarrowGameHUD.[2]RightPanel.[0]MultiplierCanvas.[5]TextPanel.[1]NumText",
+      "components": []
+    },
+    {
+      "name": "RocketArenaLight",
+      "id": "RocketEnvironment.[0]Environment.[13]RocketArenaLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              1.7,
+              22.0
+            ],
+            "localPosition": [
+              0.0,
+              1.7,
+              22.0
+            ],
+            "rotation": [
+              270.019775,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              270.019775,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.726909637,
+              3.23571277
+            ],
+            "boundSize": [
+              81.89185,
+              50.4733353,
+              6.09663057
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BigSmokePS",
+      "id": "RocketEnvironment.[0]Environment.[14]BigSmokePS",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "ParticleSystem": {}
+        }
+      ]
+    },
+    {
+      "name": "RocketGateLight",
+      "id": "RocketEnvironment.[0]Environment.[15]RocketGateLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              0.0,
+              46.2
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              46.2
+            ],
+            "rotation": [
+              270.019775,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              270.019775,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              -4.76837158E-07,
+              0.151563436,
+              3.505169
+            ],
+            "boundSize": [
+              19.4833527,
+              0.334097445,
+              6.940588
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "LightWithIdManager",
+      "id": "RocketEnvironment.[0]Environment.[16]LightWithIdManager",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "DirectionalLightManager",
+      "id": "RocketEnvironment.[0]Environment.[17]DirectionalLightManager",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "LightManager": {}
+        }
+      ]
+    },
+    {
+      "name": "CoreLighting",
+      "id": "RocketEnvironment.[0]Environment.[18]CoreLighting",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "LightManager",
+      "id": "RocketEnvironment.[0]Environment.[18]CoreLighting.[0]LightManager",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "LightManager": {}
+        }
+      ]
+    },
+    {
+      "name": "LightWrapper0",
+      "id": "RocketEnvironment.[0]Environment.[18]CoreLighting.[1]LightWrapper0",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -2.0,
+              5.0,
+              20.0
+            ],
+            "localPosition": [
+              -2.0,
+              5.0,
+              20.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "DirectionalLight",
+      "id": "RocketEnvironment.[0]Environment.[18]CoreLighting.[1]LightWrapper0.[0]DirectionalLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -2.0,
+              5.0,
+              20.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              15.000001,
+              109.0,
+              -4.41945758E-07
+            ],
+            "localRotation": [
+              15.000001,
+              109.0,
+              -4.41945758E-07
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "DirectionalLight": {}
+        }
+      ]
+    },
+    {
+      "name": "LightWrapper1",
+      "id": "RocketEnvironment.[0]Environment.[18]CoreLighting.[2]LightWrapper1",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              2.0,
+              5.0,
+              20.0
+            ],
+            "localPosition": [
+              2.0,
+              5.0,
+              20.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "DirectionalLight",
+      "id": "RocketEnvironment.[0]Environment.[18]CoreLighting.[2]LightWrapper1.[0]DirectionalLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              2.0,
+              5.0,
+              20.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              15.000001,
+              251.0,
+              4.41945758E-07
+            ],
+            "localRotation": [
+              15.000001,
+              251.0,
+              4.41945758E-07
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "DirectionalLight": {}
+        }
+      ]
+    },
+    {
+      "name": "DirectionalLight",
+      "id": "RocketEnvironment.[0]Environment.[18]CoreLighting.[3]DirectionalLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              2.0,
+              20.0
+            ],
+            "localPosition": [
+              0.0,
+              2.0,
+              20.0
+            ],
+            "rotation": [
+              7.19999456,
+              180.0,
+              180.0
+            ],
+            "localRotation": [
+              7.19999456,
+              180.0,
+              180.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "DirectionalLight": {}
+        }
+      ]
+    },
+    {
+      "name": "DirectionalLight",
+      "id": "RocketEnvironment.[0]Environment.[18]CoreLighting.[4]DirectionalLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              2.0,
+              30.0
+            ],
+            "localPosition": [
+              0.0,
+              2.0,
+              30.0
+            ],
+            "rotation": [
+              270.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              270.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "DirectionalLight": {}
+        }
+      ]
+    },
+    {
+      "name": "DirectionalLight",
+      "id": "RocketEnvironment.[0]Environment.[18]CoreLighting.[5]DirectionalLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              5.0,
+              10.0
+            ],
+            "localPosition": [
+              0.0,
+              5.0,
+              10.0
+            ],
+            "rotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "DirectionalLight": {}
+        }
+      ]
+    },
+    {
+      "name": "LightEffects",
+      "id": "RocketEnvironment.[0]Environment.[19]LightEffects",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "GateLight0",
+      "id": "RocketEnvironment.[0]Environment.[20]GateLight0",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              6.409,
+              46.58
+            ],
+            "localPosition": [
+              0.0,
+              6.409,
+              46.58
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              90.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              90.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "TubeBloomPrePassLight": {
+            "colorAlphaMultiplier": 2.0,
+            "bloomFogIntensityMultiplier": 2.0,
+            "length": 16.6,
+            "width": 0.2
+          }
+        }
+      ]
+    },
+    {
+      "name": "BoxLight",
+      "id": "RocketEnvironment.[0]Environment.[20]GateLight0.[0]BoxLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              6.409,
+              46.58
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              90.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.1,
+              8.3,
+              0.1
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedBloom",
+      "id": "RocketEnvironment.[0]Environment.[20]GateLight0.[1]BakedBloom",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              6.409,
+              46.58
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              90.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "GateLight1",
+      "id": "RocketEnvironment.[0]Environment.[21]GateLight1",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -9.0,
+              0.75,
+              46.5199966
+            ],
+            "localPosition": [
+              -9.0,
+              0.75,
+              46.5199966
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "TubeBloomPrePassLight": {
+            "colorAlphaMultiplier": 2.0,
+            "bloomFogIntensityMultiplier": 2.0,
+            "length": 4.99,
+            "width": 0.2
+          }
+        }
+      ]
+    },
+    {
+      "name": "BoxLight",
+      "id": "RocketEnvironment.[0]Environment.[21]GateLight1.[0]BoxLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -9.0,
+              3.245,
+              46.5199966
+            ],
+            "localPosition": [
+              0.0,
+              2.495,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.1,
+              2.495,
+              0.1
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedBloom",
+      "id": "RocketEnvironment.[0]Environment.[21]GateLight1.[1]BakedBloom",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -9.0,
+              0.75,
+              46.5199966
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "FrontLights",
+      "id": "RocketEnvironment.[0]Environment.[22]FrontLights",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              1.0,
+              15.0
+            ],
+            "localPosition": [
+              0.0,
+              1.0,
+              15.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "NeonTube",
+      "id": "RocketEnvironment.[0]Environment.[22]FrontLights.[0]NeonTube",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -0.05,
+              4.65,
+              65.0
+            ],
+            "localPosition": [
+              -0.05,
+              3.65,
+              50.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              55.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              55.0
+            ],
+            "scale": [
+              1.00000024,
+              1.00000024,
+              1.0
+            ]
+          }
+        },
+        {
+          "TubeBloomPrePassLight": {
+            "colorAlphaMultiplier": 4.0,
+            "bloomFogIntensityMultiplier": 12.0,
+            "length": 2.5,
+            "width": 0.2
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedBloom",
+      "id": "RocketEnvironment.[0]Environment.[22]FrontLights.[0]NeonTube.[0]BakedBloom",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -0.05,
+              4.65,
+              65.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              305.0,
+              90.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              90.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BoxLight",
+      "id": "RocketEnvironment.[0]Environment.[22]FrontLights.[0]NeonTube.[1]BoxLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.9739403,
+              3.93302941,
+              65.0
+            ],
+            "localPosition": [
+              0.0,
+              -1.25,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              55.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.1,
+              1.25,
+              0.1
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "NeonTube (1)",
+      "id": "RocketEnvironment.[0]Environment.[22]FrontLights.[1]NeonTube (1)",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.05,
+              4.65,
+              65.0
+            ],
+            "localPosition": [
+              0.05,
+              3.65,
+              50.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              305.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              305.0
+            ],
+            "scale": [
+              1.00000024,
+              1.00000024,
+              1.0
+            ]
+          }
+        },
+        {
+          "TubeBloomPrePassLight": {
+            "colorAlphaMultiplier": 4.0,
+            "bloomFogIntensityMultiplier": 12.0,
+            "length": 2.5,
+            "width": 0.2
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedBloom",
+      "id": "RocketEnvironment.[0]Environment.[22]FrontLights.[1]NeonTube (1).[0]BakedBloom",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.05,
+              4.65,
+              65.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              55.0000038,
+              90.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              90.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BoxLight",
+      "id": "RocketEnvironment.[0]Environment.[22]FrontLights.[1]NeonTube (1).[1]BoxLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -0.9739403,
+              3.93302941,
+              65.0
+            ],
+            "localPosition": [
+              0.0,
+              -1.25,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              305.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.1,
+              1.25,
+              0.1
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "GateLight1 (4)",
+      "id": "RocketEnvironment.[0]Environment.[23]GateLight1 (4)",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              9.0,
+              0.75,
+              46.5199966
+            ],
+            "localPosition": [
+              9.0,
+              0.75,
+              46.5199966
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "TubeBloomPrePassLight": {
+            "colorAlphaMultiplier": 2.0,
+            "bloomFogIntensityMultiplier": 2.0,
+            "length": 4.99,
+            "width": 0.2
+          }
+        }
+      ]
+    },
+    {
+      "name": "BoxLight",
+      "id": "RocketEnvironment.[0]Environment.[23]GateLight1 (4).[0]BoxLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              9.0,
+              3.245,
+              46.5199966
+            ],
+            "localPosition": [
+              0.0,
+              2.495,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.1,
+              2.495,
+              0.1
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedBloom",
+      "id": "RocketEnvironment.[0]Environment.[23]GateLight1 (4).[1]BakedBloom",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              9.0,
+              0.75,
+              46.5199966
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "EnvLight0",
+      "id": "RocketEnvironment.[0]Environment.[24]EnvLight0",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              7.24,
+              46.5
+            ],
+            "localPosition": [
+              0.0,
+              7.24,
+              46.5
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              90.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              90.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "TubeBloomPrePassLight": {
+            "colorAlphaMultiplier": 2.0,
+            "bloomFogIntensityMultiplier": 1.2,
+            "length": 16.9,
+            "width": 0.2
+          }
+        }
+      ]
+    },
+    {
+      "name": "BoxLight",
+      "id": "RocketEnvironment.[0]Environment.[24]EnvLight0.[0]BoxLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              7.24,
+              46.5
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              90.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.1,
+              8.45,
+              0.1
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedBloom",
+      "id": "RocketEnvironment.[0]Environment.[24]EnvLight0.[1]BakedBloom",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              7.24,
+              46.5
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              90.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "EnvLight0 (2)",
+      "id": "RocketEnvironment.[0]Environment.[25]EnvLight0 (2)",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              13.599,
+              2.531,
+              46.5
+            ],
+            "localPosition": [
+              13.599,
+              2.531,
+              46.5
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              90.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              90.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "TubeBloomPrePassLight": {
+            "colorAlphaMultiplier": 2.0,
+            "bloomFogIntensityMultiplier": 1.2,
+            "length": 16.27,
+            "width": 0.2
+          }
+        }
+      ]
+    },
+    {
+      "name": "BoxLight",
+      "id": "RocketEnvironment.[0]Environment.[25]EnvLight0 (2).[0]BoxLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              21.7340012,
+              2.53100085,
+              46.5
+            ],
+            "localPosition": [
+              0.0,
+              -8.135,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              90.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.1,
+              8.135,
+              0.1
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedBloom",
+      "id": "RocketEnvironment.[0]Environment.[25]EnvLight0 (2).[1]BakedBloom",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              13.599,
+              2.531,
+              46.5
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              90.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "EnvLight0 (4)",
+      "id": "RocketEnvironment.[0]Environment.[26]EnvLight0 (4)",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              30.41,
+              2.531,
+              45.1799965
+            ],
+            "localPosition": [
+              30.41,
+              2.531,
+              45.1799965
+            ],
+            "rotation": [
+              0.0,
+              45.0,
+              90.0
+            ],
+            "localRotation": [
+              0.0,
+              45.0,
+              90.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "TubeBloomPrePassLight": {
+            "colorAlphaMultiplier": 2.0,
+            "bloomFogIntensityMultiplier": 1.2,
+            "length": 16.7,
+            "width": 0.2
+          }
+        }
+      ]
+    },
+    {
+      "name": "BoxLight",
+      "id": "RocketEnvironment.[0]Environment.[26]EnvLight0 (4).[0]BoxLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              36.3143425,
+              2.53100085,
+              39.2756538
+            ],
+            "localPosition": [
+              0.0,
+              -8.35,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              45.0,
+              90.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.1,
+              8.35,
+              0.1
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedBloom",
+      "id": "RocketEnvironment.[0]Environment.[26]EnvLight0 (4).[1]BakedBloom",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              30.41,
+              2.531,
+              45.1799965
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              45.0,
+              90.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "EnvLight0 (6)",
+      "id": "RocketEnvironment.[0]Environment.[27]EnvLight0 (6)",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              40.86,
+              2.531,
+              31.8219986
+            ],
+            "localPosition": [
+              40.86,
+              2.531,
+              31.8219986
+            ],
+            "rotation": [
+              0.0,
+              90.0,
+              90.0
+            ],
+            "localRotation": [
+              0.0,
+              90.0,
+              90.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "TubeBloomPrePassLight": {
+            "colorAlphaMultiplier": 2.0,
+            "bloomFogIntensityMultiplier": 1.6,
+            "length": 34.5,
+            "width": 0.2
+          }
+        }
+      ]
+    },
+    {
+      "name": "BoxLight",
+      "id": "RocketEnvironment.[0]Environment.[27]EnvLight0 (6).[0]BoxLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              40.86,
+              2.531,
+              14.5719986
+            ],
+            "localPosition": [
+              0.0,
+              -17.25,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              90.0,
+              90.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.1,
+              17.25,
+              0.1
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedBloom",
+      "id": "RocketEnvironment.[0]Environment.[27]EnvLight0 (6).[1]BakedBloom",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              40.86,
+              2.531,
+              31.8219986
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              90.0,
+              90.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "EnvLight0 (7)",
+      "id": "RocketEnvironment.[0]Environment.[28]EnvLight0 (7)",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              8.817,
+              7.094,
+              46.5
+            ],
+            "localPosition": [
+              8.817,
+              7.094,
+              46.5
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              44.202
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              44.202
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "TubeBloomPrePassLight": {
+            "colorAlphaMultiplier": 2.0,
+            "bloomFogIntensityMultiplier": 1.5,
+            "length": 6.08,
+            "width": 0.2
+          }
+        }
+      ]
+    },
+    {
+      "name": "BoxLight",
+      "id": "RocketEnvironment.[0]Environment.[28]EnvLight0 (7).[0]BoxLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              10.9364586,
+              4.914665,
+              46.5
+            ],
+            "localPosition": [
+              0.0,
+              -3.04,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              44.202
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.1,
+              3.04,
+              0.1
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedBloom",
+      "id": "RocketEnvironment.[0]Environment.[28]EnvLight0 (7).[1]BakedBloom",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              8.817,
+              7.094,
+              46.5
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              44.202
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "EnvLight0 (8)",
+      "id": "RocketEnvironment.[0]Environment.[29]EnvLight0 (8)",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -8.817,
+              7.094,
+              46.5
+            ],
+            "localPosition": [
+              -8.817,
+              7.094,
+              46.5
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              315.798
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              315.798
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "TubeBloomPrePassLight": {
+            "colorAlphaMultiplier": 2.0,
+            "bloomFogIntensityMultiplier": 1.5,
+            "length": 6.08,
+            "width": 0.2
+          }
+        }
+      ]
+    },
+    {
+      "name": "BoxLight",
+      "id": "RocketEnvironment.[0]Environment.[29]EnvLight0 (8).[0]BoxLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -10.9364576,
+              4.914665,
+              46.5
+            ],
+            "localPosition": [
+              0.0,
+              -3.04,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              315.798
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.1,
+              3.04,
+              0.1
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedBloom",
+      "id": "RocketEnvironment.[0]Environment.[29]EnvLight0 (8).[1]BakedBloom",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -8.817,
+              7.094,
+              46.5
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              315.798
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Mirror",
+      "id": "RocketEnvironment.[0]Environment.[3]Mirror",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              95.375
+            ],
+            "boundSize": [
+              160.0,
+              0.0,
+              175.25
+            ]
+          }
+        },
+        {
+          "Mirror": {}
+        }
+      ]
+    },
+    {
+      "name": "MirrorSetDepth",
+      "id": "RocketEnvironment.[0]Environment.[3]Mirror.[0]MirrorSetDepth",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              95.375
+            ],
+            "boundSize": [
+              160.0,
+              0.0,
+              175.25
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "EnvLight0 (3)",
+      "id": "RocketEnvironment.[0]Environment.[30]EnvLight0 (3)",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -13.599,
+              2.531,
+              46.5
+            ],
+            "localPosition": [
+              -13.599,
+              2.531,
+              46.5
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              270.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              270.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "TubeBloomPrePassLight": {
+            "colorAlphaMultiplier": 2.0,
+            "bloomFogIntensityMultiplier": 1.2,
+            "length": 16.27,
+            "width": 0.2
+          }
+        }
+      ]
+    },
+    {
+      "name": "BoxLight",
+      "id": "RocketEnvironment.[0]Environment.[30]EnvLight0 (3).[0]BoxLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -21.7340012,
+              2.53100085,
+              46.5
+            ],
+            "localPosition": [
+              0.0,
+              -8.135,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              270.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.1,
+              8.135,
+              0.1
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedBloom",
+      "id": "RocketEnvironment.[0]Environment.[30]EnvLight0 (3).[1]BakedBloom",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -13.599,
+              2.531,
+              46.5
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              270.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "EnvLight0 (5)",
+      "id": "RocketEnvironment.[0]Environment.[31]EnvLight0 (5)",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -30.41,
+              2.531,
+              45.1799965
+            ],
+            "localPosition": [
+              -30.41,
+              2.531,
+              45.1799965
+            ],
+            "rotation": [
+              0.0,
+              315.0,
+              270.0
+            ],
+            "localRotation": [
+              0.0,
+              315.0,
+              270.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "TubeBloomPrePassLight": {
+            "colorAlphaMultiplier": 2.0,
+            "bloomFogIntensityMultiplier": 1.2,
+            "length": 16.7,
+            "width": 0.2
+          }
+        }
+      ]
+    },
+    {
+      "name": "BoxLight",
+      "id": "RocketEnvironment.[0]Environment.[31]EnvLight0 (5).[0]BoxLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -36.3143425,
+              2.53100085,
+              39.2756538
+            ],
+            "localPosition": [
+              0.0,
+              -8.35,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              315.0,
+              270.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.1,
+              8.35,
+              0.1
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedBloom",
+      "id": "RocketEnvironment.[0]Environment.[31]EnvLight0 (5).[1]BakedBloom",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -30.41,
+              2.531,
+              45.1799965
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              315.0,
+              270.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "EnvLight0 (9)",
+      "id": "RocketEnvironment.[0]Environment.[32]EnvLight0 (9)",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -40.86,
+              2.531,
+              31.8219986
+            ],
+            "localPosition": [
+              -40.86,
+              2.531,
+              31.8219986
+            ],
+            "rotation": [
+              0.0,
+              90.0,
+              90.0
+            ],
+            "localRotation": [
+              0.0,
+              90.0,
+              90.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "TubeBloomPrePassLight": {
+            "colorAlphaMultiplier": 2.0,
+            "bloomFogIntensityMultiplier": 1.6,
+            "length": 34.5,
+            "width": 0.2
+          }
+        }
+      ]
+    },
+    {
+      "name": "BoxLight",
+      "id": "RocketEnvironment.[0]Environment.[32]EnvLight0 (9).[0]BoxLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -40.86,
+              2.531,
+              14.5719986
+            ],
+            "localPosition": [
+              0.0,
+              -17.25,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              90.0,
+              90.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.1,
+              17.25,
+              0.1
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedBloom",
+      "id": "RocketEnvironment.[0]Environment.[32]EnvLight0 (9).[1]BakedBloom",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -40.86,
+              2.531,
+              31.8219986
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              90.0,
+              90.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "GlowLineL (1)",
+      "id": "RocketEnvironment.[0]Environment.[33]GlowLineL (1)",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -2.0,
+              0.5,
+              8.7
+            ],
+            "localPosition": [
+              -2.0,
+              0.5,
+              8.7
+            ],
+            "rotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "TubeBloomPrePassLight": {
+            "colorAlphaMultiplier": 1.0,
+            "bloomFogIntensityMultiplier": 0.7,
+            "length": 500.0,
+            "width": 0.04
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedBloom",
+      "id": "RocketEnvironment.[0]Environment.[33]GlowLineL (1).[0]BakedBloom",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -2.0,
+              0.5,
+              8.7
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BoxLight",
+      "id": "RocketEnvironment.[0]Environment.[33]GlowLineL (1).[1]BoxLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -2.0,
+              0.499969482,
+              258.700043
+            ],
+            "localPosition": [
+              0.0,
+              250.0,
+              0.0
+            ],
+            "rotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.02,
+              250.0,
+              0.02
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "GlowLineR (1)",
+      "id": "RocketEnvironment.[0]Environment.[34]GlowLineR (1)",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              2.0,
+              0.5,
+              8.7
+            ],
+            "localPosition": [
+              2.0,
+              0.5,
+              8.7
+            ],
+            "rotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "TubeBloomPrePassLight": {
+            "colorAlphaMultiplier": 1.0,
+            "bloomFogIntensityMultiplier": 0.7,
+            "length": 500.0,
+            "width": 0.04
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedBloom",
+      "id": "RocketEnvironment.[0]Environment.[34]GlowLineR (1).[0]BakedBloom",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              2.0,
+              0.5,
+              8.7
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BoxLight",
+      "id": "RocketEnvironment.[0]Environment.[34]GlowLineR (1).[1]BoxLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              2.0,
+              0.499969482,
+              258.700043
+            ],
+            "localPosition": [
+              0.0,
+              250.0,
+              0.0
+            ],
+            "rotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.02,
+              250.0,
+              0.02
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "GlowLineL (2)",
+      "id": "RocketEnvironment.[0]Environment.[35]GlowLineL (2)",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -5.0,
+              -2.5,
+              8.7
+            ],
+            "localPosition": [
+              -5.0,
+              -2.5,
+              8.7
+            ],
+            "rotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "TubeBloomPrePassLight": {
+            "colorAlphaMultiplier": 1.0,
+            "bloomFogIntensityMultiplier": 0.5,
+            "length": 500.0,
+            "width": 0.04
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedBloom",
+      "id": "RocketEnvironment.[0]Environment.[35]GlowLineL (2).[0]BakedBloom",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -5.0,
+              -2.5,
+              8.7
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BoxLight",
+      "id": "RocketEnvironment.[0]Environment.[35]GlowLineL (2).[1]BoxLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -5.0,
+              -2.5,
+              8.7
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.02,
+              250.0,
+              0.02
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "GlowLineL (3)",
+      "id": "RocketEnvironment.[0]Environment.[36]GlowLineL (3)",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -6.0,
+              -2.5,
+              8.7
+            ],
+            "localPosition": [
+              -6.0,
+              -2.5,
+              8.7
+            ],
+            "rotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "TubeBloomPrePassLight": {
+            "colorAlphaMultiplier": 1.0,
+            "bloomFogIntensityMultiplier": 0.5,
+            "length": 500.0,
+            "width": 0.04
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedBloom",
+      "id": "RocketEnvironment.[0]Environment.[36]GlowLineL (3).[0]BakedBloom",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -6.0,
+              -2.5,
+              8.7
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BoxLight",
+      "id": "RocketEnvironment.[0]Environment.[36]GlowLineL (3).[1]BoxLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -6.0,
+              -2.5,
+              8.7
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.02,
+              250.0,
+              0.02
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "GlowLineL (4)",
+      "id": "RocketEnvironment.[0]Environment.[37]GlowLineL (4)",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              5.0,
+              -2.5,
+              8.7
+            ],
+            "localPosition": [
+              5.0,
+              -2.5,
+              8.7
+            ],
+            "rotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "TubeBloomPrePassLight": {
+            "colorAlphaMultiplier": 1.0,
+            "bloomFogIntensityMultiplier": 0.5,
+            "length": 500.0,
+            "width": 0.04
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedBloom",
+      "id": "RocketEnvironment.[0]Environment.[37]GlowLineL (4).[0]BakedBloom",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              5.0,
+              -2.5,
+              8.7
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BoxLight",
+      "id": "RocketEnvironment.[0]Environment.[37]GlowLineL (4).[1]BoxLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              5.0,
+              -2.5,
+              8.7
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.02,
+              250.0,
+              0.02
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "GlowLineL (5)",
+      "id": "RocketEnvironment.[0]Environment.[38]GlowLineL (5)",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              6.0,
+              -2.5,
+              8.7
+            ],
+            "localPosition": [
+              6.0,
+              -2.5,
+              8.7
+            ],
+            "rotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "TubeBloomPrePassLight": {
+            "colorAlphaMultiplier": 1.0,
+            "bloomFogIntensityMultiplier": 0.5,
+            "length": 500.0,
+            "width": 0.04
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedBloom",
+      "id": "RocketEnvironment.[0]Environment.[38]GlowLineL (5).[0]BakedBloom",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              6.0,
+              -2.5,
+              8.7
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BoxLight",
+      "id": "RocketEnvironment.[0]Environment.[38]GlowLineL (5).[1]BoxLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              6.0,
+              -2.5,
+              8.7
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.02,
+              250.0,
+              0.02
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BackColumns",
+      "id": "RocketEnvironment.[0]Environment.[39]BackColumns",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              -20.0000687
+            ],
+            "boundSize": [
+              19.0000477,
+              400.0019,
+              157.748047
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BackColumnNeon",
+      "id": "RocketEnvironment.[0]Environment.[39]BackColumns.[0]BackColumnNeon",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              3.0,
+              0.239414215,
+              -19.1
+            ],
+            "localPosition": [
+              3.0,
+              0.239414215,
+              -19.1
+            ],
+            "rotation": [
+              340.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              340.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "TubeBloomPrePassLight": {
+            "colorAlphaMultiplier": 1.0,
+            "bloomFogIntensityMultiplier": 1.0,
+            "length": 100.0,
+            "width": 0.2
+          }
+        }
+      ]
+    },
+    {
+      "name": "BoxLight",
+      "id": "RocketEnvironment.[0]Environment.[39]BackColumns.[0]BackColumnNeon.[0]BoxLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              3.0,
+              0.239414215,
+              -19.1
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              340.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.1,
+              50.0,
+              0.1
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedBloom",
+      "id": "RocketEnvironment.[0]Environment.[39]BackColumns.[0]BackColumnNeon.[1]BakedBloom",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              3.0,
+              0.239414215,
+              -19.1
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              20.00001,
+              180.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              180.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BackColumnNeon",
+      "id": "RocketEnvironment.[0]Environment.[39]BackColumns.[1]BackColumnNeon",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -3.0,
+              0.239414215,
+              -19.1
+            ],
+            "localPosition": [
+              -3.0,
+              0.239414215,
+              -19.1
+            ],
+            "rotation": [
+              340.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              340.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "TubeBloomPrePassLight": {
+            "colorAlphaMultiplier": 1.0,
+            "bloomFogIntensityMultiplier": 1.0,
+            "length": 100.0,
+            "width": 0.2
+          }
+        }
+      ]
+    },
+    {
+      "name": "BoxLight",
+      "id": "RocketEnvironment.[0]Environment.[39]BackColumns.[1]BackColumnNeon.[0]BoxLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -3.0,
+              0.239414215,
+              -19.1
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              340.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.1,
+              50.0,
+              0.1
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedBloom",
+      "id": "RocketEnvironment.[0]Environment.[39]BackColumns.[1]BackColumnNeon.[1]BakedBloom",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -3.0,
+              0.239414215,
+              -19.1
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              20.00001,
+              180.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              180.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "RocketArena",
+      "id": "RocketEnvironment.[0]Environment.[4]RocketArena",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              2.0,
+              21.9899979
+            ],
+            "localPosition": [
+              0.0,
+              2.0,
+              21.9899979
+            ],
+            "rotation": [
+              270.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              270.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.184124,
+              42.603,
+              26.8294754
+            ],
+            "boundSize": [
+              169.312073,
+              212.3233,
+              58.2502365
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "GlowLineL (6)",
+      "id": "RocketEnvironment.[0]Environment.[40]GlowLineL (6)",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -1.0,
+              9.0,
+              0.0
+            ],
+            "localPosition": [
+              -1.0,
+              9.0,
+              0.0
+            ],
+            "rotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "TubeBloomPrePassLight": {
+            "colorAlphaMultiplier": 1.0,
+            "bloomFogIntensityMultiplier": 1.0,
+            "length": 500.0,
+            "width": 0.04
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedBloom",
+      "id": "RocketEnvironment.[0]Environment.[40]GlowLineL (6).[0]BakedBloom",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -1.0,
+              9.0,
+              0.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BoxLight",
+      "id": "RocketEnvironment.[0]Environment.[40]GlowLineL (6).[1]BoxLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -1.0,
+              9.0,
+              0.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.02,
+              250.0,
+              0.02
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "GlowLineL (7)",
+      "id": "RocketEnvironment.[0]Environment.[41]GlowLineL (7)",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              1.0,
+              9.0,
+              0.0
+            ],
+            "localPosition": [
+              1.0,
+              9.0,
+              0.0
+            ],
+            "rotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "TubeBloomPrePassLight": {
+            "colorAlphaMultiplier": 1.0,
+            "bloomFogIntensityMultiplier": 1.0,
+            "length": 500.0,
+            "width": 0.04
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedBloom",
+      "id": "RocketEnvironment.[0]Environment.[41]GlowLineL (7).[0]BakedBloom",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              1.0,
+              9.0,
+              0.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BoxLight",
+      "id": "RocketEnvironment.[0]Environment.[41]GlowLineL (7).[1]BoxLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              1.0,
+              9.0,
+              0.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.02,
+              250.0,
+              0.02
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "GlowLineL (8)",
+      "id": "RocketEnvironment.[0]Environment.[42]GlowLineL (8)",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              1.5,
+              9.0,
+              0.0
+            ],
+            "localPosition": [
+              1.5,
+              9.0,
+              0.0
+            ],
+            "rotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "TubeBloomPrePassLight": {
+            "colorAlphaMultiplier": 1.0,
+            "bloomFogIntensityMultiplier": 1.0,
+            "length": 500.0,
+            "width": 0.04
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedBloom",
+      "id": "RocketEnvironment.[0]Environment.[42]GlowLineL (8).[0]BakedBloom",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              1.5,
+              9.0,
+              0.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BoxLight",
+      "id": "RocketEnvironment.[0]Environment.[42]GlowLineL (8).[1]BoxLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              1.5,
+              9.0,
+              0.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.02,
+              250.0,
+              0.02
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "GlowLineL (9)",
+      "id": "RocketEnvironment.[0]Environment.[43]GlowLineL (9)",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -1.5,
+              9.0,
+              0.0
+            ],
+            "localPosition": [
+              -1.5,
+              9.0,
+              0.0
+            ],
+            "rotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "TubeBloomPrePassLight": {
+            "colorAlphaMultiplier": 1.0,
+            "bloomFogIntensityMultiplier": 1.0,
+            "length": 500.0,
+            "width": 0.04
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedBloom",
+      "id": "RocketEnvironment.[0]Environment.[43]GlowLineL (9).[0]BakedBloom",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -1.5,
+              9.0,
+              0.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BoxLight",
+      "id": "RocketEnvironment.[0]Environment.[43]GlowLineL (9).[1]BoxLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -1.5,
+              9.0,
+              0.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.02,
+              250.0,
+              0.02
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "GradientBackground",
+      "id": "RocketEnvironment.[0]Environment.[44]GradientBackground",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "RotatingLasersPair (13)",
+      "id": "RocketEnvironment.[0]Environment.[45]RotatingLasersPair (13)",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              0.0,
+              20.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              20.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BaseL",
+      "id": "RocketEnvironment.[0]Environment.[45]RotatingLasersPair (13).[0]BaseL",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -12.0,
+              0.25,
+              56.0
+            ],
+            "localPosition": [
+              -12.0,
+              0.25,
+              36.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Laser",
+      "id": "RocketEnvironment.[0]Environment.[45]RotatingLasersPair (13).[0]BaseL.[0]Laser",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -12.0,
+              0.25,
+              56.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              305.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              305.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "TubeBloomPrePassLight": {
+            "colorAlphaMultiplier": 2.0,
+            "bloomFogIntensityMultiplier": 0.5,
+            "length": 500.0,
+            "width": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedBloom",
+      "id": "RocketEnvironment.[0]Environment.[45]RotatingLasersPair (13).[0]BaseL.[0]Laser.[0]BakedBloom",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -12.0,
+              0.25,
+              56.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              55.0000038,
+              90.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              90.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BoxLight",
+      "id": "RocketEnvironment.[0]Environment.[45]RotatingLasersPair (13).[0]BaseL.[0]Laser.[1]BoxLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -12.0,
+              0.25,
+              56.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              305.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.05,
+              250.0,
+              0.05
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BaseR",
+      "id": "RocketEnvironment.[0]Environment.[45]RotatingLasersPair (13).[1]BaseR",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              12.0,
+              0.25,
+              56.0
+            ],
+            "localPosition": [
+              12.0,
+              0.25,
+              36.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Laser",
+      "id": "RocketEnvironment.[0]Environment.[45]RotatingLasersPair (13).[1]BaseR.[0]Laser",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              12.0,
+              0.25,
+              56.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              55.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              55.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "TubeBloomPrePassLight": {
+            "colorAlphaMultiplier": 2.0,
+            "bloomFogIntensityMultiplier": 0.5,
+            "length": 500.0,
+            "width": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedBloom",
+      "id": "RocketEnvironment.[0]Environment.[45]RotatingLasersPair (13).[1]BaseR.[0]Laser.[0]BakedBloom",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              12.0,
+              0.25,
+              56.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              305.0,
+              90.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              90.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BoxLight",
+      "id": "RocketEnvironment.[0]Environment.[45]RotatingLasersPair (13).[1]BaseR.[0]Laser.[1]BoxLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              12.0,
+              0.25,
+              56.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              55.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.05,
+              250.0,
+              0.05
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "RotatingLasersPair (12)",
+      "id": "RocketEnvironment.[0]Environment.[46]RotatingLasersPair (12)",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              0.0,
+              20.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              20.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BaseL",
+      "id": "RocketEnvironment.[0]Environment.[46]RotatingLasersPair (12).[0]BaseL",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -19.5,
+              0.25,
+              52.0
+            ],
+            "localPosition": [
+              -19.5,
+              0.25,
+              32.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Laser",
+      "id": "RocketEnvironment.[0]Environment.[46]RotatingLasersPair (12).[0]BaseL.[0]Laser",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -19.5,
+              0.25,
+              52.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              305.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              305.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "TubeBloomPrePassLight": {
+            "colorAlphaMultiplier": 2.0,
+            "bloomFogIntensityMultiplier": 0.5,
+            "length": 500.0,
+            "width": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedBloom",
+      "id": "RocketEnvironment.[0]Environment.[46]RotatingLasersPair (12).[0]BaseL.[0]Laser.[0]BakedBloom",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -19.5,
+              0.25,
+              52.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              55.0000038,
+              90.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              90.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BoxLight",
+      "id": "RocketEnvironment.[0]Environment.[46]RotatingLasersPair (12).[0]BaseL.[0]Laser.[1]BoxLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -19.5,
+              0.25,
+              52.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              305.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.05,
+              250.0,
+              0.05
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BaseR",
+      "id": "RocketEnvironment.[0]Environment.[46]RotatingLasersPair (12).[1]BaseR",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              19.5,
+              0.25,
+              52.0
+            ],
+            "localPosition": [
+              19.5,
+              0.25,
+              32.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Laser",
+      "id": "RocketEnvironment.[0]Environment.[46]RotatingLasersPair (12).[1]BaseR.[0]Laser",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              19.5,
+              0.25,
+              52.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              55.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              55.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "TubeBloomPrePassLight": {
+            "colorAlphaMultiplier": 2.0,
+            "bloomFogIntensityMultiplier": 0.5,
+            "length": 500.0,
+            "width": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedBloom",
+      "id": "RocketEnvironment.[0]Environment.[46]RotatingLasersPair (12).[1]BaseR.[0]Laser.[0]BakedBloom",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              19.5,
+              0.25,
+              52.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              305.0,
+              90.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              90.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BoxLight",
+      "id": "RocketEnvironment.[0]Environment.[46]RotatingLasersPair (12).[1]BaseR.[0]Laser.[1]BoxLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              19.5,
+              0.25,
+              52.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              55.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.05,
+              250.0,
+              0.05
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "RotatingLasersPair (7)",
+      "id": "RocketEnvironment.[0]Environment.[47]RotatingLasersPair (7)",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              0.0,
+              20.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              20.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BaseL",
+      "id": "RocketEnvironment.[0]Environment.[47]RotatingLasersPair (7).[0]BaseL",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -25.0,
+              0.25,
+              50.0
+            ],
+            "localPosition": [
+              -25.0,
+              0.25,
+              30.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Laser",
+      "id": "RocketEnvironment.[0]Environment.[47]RotatingLasersPair (7).[0]BaseL.[0]Laser",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -25.0,
+              0.25,
+              50.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              305.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              305.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "TubeBloomPrePassLight": {
+            "colorAlphaMultiplier": 2.0,
+            "bloomFogIntensityMultiplier": 0.5,
+            "length": 500.0,
+            "width": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedBloom",
+      "id": "RocketEnvironment.[0]Environment.[47]RotatingLasersPair (7).[0]BaseL.[0]Laser.[0]BakedBloom",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -25.0,
+              0.25,
+              50.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              55.0000038,
+              90.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              90.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BoxLight",
+      "id": "RocketEnvironment.[0]Environment.[47]RotatingLasersPair (7).[0]BaseL.[0]Laser.[1]BoxLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -25.0,
+              0.25,
+              50.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              305.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.05,
+              250.0,
+              0.05
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BaseR",
+      "id": "RocketEnvironment.[0]Environment.[47]RotatingLasersPair (7).[1]BaseR",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              25.0,
+              0.25,
+              50.0
+            ],
+            "localPosition": [
+              25.0,
+              0.25,
+              30.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Laser",
+      "id": "RocketEnvironment.[0]Environment.[47]RotatingLasersPair (7).[1]BaseR.[0]Laser",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              25.0,
+              0.25,
+              50.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              55.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              55.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "TubeBloomPrePassLight": {
+            "colorAlphaMultiplier": 2.0,
+            "bloomFogIntensityMultiplier": 0.5,
+            "length": 500.0,
+            "width": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedBloom",
+      "id": "RocketEnvironment.[0]Environment.[47]RotatingLasersPair (7).[1]BaseR.[0]Laser.[0]BakedBloom",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              25.0,
+              0.25,
+              50.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              305.0,
+              90.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              90.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BoxLight",
+      "id": "RocketEnvironment.[0]Environment.[47]RotatingLasersPair (7).[1]BaseR.[0]Laser.[1]BoxLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              25.0,
+              0.25,
+              50.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              55.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.05,
+              250.0,
+              0.05
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "RotatingLasersPair (8)",
+      "id": "RocketEnvironment.[0]Environment.[48]RotatingLasersPair (8)",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              0.0,
+              20.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              20.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BaseL",
+      "id": "RocketEnvironment.[0]Environment.[48]RotatingLasersPair (8).[0]BaseL",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -31.0,
+              0.25,
+              48.0
+            ],
+            "localPosition": [
+              -31.0,
+              0.25,
+              28.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Laser",
+      "id": "RocketEnvironment.[0]Environment.[48]RotatingLasersPair (8).[0]BaseL.[0]Laser",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -31.0,
+              0.25,
+              48.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              305.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              305.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "TubeBloomPrePassLight": {
+            "colorAlphaMultiplier": 2.0,
+            "bloomFogIntensityMultiplier": 0.5,
+            "length": 500.0,
+            "width": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedBloom",
+      "id": "RocketEnvironment.[0]Environment.[48]RotatingLasersPair (8).[0]BaseL.[0]Laser.[0]BakedBloom",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -31.0,
+              0.25,
+              48.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              55.0000038,
+              90.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              90.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BoxLight",
+      "id": "RocketEnvironment.[0]Environment.[48]RotatingLasersPair (8).[0]BaseL.[0]Laser.[1]BoxLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -31.0,
+              0.25,
+              48.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              305.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.05,
+              250.0,
+              0.05
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BaseR",
+      "id": "RocketEnvironment.[0]Environment.[48]RotatingLasersPair (8).[1]BaseR",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              31.0,
+              0.25,
+              48.0
+            ],
+            "localPosition": [
+              31.0,
+              0.25,
+              28.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Laser",
+      "id": "RocketEnvironment.[0]Environment.[48]RotatingLasersPair (8).[1]BaseR.[0]Laser",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              31.0,
+              0.25,
+              48.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              55.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              55.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "TubeBloomPrePassLight": {
+            "colorAlphaMultiplier": 2.0,
+            "bloomFogIntensityMultiplier": 0.5,
+            "length": 500.0,
+            "width": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedBloom",
+      "id": "RocketEnvironment.[0]Environment.[48]RotatingLasersPair (8).[1]BaseR.[0]Laser.[0]BakedBloom",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              31.0,
+              0.25,
+              48.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              305.0,
+              90.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              90.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BoxLight",
+      "id": "RocketEnvironment.[0]Environment.[48]RotatingLasersPair (8).[1]BaseR.[0]Laser.[1]BoxLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              31.0,
+              0.25,
+              48.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              55.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.05,
+              250.0,
+              0.05
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "RotatingLasersPair (9)",
+      "id": "RocketEnvironment.[0]Environment.[49]RotatingLasersPair (9)",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              0.0,
+              20.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              20.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BaseL",
+      "id": "RocketEnvironment.[0]Environment.[49]RotatingLasersPair (9).[0]BaseL",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -36.0,
+              0.25,
+              45.0
+            ],
+            "localPosition": [
+              -36.0,
+              0.25,
+              25.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Laser",
+      "id": "RocketEnvironment.[0]Environment.[49]RotatingLasersPair (9).[0]BaseL.[0]Laser",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -36.0,
+              0.25,
+              45.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              305.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              305.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "TubeBloomPrePassLight": {
+            "colorAlphaMultiplier": 2.0,
+            "bloomFogIntensityMultiplier": 0.5,
+            "length": 500.0,
+            "width": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedBloom",
+      "id": "RocketEnvironment.[0]Environment.[49]RotatingLasersPair (9).[0]BaseL.[0]Laser.[0]BakedBloom",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -36.0,
+              0.25,
+              45.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              55.0000038,
+              90.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              90.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BoxLight",
+      "id": "RocketEnvironment.[0]Environment.[49]RotatingLasersPair (9).[0]BaseL.[0]Laser.[1]BoxLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -36.0,
+              0.25,
+              45.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              305.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.05,
+              250.0,
+              0.05
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BaseR",
+      "id": "RocketEnvironment.[0]Environment.[49]RotatingLasersPair (9).[1]BaseR",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              36.0,
+              0.25,
+              45.0
+            ],
+            "localPosition": [
+              36.0,
+              0.25,
+              25.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Laser",
+      "id": "RocketEnvironment.[0]Environment.[49]RotatingLasersPair (9).[1]BaseR.[0]Laser",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              36.0,
+              0.25,
+              45.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              55.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              55.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "TubeBloomPrePassLight": {
+            "colorAlphaMultiplier": 2.0,
+            "bloomFogIntensityMultiplier": 0.5,
+            "length": 500.0,
+            "width": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedBloom",
+      "id": "RocketEnvironment.[0]Environment.[49]RotatingLasersPair (9).[1]BaseR.[0]Laser.[0]BakedBloom",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              36.0,
+              0.25,
+              45.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              305.0,
+              90.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              90.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BoxLight",
+      "id": "RocketEnvironment.[0]Environment.[49]RotatingLasersPair (9).[1]BaseR.[0]Laser.[1]BoxLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              36.0,
+              0.25,
+              45.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              55.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.05,
+              250.0,
+              0.05
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Construction",
+      "id": "RocketEnvironment.[0]Environment.[5]Construction",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              2.0,
+              0.5,
+              8.25
+            ],
+            "localPosition": [
+              2.0,
+              0.5,
+              8.25
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              -2.0,
+              -50.225,
+              58.34737
+            ],
+            "boundSize": [
+              200.0,
+              100.75,
+              118.19474
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "RotatingLasersPair (10)",
+      "id": "RocketEnvironment.[0]Environment.[50]RotatingLasersPair (10)",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              0.0,
+              20.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              20.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BaseL",
+      "id": "RocketEnvironment.[0]Environment.[50]RotatingLasersPair (10).[0]BaseL",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -41.0,
+              0.25,
+              41.0
+            ],
+            "localPosition": [
+              -41.0,
+              0.25,
+              21.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Laser",
+      "id": "RocketEnvironment.[0]Environment.[50]RotatingLasersPair (10).[0]BaseL.[0]Laser",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -41.0,
+              0.25,
+              41.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              305.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              305.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "TubeBloomPrePassLight": {
+            "colorAlphaMultiplier": 2.0,
+            "bloomFogIntensityMultiplier": 0.5,
+            "length": 500.0,
+            "width": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedBloom",
+      "id": "RocketEnvironment.[0]Environment.[50]RotatingLasersPair (10).[0]BaseL.[0]Laser.[0]BakedBloom",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -41.0,
+              0.25,
+              41.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              55.0000038,
+              90.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              90.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BoxLight",
+      "id": "RocketEnvironment.[0]Environment.[50]RotatingLasersPair (10).[0]BaseL.[0]Laser.[1]BoxLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -41.0,
+              0.25,
+              41.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              305.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.05,
+              250.0,
+              0.05
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BaseR",
+      "id": "RocketEnvironment.[0]Environment.[50]RotatingLasersPair (10).[1]BaseR",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              41.0,
+              0.25,
+              41.0
+            ],
+            "localPosition": [
+              41.0,
+              0.25,
+              21.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Laser",
+      "id": "RocketEnvironment.[0]Environment.[50]RotatingLasersPair (10).[1]BaseR.[0]Laser",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              41.0,
+              0.25,
+              41.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              55.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              55.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "TubeBloomPrePassLight": {
+            "colorAlphaMultiplier": 2.0,
+            "bloomFogIntensityMultiplier": 0.5,
+            "length": 500.0,
+            "width": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedBloom",
+      "id": "RocketEnvironment.[0]Environment.[50]RotatingLasersPair (10).[1]BaseR.[0]Laser.[0]BakedBloom",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              41.0,
+              0.25,
+              41.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              305.0,
+              90.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              90.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BoxLight",
+      "id": "RocketEnvironment.[0]Environment.[50]RotatingLasersPair (10).[1]BaseR.[0]Laser.[1]BoxLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              41.0,
+              0.25,
+              41.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              55.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.05,
+              250.0,
+              0.05
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "RotatingLasersPair (11)",
+      "id": "RocketEnvironment.[0]Environment.[51]RotatingLasersPair (11)",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              0.0,
+              20.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              20.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BaseL",
+      "id": "RocketEnvironment.[0]Environment.[51]RotatingLasersPair (11).[0]BaseL",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -46.0,
+              0.25,
+              35.0
+            ],
+            "localPosition": [
+              -46.0,
+              0.25,
+              15.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Laser",
+      "id": "RocketEnvironment.[0]Environment.[51]RotatingLasersPair (11).[0]BaseL.[0]Laser",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -46.0,
+              0.25,
+              35.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              305.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              305.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "TubeBloomPrePassLight": {
+            "colorAlphaMultiplier": 2.0,
+            "bloomFogIntensityMultiplier": 0.5,
+            "length": 500.0,
+            "width": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedBloom",
+      "id": "RocketEnvironment.[0]Environment.[51]RotatingLasersPair (11).[0]BaseL.[0]Laser.[0]BakedBloom",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -46.0,
+              0.25,
+              35.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              55.0000038,
+              90.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              90.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BoxLight",
+      "id": "RocketEnvironment.[0]Environment.[51]RotatingLasersPair (11).[0]BaseL.[0]Laser.[1]BoxLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -46.0,
+              0.25,
+              35.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              305.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.05,
+              250.0,
+              0.05
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BaseR",
+      "id": "RocketEnvironment.[0]Environment.[51]RotatingLasersPair (11).[1]BaseR",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              46.0,
+              0.25,
+              35.0
+            ],
+            "localPosition": [
+              46.0,
+              0.25,
+              15.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Laser",
+      "id": "RocketEnvironment.[0]Environment.[51]RotatingLasersPair (11).[1]BaseR.[0]Laser",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              46.0,
+              0.25,
+              35.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              55.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              55.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "TubeBloomPrePassLight": {
+            "colorAlphaMultiplier": 2.0,
+            "bloomFogIntensityMultiplier": 0.5,
+            "length": 500.0,
+            "width": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedBloom",
+      "id": "RocketEnvironment.[0]Environment.[51]RotatingLasersPair (11).[1]BaseR.[0]Laser.[0]BakedBloom",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              46.0,
+              0.25,
+              35.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              305.0,
+              90.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              90.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BoxLight",
+      "id": "RocketEnvironment.[0]Environment.[51]RotatingLasersPair (11).[1]BaseR.[0]Laser.[1]BoxLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              46.0,
+              0.25,
+              35.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              55.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.05,
+              250.0,
+              0.05
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedReflectionProbe",
+      "id": "RocketEnvironment.[0]Environment.[52]BakedReflectionProbe",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              1.5,
+              5.0
+            ],
+            "localPosition": [
+              0.0,
+              1.5,
+              5.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BSBakedLightingLightWithIds",
+      "id": "RocketEnvironment.[0]Environment.[53]BSBakedLightingLightWithIds",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "FakeMirrorSettings",
+      "id": "RocketEnvironment.[0]Environment.[54]FakeMirrorSettings",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "BakedReflectionProbeInstaller",
+      "id": "RocketEnvironment.[0]Environment.[55]BakedReflectionProbeInstaller",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "PlayersPlace",
+      "id": "RocketEnvironment.[0]Environment.[6]PlayersPlace",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Mirror",
+      "id": "RocketEnvironment.[0]Environment.[6]PlayersPlace.[0]Mirror",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              0.005,
+              0.0
+            ],
+            "localPosition": [
+              0.0,
+              0.005,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              -0.0001,
+              0.0
+            ],
+            "boundSize": [
+              3.0,
+              2.38418579E-07,
+              2.00000024
+            ]
+          }
+        },
+        {
+          "Mirror": {}
+        }
+      ]
+    },
+    {
+      "name": "Feet",
+      "id": "RocketEnvironment.[0]Environment.[6]PlayersPlace.[1]Feet",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              0.005,
+              0.0
+            ],
+            "localPosition": [
+              0.0,
+              0.005,
+              0.0
+            ],
+            "rotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.00000048,
+              1.00000048
+            ]
+          }
+        },
+        {
+          "SpriteRenderer": {}
+        }
+      ]
+    },
+    {
+      "name": "Construction",
+      "id": "RocketEnvironment.[0]Environment.[6]PlayersPlace.[2]Construction",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              -56.3724976,
+              0.0
+            ],
+            "boundSize": [
+              3.0,
+              112.755005,
+              2.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "RectangleFakeGlow",
+      "id": "RocketEnvironment.[0]Environment.[6]PlayersPlace.[3]RectangleFakeGlow",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              0.008,
+              0.0
+            ],
+            "localPosition": [
+              0.0,
+              0.008,
+              0.0
+            ],
+            "rotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              90.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.495,
+              0.995,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "boundSize": [
+              3.0,
+              3.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "SaberBurnMarksParticles",
+      "id": "RocketEnvironment.[0]Environment.[6]PlayersPlace.[4]SaberBurnMarksParticles",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              0.005,
+              0.0
+            ],
+            "localPosition": [
+              0.0,
+              0.005,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "SaberBurnMarkSparklePS",
+      "id": "RocketEnvironment.[0]Environment.[6]PlayersPlace.[4]SaberBurnMarksParticles.[0]SaberBurnMarkSparklePS",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              0.005,
+              0.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "ParticleSystem": {}
+        }
+      ]
+    },
+    {
+      "name": "SaberBurnMarksArea",
+      "id": "RocketEnvironment.[0]Environment.[6]PlayersPlace.[5]SaberBurnMarksArea",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              0.01,
+              0.0
+            ],
+            "localPosition": [
+              0.0,
+              0.01,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              -0.0001,
+              0.0
+            ],
+            "boundSize": [
+              3.0,
+              2.38418579E-07,
+              2.00000024
+            ]
+          }
+        },
+        {
+          "SaberBurnMarkArea": {}
+        }
+      ]
+    },
+    {
+      "name": "Collider",
+      "id": "RocketEnvironment.[0]Environment.[6]PlayersPlace.[6]Collider",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              -0.09,
+              0.0
+            ],
+            "localPosition": [
+              0.0,
+              -0.09,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "RocketCarL",
+      "id": "RocketEnvironment.[0]Environment.[7]RocketCarL",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -6.0,
+              0.0,
+              21.0
+            ],
+            "localPosition": [
+              -6.0,
+              0.0,
+              21.0
+            ],
+            "rotation": [
+              270.0,
+              180.0,
+              0.0
+            ],
+            "localRotation": [
+              270.0,
+              180.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              2.288333,
+              0.307729959,
+              5.86203957
+            ],
+            "boundSize": [
+              12.5680866,
+              5.14634657,
+              11.73358
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Shadow",
+      "id": "RocketEnvironment.[0]Environment.[7]RocketCarL.[0]Shadow",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              -10.2900009,
+              5.96046448E-08,
+              20.43
+            ],
+            "localPosition": [
+              4.29,
+              -0.57,
+              0.0
+            ],
+            "rotation": [
+              90.0,
+              352.5,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              180.0,
+              7.49998856
+            ],
+            "scale": [
+              16.0,
+              12.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "SpriteRenderer": {}
+        }
+      ]
+    },
+    {
+      "name": "RocketCarR",
+      "id": "RocketEnvironment.[0]Environment.[8]RocketCarR",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              6.0,
+              0.0,
+              21.0
+            ],
+            "localPosition": [
+              6.0,
+              0.0,
+              21.0
+            ],
+            "rotation": [
+              270.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              270.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              2.288333,
+              0.307729959,
+              5.86203957
+            ],
+            "boundSize": [
+              12.5680866,
+              5.14634657,
+              11.73358
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Shadow",
+      "id": "RocketEnvironment.[0]Environment.[8]RocketCarR.[0]Shadow",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              10.29,
+              5.96046448E-08,
+              21.57
+            ],
+            "localPosition": [
+              4.29,
+              -0.57,
+              0.0
+            ],
+            "rotation": [
+              90.0,
+              172.500015,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              180.0,
+              7.49998856
+            ],
+            "scale": [
+              16.0,
+              12.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "SpriteRenderer": {}
+        }
+      ]
+    },
+    {
+      "name": "CinemaPlaybackController",
+      "id": "RocketEnvironment.[1]CinemaPlaybackController",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "VideoPlayer": {}
+        }
+      ]
+    },
+    {
+      "name": "CinemaScreen",
+      "id": "RocketEnvironment.[1]CinemaPlaybackController.[0]CinemaScreen",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              4.0,
+              16.0
+            ],
+            "localPosition": [
+              0.0,
+              4.0,
+              16.0
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              -1.32294989
+            ],
+            "boundSize": [
+              17.62589,
+              8.0,
+              2.64589977
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Body",
+      "id": "RocketEnvironment.[1]CinemaPlaybackController.[0]CinemaScreen.[0]Body",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              4.0,
+              16.06597
+            ],
+            "localPosition": [
+              0.0,
+              0.0,
+              0.06596969
+            ],
+            "rotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localRotation": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.01,
+              1.01,
+              1.01
+            ]
+          }
+        },
+        {
+          "MeshFilter": {
+            "boundCenter": [
+              0.0,
+              0.0,
+              -1.32294989
+            ],
+            "boundSize": [
+              17.62589,
+              8.0,
+              2.64589977
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "CinemaDirectionalLight",
+      "id": "RocketEnvironment.[1]CinemaPlaybackController.[0]CinemaScreen.[1]CinemaDirectionalLight",
+      "components": [
+        {
+          "Transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "localPosition": [
+              0.0,
+              -4.0,
+              -16.0
+            ],
+            "rotation": [
+              15.0000019,
+              180.0,
+              1.21173286E-12
+            ],
+            "localRotation": [
+              15.0000019,
+              180.0,
+              1.21173286E-12
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "DirectionalLight": {}
+        }
+      ]
+    }
+  ]
+}
