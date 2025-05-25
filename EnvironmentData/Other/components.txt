@@ -1,0 +1,256 @@
+--- A list with every component in the beatsaber environments ---
+--- If a component is found again it will get omitted ---
+--- If an environment doesnt introduce any new components, it will also get omitted. ---
+
+
+======= _DefaultEnvironment =======
+Transform
+BloomFogEnvironment
+SceneDecoratorContext
+EnvironmentSceneSetup
+MeshFilter
+MeshRenderer
+TubeBloomPrePassLight
+TubeBloomPrePassLightWithId
+Parametric3SliceSpriteController
+ParametricBoxController
+CoreGameHUDController
+CanvasGroup
+ZenjectBinding
+RectTransform
+GameEnergyUIPanel
+Canvas
+CanvasScaler
+PlayableDirector
+Animator
+ZenjectStateMachineBehaviourAutoInjecter
+CanvasRenderer
+RawImage
+ImageView
+SpriteRenderer
+ComboUIController
+CurvedTextMeshPro
+LocalizedTextMeshProUGUI
+ImmediateRankUIPanel
+ScoreUIController
+ScoreMultiplierUIController
+SongProgressUIController
+Slider
+RecordingUIController
+ParticleSystem
+ParticleSystemRenderer
+GraphicSettingsConditionalActivator
+TrackLaneRingsManager
+TrackLaneRingsRotationEffect
+TrackLaneRingsRotationEffectSpawner
+TrackLaneRingsPositionStepEffectSpawner
+FakeMirrorObjectsInstaller
+Spectrogram
+MoveAndRotateWithMainCamera
+ReflectionProbeBakingOverride
+SetParticleSystemSeed
+BloomPrePassBackgroundColorsGradient
+BloomPrePassBackgroundColorsGradientFromColorSchemeColors
+LightSwitchEventEffect
+LightWithIdManager
+LightManager
+LightRotationEventEffect
+DirectionalLight
+DirectionalLightWithIds
+FakeMirrorSettings
+LightPairRotationEventEffect
+LightmapLightsWithIds
+BakedReflectionProbe
+BoxCollider
+Mirror
+SpriteLightWithId
+MaterialPropertyBlockController
+RectangleFakeGlow
+RectangleFakeGlowLightWithId
+SaberBurnMarkSparkles
+SaberBurnMarkArea
+DisableWhenMirrorIsEnabled
+TrackLaneRing
+
+======= _TriangleEnvironment =======
+DuplicateMirrorForReflectionProbe
+
+======= _KDAEnvironment =======
+ConditionalMove
+MaterialLightWithId
+ConditionalActivation
+
+======= _MonstercatEnvironment =======
+EnvironmentBrandingManager
+
+======= _DragonsEnvironment =======
+ParticleSystemEventEffect
+
+======= _OriginsEnvironment =======
+ParticleSystemLightWithId
+
+======= _RocketEnvironment =======
+InstancedMaterialLightWithId
+MaterialPropertyBlockColorSetter
+
+======= _TimbalandEnvironment =======
+MeshCollider
+
+======= _LinkinParkEnvironment =======
+IgnoreForReflectionProbeBaking
+BakedLightDataLoader
+
+======= _BTSEnvironment =======
+CloudsMeshGenerator
+MovementBeatmapEventEffect
+EnvironmentShaderWarmup
+BTSCharacterSpawnAnimationController
+BeatmapObjectsAvoidance
+BTSCharacterSpawnController
+JumpReceiver
+BTSCharacterDataModel
+CustomBoundingBox
+MaterialPropertyBlockFloatAnimator
+MaterialPropertyBlockVectorAnimator
+BTSCharacterSpawnEventEffect
+
+======= _InterscopeEnvironment =======
+HydraulicCarSuspensionEffect
+HydraulicCarJumpEffect
+Rigidbody
+SphereCollider
+SpringJoint
+LightPairSinMoveEventEffect
+LightmapLightWithIds
+
+======= _BillieEnvironment =======
+MeshRendererSwitchEventEffect
+MaterialLightWithIds
+ParticleSystemLightWithIds
+ParticleSystemContinuousEventEffect
+GameObjectSwitchEventEffect
+BloomPrePassBackgroundColorsGradientTintColorWithLightId
+
+======= _HalloweenEnvironment =======
+Animation
+RandomAnimationStartTime
+BloomPrePassBackgroundNonLightRenderer
+
+======= _GagaEnvironment =======
+BloomPrePassBackgroundNonLightInstancedGroupRenderer
+FloorLightTilesGrid
+BeatmapFloorLightTilesGrid
+FloorLightStreakTileEffect
+NoteCutFloorLightStreakTileEffectSpawner
+NoteCutFloorLightStreakTileEffectSpawnerLightWithId
+SmoothStepPositionEventEffect
+MaterialPropertyBlockPositionUpdater
+
+======= _WeaveEnvironment =======
+LightColorGroupEffectManager
+LightRotationGroupEffectManager
+LightGroup
+LightGroupLinearLayouter
+LightGroupElementsSpawner
+LightColorGroup
+LightRotationGroup
+LightColorGroupParent
+LightGroupRotationYTransform
+LightGroupRotationXTransform
+
+======= _PyroEnvironment =======
+VideoProjectionInstaller
+SetChildrenLightId
+SongTimeToShaderWriter
+ContinuousFireEffect
+ConditionalMaterialSwitcher
+BurstFireEffect
+SpectrogramRow
+MaterialPropertyBlockRandomValueSetter
+VideoPlayer
+SongTimeSyncedVideoPlayer
+VideoProjectionEffect
+DirectionalLightWithIdsGroupEntry
+EnvironmentStartEndSongAudioEffect
+BakeIdMapper
+LightmapLightWithIdsGroupEntry
+
+======= _EDMEnvironment =======
+LightGroupCircularLayouter
+
+======= _TheSecondEnvironment =======
+SmoothStepPositionGroupEventEffect
+BloomPrePassBackgroundColorsGradientTintColorWithLightIds
+
+======= _LizzoEnvironment =======
+ParticleSystemEmitEventEffectInstaller
+StaticBatchableMesh
+ParticleSystemEmitEventEffect
+LightGroupGridLayouter
+TransformLayouter
+WhiteColorOrAlphaGroupEffectManager
+FloatingTransformEffect
+StaticBatchedMeshContainer
+
+======= _TheWeekndEnvironment =======
+LightTranslationGroup
+LightGroupTranslationYTransform
+LightGroupTranslationZTransform
+LightGroupRotationZTransform
+LightGroupTranslationXTransform
+LightTranslationGroupEffectManager
+
+======= _RockMixtapeEnvironment =======
+LightGroupEditorPrefabContext
+ColorArrayLightWithIds
+ColorArrayLightWithIdsGroupEntry
+MaterialController
+MaterialPropertyValuesSetter
+
+======= _Panic2Environment =======
+TransformSpectrogram
+
+======= _QueenEnvironment =======
+GameObjectIntSwitchEventEffect
+
+======= _LinkinPark2Environment =======
+LevelFailedTextOverride
+
+======= _TheRollingStonesEnvironment =======
+FloatFxGroupEffectManager
+FloatFxGroup
+MoveInDirectionEffect
+AlphaFloatFxGroupEffectTarget
+FloatMaterialPropertyEffectTarget
+
+======= _LatticeEnvironment =======
+CopyPosition
+VertexDisplacementFloatFxGroupEffectTarget
+MixedLightsColorSetterRuntimeLightWithIds
+
+======= _DaftPunkEnvironment =======
+TubeBloomPrePassLightCollisionEffect
+TextureIntSwitchEventEffect
+CombineGroupIdToVector4FloatFxGroupEffectTarget
+
+======= _HipHopEnvironment =======
+GameObjectKeywordSwitchEffect
+FloatFxGroupEffectCollectionTarget
+MaterialPropertyBlockControllerRandomValueSetter
+
+======= _ColliderEnvironment =======
+TriggerFloatFxGroupEffectManager
+ColliderEventEffect
+TubeBloomPrePassLightReflectionEffect
+
+======= _BritneyEnvironment =======
+StepFloatMaterialPropertyEffectTarget
+Parametric3SliceSpriteWidthEndFloatFxEffectTarget
+FloatArrayMaterialPropertyEffectTarget
+
+======= _Monstercat2Environment =======
+SpectrogramRowPropertyAnimator
+SpectrogramMultiplierFloatFxEffectTarget
+
+======= _MetallicaEnvironment =======
+MaterialPropertyBlockControllerArrayRandomValueSetter
