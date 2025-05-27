@@ -1,5 +1,7 @@
 {
   "environmentData": {
+    "environmentTitle": "Crab Rave",
+    "environmentId": "CrabRaveEnvironment",
     "colorScheme": {
       "colorLeft": [
         0.0,
@@ -150,6 +152,17 @@
               1.0
             ]
           }
+        },
+        {
+          "EnvironmentSceneSetup": {}
+        },
+        {
+          "EnvironmentBrandingManager": {
+            "brandingObjects": [
+              "MonstercatLogoR",
+              "MonstercatLogoL"
+            ]
+          }
         }
       ]
     },
@@ -194,23 +207,13 @@
       "components": [
         {
           "Canvas": {}
-        },
-        {
-          "Animator": {
-            "animatorParameters": [],
-            "animatorLayerNames": []
-          }
         }
       ]
     },
     {
       "name": "BG",
       "id": "CrabRaveEnvironment.[0]Environment.[11]BasicGameHUD.[0]EnergyPanel.[0]BG",
-      "components": [
-        {
-          "RawImage": {}
-        }
-      ]
+      "components": []
     },
     {
       "name": "BarBG",
@@ -278,8 +281,8 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 1.5,
-            "length": 500.0,
-            "width": 0.0
+            "tubeLength": 500.0,
+            "tubeWidth": 0.0
           }
         }
       ]
@@ -454,9 +457,6 @@
               1.0
             ]
           }
-        },
-        {
-          "SpriteRenderer": {}
         }
       ]
     },
@@ -492,9 +492,6 @@
               1.0
             ]
           }
-        },
-        {
-          "SpriteRenderer": {}
         }
       ]
     },
@@ -502,16 +499,6 @@
       "name": "ComboPanel",
       "id": "CrabRaveEnvironment.[0]Environment.[11]BasicGameHUD.[1]LeftPanel.[2]ComboPanel",
       "components": [
-        {
-          "Animator": {
-            "animatorParameters": [
-              "ComboLost"
-            ],
-            "animatorLayerNames": [
-              "Base Layer"
-            ]
-          }
-        },
         {
           "Canvas": {}
         }
@@ -637,9 +624,6 @@
               1.0
             ]
           }
-        },
-        {
-          "SpriteRenderer": {}
         }
       ]
     },
@@ -675,9 +659,6 @@
               1.0
             ]
           }
-        },
-        {
-          "SpriteRenderer": {}
         }
       ]
     },
@@ -687,16 +668,6 @@
       "components": [
         {
           "Canvas": {}
-        },
-        {
-          "Animator": {
-            "animatorParameters": [
-              "MultiplierIncreased"
-            ],
-            "animatorLayerNames": [
-              "Base Layer"
-            ]
-          }
         }
       ]
     },
@@ -901,7 +872,10 @@
           }
         },
         {
-          "SpriteRenderer": {}
+          "SpriteLightWithId": {
+            "spriteLightId": 5,
+            "intensity": 1.3
+          }
         }
       ]
     },
@@ -939,7 +913,10 @@
           }
         },
         {
-          "SpriteRenderer": {}
+          "SpriteLightWithId": {
+            "spriteLightId": 5,
+            "intensity": 1.3
+          }
         }
       ]
     },
@@ -1279,6 +1256,12 @@
               1.0
             ]
           }
+        },
+        {
+          "TrackLaneRingsManager": {
+            "ringCount": 20,
+            "ringPositionZStep": 5.0
+          }
         }
       ]
     },
@@ -1427,7 +1410,72 @@
           }
         },
         {
-          "LightManager": {}
+          "LightManager": {
+            "directionalLightDirections": [
+              [
+                0.0,
+                1.00000012,
+                1.1920929E-07,
+                0.0
+              ],
+              [
+                0.0,
+                -0.4539908,
+                0.8910067,
+                0.0
+              ],
+              [
+                0.0,
+                0.121869475,
+                0.9925461,
+                0.0
+              ],
+              [
+                0.572179139,
+                0.0697564855,
+                0.8171566,
+                0.0
+              ],
+              [
+                -0.572179139,
+                0.0697564855,
+                0.8171566,
+                0.0
+              ]
+            ],
+            "directionalLightPositions": [
+              [
+                0.0,
+                18.6,
+                30.0,
+                0.0
+              ],
+              [
+                0.0,
+                -2.0,
+                30.0,
+                0.0
+              ],
+              [
+                0.0,
+                2.0,
+                20.0,
+                0.0
+              ],
+              [
+                6.0,
+                5.0,
+                20.0,
+                0.0
+              ],
+              [
+                -6.0,
+                5.0,
+                20.0,
+                0.0
+              ]
+            ]
+          }
         }
       ]
     },
@@ -1500,7 +1548,15 @@
           }
         },
         {
-          "DirectionalLight": {}
+          "DirectionalLight": {
+            "lightIntensity": 1.5,
+            "lightRadius": 80.0,
+            "lightRotation": [
+              4.000001,
+              214.999985,
+              180.0
+            ]
+          }
         }
       ]
     },
@@ -1573,7 +1629,15 @@
           }
         },
         {
-          "DirectionalLight": {}
+          "DirectionalLight": {
+            "lightIntensity": 1.5,
+            "lightRadius": 80.0,
+            "lightRotation": [
+              4.000001,
+              145.000015,
+              180.0
+            ]
+          }
         }
       ]
     },
@@ -1611,7 +1675,15 @@
           }
         },
         {
-          "DirectionalLight": {}
+          "DirectionalLight": {
+            "lightIntensity": 1.5,
+            "lightRadius": 80.0,
+            "lightRotation": [
+              7.00000763,
+              180.0,
+              180.0
+            ]
+          }
         }
       ]
     },
@@ -1649,7 +1721,15 @@
           }
         },
         {
-          "DirectionalLight": {}
+          "DirectionalLight": {
+            "lightIntensity": 1.5,
+            "lightRadius": 80.0,
+            "lightRotation": [
+              332.999969,
+              180.0,
+              180.0
+            ]
+          }
         }
       ]
     },
@@ -1687,7 +1767,15 @@
           }
         },
         {
-          "DirectionalLight": {}
+          "DirectionalLight": {
+            "lightIntensity": 1.2,
+            "lightRadius": 100.0,
+            "lightRotation": [
+              90.0,
+              0.0,
+              0.0
+            ]
+          }
         }
       ]
     },
@@ -1723,6 +1811,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightWithIdManager": {}
         }
       ]
     },
@@ -1833,8 +1924,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 4.0,
             "bloomFogIntensityMultiplier": 12.0,
-            "length": 2.5,
-            "width": 0.2
+            "tubeLength": 2.5,
+            "tubeWidth": 0.2
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 5
           }
         }
       ]
@@ -1974,8 +2070,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 4.0,
             "bloomFogIntensityMultiplier": 12.0,
-            "length": 2.5,
-            "width": 0.2
+            "tubeLength": 2.5,
+            "tubeWidth": 0.2
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 5
           }
         }
       ]
@@ -2115,8 +2216,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.7,
-            "length": 500.0,
-            "width": 0.08
+            "tubeLength": 500.0,
+            "tubeWidth": 0.08
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 2
           }
         }
       ]
@@ -2256,8 +2362,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.7,
-            "length": 500.0,
-            "width": 0.08
+            "tubeLength": 500.0,
+            "tubeWidth": 0.08
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 2
           }
         }
       ]
@@ -2397,8 +2508,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.7,
-            "length": 500.0,
-            "width": 0.08
+            "tubeLength": 500.0,
+            "tubeWidth": 0.08
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 2
           }
         }
       ]
@@ -2538,8 +2654,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.7,
-            "length": 500.0,
-            "width": 0.08
+            "tubeLength": 500.0,
+            "tubeWidth": 0.08
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 2
           }
         }
       ]
@@ -2679,8 +2800,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.7,
-            "length": 500.0,
-            "width": 0.08
+            "tubeLength": 500.0,
+            "tubeWidth": 0.08
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 2
           }
         }
       ]
@@ -2820,8 +2946,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.7,
-            "length": 500.0,
-            "width": 0.08
+            "tubeLength": 500.0,
+            "tubeWidth": 0.08
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 2
           }
         }
       ]
@@ -2961,8 +3092,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.7,
-            "length": 500.0,
-            "width": 0.08
+            "tubeLength": 500.0,
+            "tubeWidth": 0.08
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 2
           }
         }
       ]
@@ -3186,8 +3322,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.5,
             "bloomFogIntensityMultiplier": 1.5,
-            "length": 20.0,
-            "width": 0.2
+            "tubeLength": 20.0,
+            "tubeWidth": 0.2
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 5
           }
         }
       ]
@@ -3327,8 +3468,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.5,
             "bloomFogIntensityMultiplier": 1.5,
-            "length": 20.0,
-            "width": 0.2
+            "tubeLength": 20.0,
+            "tubeWidth": 0.2
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 5
           }
         }
       ]
@@ -3468,8 +3614,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.5,
             "bloomFogIntensityMultiplier": 1.5,
-            "length": 300.0,
-            "width": 0.2
+            "tubeLength": 300.0,
+            "tubeWidth": 0.2
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 5
           }
         }
       ]
@@ -3609,8 +3760,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 2.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 500.0,
-            "width": 0.04
+            "tubeLength": 500.0,
+            "tubeWidth": 0.04
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 5
           }
         }
       ]
@@ -3750,8 +3906,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 2.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 500.0,
-            "width": 0.04
+            "tubeLength": 500.0,
+            "tubeWidth": 0.04
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 5
           }
         }
       ]
@@ -3891,8 +4052,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 2.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 500.0,
-            "width": 0.04
+            "tubeLength": 500.0,
+            "tubeWidth": 0.04
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 5
           }
         }
       ]
@@ -4032,8 +4198,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 2.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 500.0,
-            "width": 0.04
+            "tubeLength": 500.0,
+            "tubeWidth": 0.04
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 5
           }
         }
       ]
@@ -4173,8 +4344,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 1.0,
-            "length": 500.0,
-            "width": 0.1
+            "tubeLength": 500.0,
+            "tubeWidth": 0.1
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 1
           }
         }
       ]
@@ -4314,8 +4490,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 1.0,
-            "length": 500.0,
-            "width": 0.1
+            "tubeLength": 500.0,
+            "tubeWidth": 0.1
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 1
           }
         }
       ]
@@ -4455,8 +4636,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 1.0,
-            "length": 500.0,
-            "width": 0.1
+            "tubeLength": 500.0,
+            "tubeWidth": 0.1
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 1
           }
         }
       ]
@@ -4596,8 +4782,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 1.0,
-            "length": 500.0,
-            "width": 0.1
+            "tubeLength": 500.0,
+            "tubeWidth": 0.1
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 1
           }
         }
       ]
@@ -4737,8 +4928,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 1.0,
-            "length": 500.0,
-            "width": 0.1
+            "tubeLength": 500.0,
+            "tubeWidth": 0.1
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 1
           }
         }
       ]
@@ -4878,8 +5074,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 1.0,
-            "length": 500.0,
-            "width": 0.1
+            "tubeLength": 500.0,
+            "tubeWidth": 0.1
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 1
           }
         }
       ]
@@ -5103,8 +5304,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.5,
             "bloomFogIntensityMultiplier": 1.0,
-            "length": 20.0,
-            "width": 0.2
+            "tubeLength": 20.0,
+            "tubeWidth": 0.2
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 5
           }
         }
       ]
@@ -5244,8 +5450,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.5,
             "bloomFogIntensityMultiplier": 1.0,
-            "length": 20.0,
-            "width": 0.2
+            "tubeLength": 20.0,
+            "tubeWidth": 0.2
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 5
           }
         }
       ]
@@ -5385,8 +5596,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.5,
             "bloomFogIntensityMultiplier": 1.0,
-            "length": 300.0,
-            "width": 0.2
+            "tubeLength": 300.0,
+            "tubeWidth": 0.2
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 5
           }
         }
       ]
@@ -5526,8 +5742,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 1.0,
-            "length": 500.0,
-            "width": 0.1
+            "tubeLength": 500.0,
+            "tubeWidth": 0.1
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 1
           }
         }
       ]
@@ -5667,8 +5888,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 1.0,
-            "length": 500.0,
-            "width": 0.1
+            "tubeLength": 500.0,
+            "tubeWidth": 0.1
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 1
           }
         }
       ]
@@ -5878,8 +6104,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 2.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 500.0,
-            "width": 0.1
+            "tubeLength": 500.0,
+            "tubeWidth": 0.1
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 3
           }
         }
       ]
@@ -6054,8 +6285,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 2.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 500.0,
-            "width": 0.1
+            "tubeLength": 500.0,
+            "tubeWidth": 0.1
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 4
           }
         }
       ]
@@ -6265,8 +6501,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 2.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 500.0,
-            "width": 0.1
+            "tubeLength": 500.0,
+            "tubeWidth": 0.1
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 3
           }
         }
       ]
@@ -6441,8 +6682,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 2.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 500.0,
-            "width": 0.1
+            "tubeLength": 500.0,
+            "tubeWidth": 0.1
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 4
           }
         }
       ]
@@ -6652,8 +6898,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 2.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 500.0,
-            "width": 0.1
+            "tubeLength": 500.0,
+            "tubeWidth": 0.1
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 3
           }
         }
       ]
@@ -6828,8 +7079,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 2.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 500.0,
-            "width": 0.1
+            "tubeLength": 500.0,
+            "tubeWidth": 0.1
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 4
           }
         }
       ]
@@ -7039,8 +7295,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 2.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 500.0,
-            "width": 0.1
+            "tubeLength": 500.0,
+            "tubeWidth": 0.1
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 3
           }
         }
       ]
@@ -7215,8 +7476,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 2.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 500.0,
-            "width": 0.1
+            "tubeLength": 500.0,
+            "tubeWidth": 0.1
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 4
           }
         }
       ]
@@ -7426,8 +7692,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 2.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 500.0,
-            "width": 0.1
+            "tubeLength": 500.0,
+            "tubeWidth": 0.1
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 3
           }
         }
       ]
@@ -7602,8 +7873,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 2.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 500.0,
-            "width": 0.1
+            "tubeLength": 500.0,
+            "tubeWidth": 0.1
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 4
           }
         }
       ]
@@ -7738,6 +8014,9 @@
               1.0
             ]
           }
+        },
+        {
+          "BloomPrePassBackgroundColorsGradient": {}
         }
       ]
     },
@@ -7771,6 +8050,20 @@
               1.0,
               1.0,
               1.0
+            ]
+          }
+        },
+        {
+          "BakedReflectionProbe": {
+            "probeSize": [
+              200.0,
+              200.0,
+              200.0
+            ],
+            "probePosition": [
+              0.0,
+              1.5,
+              5.0
             ]
           }
         }
@@ -7932,7 +8225,10 @@
           }
         },
         {
-          "SpriteRenderer": {}
+          "SpriteLightWithId": {
+            "spriteLightId": 5,
+            "intensity": 0.5
+          }
         }
       ]
     },
@@ -8028,6 +8324,15 @@
             "boundSize": [
               3.0,
               3.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "RectangleFakeGlow": {
+            "rectangleSize": [
+              2.99,
+              1.99,
               0.0
             ]
           }
@@ -8544,6 +8849,9 @@
               1.0
             ]
           }
+        },
+        {
+          "TrackLaneRing": {}
         }
       ]
     },
@@ -8605,12 +8913,12 @@
             "position": [
               0.0,
               1.4,
-              57.8569679
+              72.99695
             ],
             "localPosition": [
               0.0,
               1.4,
-              57.8569679
+              72.99695
             ],
             "rotation": [
               0.0,
@@ -8628,6 +8936,9 @@
               1.0
             ]
           }
+        },
+        {
+          "TrackLaneRing": {}
         }
       ]
     },
@@ -8640,7 +8951,7 @@
             "position": [
               0.0,
               1.4,
-              57.8569679
+              72.99695
             ],
             "localPosition": [
               0.0,
@@ -8689,12 +9000,12 @@
             "position": [
               0.0,
               1.4,
-              62.3966331
+              79.2188339
             ],
             "localPosition": [
               0.0,
               1.4,
-              62.3966331
+              79.2188339
             ],
             "rotation": [
               0.0,
@@ -8712,6 +9023,9 @@
               1.0
             ]
           }
+        },
+        {
+          "TrackLaneRing": {}
         }
       ]
     },
@@ -8724,7 +9038,7 @@
             "position": [
               0.0,
               1.4,
-              62.3966331
+              79.2188339
             ],
             "localPosition": [
               0.0,
@@ -8773,12 +9087,12 @@
             "position": [
               0.0,
               1.4,
-              66.9362946
+              85.44072
             ],
             "localPosition": [
               0.0,
               1.4,
-              66.9362946
+              85.44072
             ],
             "rotation": [
               0.0,
@@ -8796,6 +9110,9 @@
               1.0
             ]
           }
+        },
+        {
+          "TrackLaneRing": {}
         }
       ]
     },
@@ -8808,7 +9125,7 @@
             "position": [
               0.0,
               1.4,
-              66.9362946
+              85.44072
             ],
             "localPosition": [
               0.0,
@@ -8857,12 +9174,12 @@
             "position": [
               0.0,
               1.4,
-              71.47596
+              91.6626
             ],
             "localPosition": [
               0.0,
               1.4,
-              71.47596
+              91.6626
             ],
             "rotation": [
               0.0,
@@ -8880,6 +9197,9 @@
               1.0
             ]
           }
+        },
+        {
+          "TrackLaneRing": {}
         }
       ]
     },
@@ -8892,7 +9212,7 @@
             "position": [
               0.0,
               1.4,
-              71.47596
+              91.6626
             ],
             "localPosition": [
               0.0,
@@ -8941,12 +9261,12 @@
             "position": [
               0.0,
               1.4,
-              76.015625
+              97.88448
             ],
             "localPosition": [
               0.0,
               1.4,
-              76.015625
+              97.88448
             ],
             "rotation": [
               0.0,
@@ -8964,6 +9284,9 @@
               1.0
             ]
           }
+        },
+        {
+          "TrackLaneRing": {}
         }
       ]
     },
@@ -8976,7 +9299,7 @@
             "position": [
               0.0,
               1.4,
-              76.015625
+              97.88448
             ],
             "localPosition": [
               0.0,
@@ -9025,12 +9348,12 @@
             "position": [
               0.0,
               1.4,
-              80.55528
+              104.106369
             ],
             "localPosition": [
               0.0,
               1.4,
-              80.55528
+              104.106369
             ],
             "rotation": [
               0.0,
@@ -9048,6 +9371,9 @@
               1.0
             ]
           }
+        },
+        {
+          "TrackLaneRing": {}
         }
       ]
     },
@@ -9060,7 +9386,7 @@
             "position": [
               0.0,
               1.4,
-              80.55528
+              104.106369
             ],
             "localPosition": [
               0.0,
@@ -9109,12 +9435,12 @@
             "position": [
               0.0,
               1.4,
-              85.09495
+              110.328247
             ],
             "localPosition": [
               0.0,
               1.4,
-              85.09495
+              110.328247
             ],
             "rotation": [
               0.0,
@@ -9132,6 +9458,9 @@
               1.0
             ]
           }
+        },
+        {
+          "TrackLaneRing": {}
         }
       ]
     },
@@ -9144,7 +9473,7 @@
             "position": [
               0.0,
               1.4,
-              85.09495
+              110.328247
             ],
             "localPosition": [
               0.0,
@@ -9193,12 +9522,12 @@
             "position": [
               0.0,
               1.4,
-              89.63461
+              116.550133
             ],
             "localPosition": [
               0.0,
               1.4,
-              89.63461
+              116.550133
             ],
             "rotation": [
               0.0,
@@ -9216,6 +9545,9 @@
               1.0
             ]
           }
+        },
+        {
+          "TrackLaneRing": {}
         }
       ]
     },
@@ -9228,7 +9560,7 @@
             "position": [
               0.0,
               1.4,
-              89.63461
+              116.550133
             ],
             "localPosition": [
               0.0,
@@ -9277,12 +9609,12 @@
             "position": [
               0.0,
               1.4,
-              94.17427
+              122.772018
             ],
             "localPosition": [
               0.0,
               1.4,
-              94.17427
+              122.772018
             ],
             "rotation": [
               0.0,
@@ -9300,6 +9632,9 @@
               1.0
             ]
           }
+        },
+        {
+          "TrackLaneRing": {}
         }
       ]
     },
@@ -9312,7 +9647,7 @@
             "position": [
               0.0,
               1.4,
-              94.17427
+              122.772018
             ],
             "localPosition": [
               0.0,
@@ -9361,12 +9696,12 @@
             "position": [
               0.0,
               1.4,
-              98.7139359
+              128.9939
             ],
             "localPosition": [
               0.0,
               1.4,
-              98.7139359
+              128.9939
             ],
             "rotation": [
               0.0,
@@ -9384,6 +9719,9 @@
               1.0
             ]
           }
+        },
+        {
+          "TrackLaneRing": {}
         }
       ]
     },
@@ -9396,7 +9734,7 @@
             "position": [
               0.0,
               1.4,
-              98.7139359
+              128.9939
             ],
             "localPosition": [
               0.0,
@@ -9445,12 +9783,12 @@
             "position": [
               0.0,
               1.4,
-              21.5396633
+              23.2218838
             ],
             "localPosition": [
               0.0,
               1.4,
-              21.5396633
+              23.2218838
             ],
             "rotation": [
               0.0,
@@ -9468,6 +9806,9 @@
               1.0
             ]
           }
+        },
+        {
+          "TrackLaneRing": {}
         }
       ]
     },
@@ -9480,7 +9821,7 @@
             "position": [
               0.0,
               1.4,
-              21.5396633
+              23.2218838
             ],
             "localPosition": [
               0.0,
@@ -9529,12 +9870,12 @@
             "position": [
               0.0,
               1.4,
-              103.2536
+              135.21579
             ],
             "localPosition": [
               0.0,
               1.4,
-              103.2536
+              135.21579
             ],
             "rotation": [
               0.0,
@@ -9552,6 +9893,9 @@
               1.0
             ]
           }
+        },
+        {
+          "TrackLaneRing": {}
         }
       ]
     },
@@ -9564,7 +9908,7 @@
             "position": [
               0.0,
               1.4,
-              103.2536
+              135.21579
             ],
             "localPosition": [
               0.0,
@@ -9613,12 +9957,12 @@
             "position": [
               0.0,
               1.4,
-              26.0793266
+              29.4437675
             ],
             "localPosition": [
               0.0,
               1.4,
-              26.0793266
+              29.4437675
             ],
             "rotation": [
               0.0,
@@ -9636,6 +9980,9 @@
               1.0
             ]
           }
+        },
+        {
+          "TrackLaneRing": {}
         }
       ]
     },
@@ -9648,7 +9995,7 @@
             "position": [
               0.0,
               1.4,
-              26.0793266
+              29.4437675
             ],
             "localPosition": [
               0.0,
@@ -9697,12 +10044,12 @@
             "position": [
               0.0,
               1.4,
-              30.61899
+              35.66565
             ],
             "localPosition": [
               0.0,
               1.4,
-              30.61899
+              35.66565
             ],
             "rotation": [
               0.0,
@@ -9720,6 +10067,9 @@
               1.0
             ]
           }
+        },
+        {
+          "TrackLaneRing": {}
         }
       ]
     },
@@ -9732,7 +10082,7 @@
             "position": [
               0.0,
               1.4,
-              30.61899
+              35.66565
             ],
             "localPosition": [
               0.0,
@@ -9781,12 +10131,12 @@
             "position": [
               0.0,
               1.4,
-              35.1586533
+              41.8875351
             ],
             "localPosition": [
               0.0,
               1.4,
-              35.1586533
+              41.8875351
             ],
             "rotation": [
               0.0,
@@ -9804,6 +10154,9 @@
               1.0
             ]
           }
+        },
+        {
+          "TrackLaneRing": {}
         }
       ]
     },
@@ -9816,7 +10169,7 @@
             "position": [
               0.0,
               1.4,
-              35.1586533
+              41.8875351
             ],
             "localPosition": [
               0.0,
@@ -9865,12 +10218,12 @@
             "position": [
               0.0,
               1.4,
-              39.69832
+              48.109417
             ],
             "localPosition": [
               0.0,
               1.4,
-              39.69832
+              48.109417
             ],
             "rotation": [
               0.0,
@@ -9888,6 +10241,9 @@
               1.0
             ]
           }
+        },
+        {
+          "TrackLaneRing": {}
         }
       ]
     },
@@ -9900,7 +10256,7 @@
             "position": [
               0.0,
               1.4,
-              39.69832
+              48.109417
             ],
             "localPosition": [
               0.0,
@@ -9949,12 +10305,12 @@
             "position": [
               0.0,
               1.4,
-              44.23798
+              54.3313
             ],
             "localPosition": [
               0.0,
               1.4,
-              44.23798
+              54.3313
             ],
             "rotation": [
               0.0,
@@ -9972,6 +10328,9 @@
               1.0
             ]
           }
+        },
+        {
+          "TrackLaneRing": {}
         }
       ]
     },
@@ -9984,7 +10343,7 @@
             "position": [
               0.0,
               1.4,
-              44.23798
+              54.3313
             ],
             "localPosition": [
               0.0,
@@ -10033,12 +10392,12 @@
             "position": [
               0.0,
               1.4,
-              48.77764
+              60.5531845
             ],
             "localPosition": [
               0.0,
               1.4,
-              48.77764
+              60.5531845
             ],
             "rotation": [
               0.0,
@@ -10056,6 +10415,9 @@
               1.0
             ]
           }
+        },
+        {
+          "TrackLaneRing": {}
         }
       ]
     },
@@ -10068,7 +10430,7 @@
             "position": [
               0.0,
               1.4,
-              48.77764
+              60.5531845
             ],
             "localPosition": [
               0.0,
@@ -10117,12 +10479,12 @@
             "position": [
               0.0,
               1.4,
-              53.3173065
+              66.77507
             ],
             "localPosition": [
               0.0,
               1.4,
-              53.3173065
+              66.77507
             ],
             "rotation": [
               0.0,
@@ -10140,6 +10502,9 @@
               1.0
             ]
           }
+        },
+        {
+          "TrackLaneRing": {}
         }
       ]
     },
@@ -10152,7 +10517,7 @@
             "position": [
               0.0,
               1.4,
-              53.3173065
+              66.77507
             ],
             "localPosition": [
               0.0,

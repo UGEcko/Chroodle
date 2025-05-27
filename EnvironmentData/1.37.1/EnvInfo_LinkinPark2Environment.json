@@ -1,5 +1,7 @@
 {
   "environmentData": {
+    "environmentTitle": "Linkin Park 2.0",
+    "environmentId": "LinkinPark2Environment",
     "colorScheme": {
       "colorLeft": [
         0.6627451,
@@ -185,6 +187,12 @@
               1.0
             ]
           }
+        },
+        {
+          "LightmapLightWithIds": {}
+        },
+        {
+          "LightmapLightWithIdsGroupEntry": {}
         }
       ]
     },
@@ -220,6 +228,12 @@
               1.0
             ]
           }
+        },
+        {
+          "LightmapLightWithIds": {}
+        },
+        {
+          "LightmapLightWithIdsGroupEntry": {}
         }
       ]
     },
@@ -255,6 +269,12 @@
               1.0
             ]
           }
+        },
+        {
+          "LightmapLightWithIds": {}
+        },
+        {
+          "LightmapLightWithIdsGroupEntry": {}
         }
       ]
     },
@@ -290,6 +310,12 @@
               1.0
             ]
           }
+        },
+        {
+          "LightmapLightWithIds": {}
+        },
+        {
+          "LightmapLightWithIdsGroupEntry": {}
         }
       ]
     },
@@ -325,6 +351,12 @@
               1.0
             ]
           }
+        },
+        {
+          "LightmapLightWithIds": {}
+        },
+        {
+          "LightmapLightWithIdsGroupEntry": {}
         }
       ]
     },
@@ -360,6 +392,12 @@
               1.0
             ]
           }
+        },
+        {
+          "LightmapLightWithIds": {}
+        },
+        {
+          "LightmapLightWithIdsGroupEntry": {}
         }
       ]
     },
@@ -432,7 +470,72 @@
           }
         },
         {
-          "LightManager": {}
+          "LightManager": {
+            "directionalLightDirections": [
+              [
+                0.0,
+                0.270600647,
+                0.962691665,
+                0.0
+              ],
+              [
+                -0.883022368,
+                -0.342019975,
+                -0.321393758,
+                0.0
+              ],
+              [
+                0.8830223,
+                -0.342019945,
+                -0.321393758,
+                0.0
+              ],
+              [
+                0.3303659,
+                0.258818954,
+                0.9076735,
+                0.0
+              ],
+              [
+                -0.330365926,
+                0.258818984,
+                0.9076737,
+                0.0
+              ]
+            ],
+            "directionalLightPositions": [
+              [
+                0.0,
+                2.0,
+                20.0,
+                0.0
+              ],
+              [
+                3.0,
+                2.0,
+                20.0,
+                0.0
+              ],
+              [
+                -3.0,
+                2.0,
+                20.0,
+                0.0
+              ],
+              [
+                -3.0,
+                2.0,
+                20.0,
+                0.0
+              ],
+              [
+                3.0,
+                2.0,
+                20.0,
+                0.0
+              ]
+            ]
+          }
         }
       ]
     },
@@ -470,7 +573,15 @@
           }
         },
         {
-          "DirectionalLight": {}
+          "DirectionalLight": {
+            "lightIntensity": 2.3,
+            "lightRadius": 60.0,
+            "lightRotation": [
+              14.9999952,
+              199.999985,
+              -2.20972879E-07
+            ]
+          }
         }
       ]
     },
@@ -508,7 +619,15 @@
           }
         },
         {
-          "DirectionalLight": {}
+          "DirectionalLight": {
+            "lightIntensity": 2.3,
+            "lightRadius": 60.0,
+            "lightRotation": [
+              14.9999971,
+              160.000015,
+              2.20972851E-07
+            ]
+          }
         }
       ]
     },
@@ -546,7 +665,15 @@
           }
         },
         {
-          "DirectionalLight": {}
+          "DirectionalLight": {
+            "lightIntensity": 2.0,
+            "lightRadius": 80.0,
+            "lightRotation": [
+              340.0,
+              290.0,
+              180.0
+            ]
+          }
         }
       ]
     },
@@ -584,7 +711,15 @@
           }
         },
         {
-          "DirectionalLight": {}
+          "DirectionalLight": {
+            "lightIntensity": 2.0,
+            "lightRadius": 60.0,
+            "lightRotation": [
+              340.0,
+              70.00001,
+              180.0
+            ]
+          }
         }
       ]
     },
@@ -622,7 +757,15 @@
           }
         },
         {
-          "DirectionalLight": {}
+          "DirectionalLight": {
+            "lightIntensity": 2.5,
+            "lightRadius": 60.0,
+            "lightRotation": [
+              15.7000113,
+              180.0,
+              180.0
+            ]
+          }
         }
       ]
     },
@@ -658,6 +801,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupEffectManager": {}
         }
       ]
     },
@@ -693,6 +839,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightRotationGroupEffectManager": {}
         }
       ]
     },
@@ -772,23 +921,13 @@
       "components": [
         {
           "Canvas": {}
-        },
-        {
-          "Animator": {
-            "animatorParameters": [],
-            "animatorLayerNames": []
-          }
         }
       ]
     },
     {
       "name": "BG",
       "id": "LinkinPark2Environment.[0]Environment.[15]NarrowGameHUD.[0]EnergyPanel.[0]BG",
-      "components": [
-        {
-          "RawImage": {}
-        }
-      ]
+      "components": []
     },
     {
       "name": "BarBG",
@@ -856,8 +995,8 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 1.5,
-            "length": 500.0,
-            "width": 0.0
+            "tubeLength": 500.0,
+            "tubeWidth": 0.0
           }
         }
       ]
@@ -1005,16 +1144,6 @@
       "id": "LinkinPark2Environment.[0]Environment.[15]NarrowGameHUD.[1]LeftPanel.[0]ComboPanel",
       "components": [
         {
-          "Animator": {
-            "animatorParameters": [
-              "ComboLost"
-            ],
-            "animatorLayerNames": [
-              "Base Layer"
-            ]
-          }
-        },
-        {
           "Canvas": {}
         }
       ]
@@ -1113,16 +1242,6 @@
       "components": [
         {
           "Canvas": {}
-        },
-        {
-          "Animator": {
-            "animatorParameters": [
-              "MultiplierIncreased"
-            ],
-            "animatorLayerNames": [
-              "Base Layer"
-            ]
-          }
         }
       ]
     },
@@ -1306,6 +1425,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LevelFailedTextOverride": {}
         }
       ]
     },
@@ -1430,7 +1552,10 @@
           }
         },
         {
-          "SpriteRenderer": {}
+          "SpriteLightWithId": {
+            "spriteLightId": 5,
+            "intensity": 0.5
+          }
         }
       ]
     },
@@ -1526,6 +1651,15 @@
             "boundSize": [
               3.0,
               3.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "RectangleFakeGlow": {
+            "rectangleSize": [
+              2.99,
+              1.99,
               0.0
             ]
           }
@@ -1874,6 +2008,14 @@
               1.0
             ]
           }
+        },
+        {
+          "EnvironmentSceneSetup": {}
+        },
+        {
+          "EnvironmentBrandingManager": {
+            "brandingObjects": []
+          }
         }
       ]
     },
@@ -2020,6 +2162,15 @@
               1.0
             ]
           }
+        },
+        {
+          "LightGroup": {}
+        },
+        {
+          "LightColorGroup": {}
+        },
+        {
+          "TransformSpectrogram": {}
         }
       ]
     },
@@ -2055,6 +2206,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -2104,6 +2258,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 102,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -2144,8 +2304,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 102
           }
         }
       ]
@@ -2280,6 +2445,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -2329,6 +2497,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 103,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -2369,8 +2543,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 103
           }
         }
       ]
@@ -2505,6 +2684,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -2554,6 +2736,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 112,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -2594,8 +2782,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 112
           }
         }
       ]
@@ -2730,6 +2923,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -2779,6 +2975,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 113,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -2819,8 +3021,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 113
           }
         }
       ]
@@ -2955,6 +3162,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -3004,6 +3214,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 114,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -3044,8 +3260,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 114
           }
         }
       ]
@@ -3180,6 +3401,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -3229,6 +3453,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 115,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -3269,8 +3499,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 115
           }
         }
       ]
@@ -3405,6 +3640,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -3454,6 +3692,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 116,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -3494,8 +3738,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 116
           }
         }
       ]
@@ -3630,6 +3879,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -3679,6 +3931,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 117,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -3719,8 +3977,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 117
           }
         }
       ]
@@ -3855,6 +4118,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -3904,6 +4170,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 118,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -3944,8 +4216,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 118
           }
         }
       ]
@@ -4080,6 +4357,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -4129,6 +4409,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 119,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -4169,8 +4455,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 119
           }
         }
       ]
@@ -4305,6 +4596,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -4354,6 +4648,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 120,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -4394,8 +4694,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 120
           }
         }
       ]
@@ -4530,6 +4835,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -4579,6 +4887,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 121,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -4619,8 +4933,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 121
           }
         }
       ]
@@ -4755,6 +5074,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -4804,6 +5126,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 104,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -4844,8 +5172,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 104
           }
         }
       ]
@@ -4980,6 +5313,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -5029,6 +5365,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 122,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -5069,8 +5411,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 122
           }
         }
       ]
@@ -5205,6 +5552,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -5254,6 +5604,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 123,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -5294,8 +5650,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 123
           }
         }
       ]
@@ -5430,6 +5791,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -5479,6 +5843,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 124,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -5519,8 +5889,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 124
           }
         }
       ]
@@ -5655,6 +6030,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -5704,6 +6082,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 125,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -5744,8 +6128,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 125
           }
         }
       ]
@@ -5880,6 +6269,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -5929,6 +6321,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 126,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -5969,8 +6367,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 126
           }
         }
       ]
@@ -6105,6 +6508,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -6154,6 +6560,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 127,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -6194,8 +6606,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 127
           }
         }
       ]
@@ -6330,6 +6747,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -6379,6 +6799,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 128,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -6419,8 +6845,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 128
           }
         }
       ]
@@ -6555,6 +6986,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -6604,6 +7038,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 129,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -6644,8 +7084,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 129
           }
         }
       ]
@@ -6780,6 +7225,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -6829,6 +7277,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 105,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -6869,8 +7323,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 105
           }
         }
       ]
@@ -7005,6 +7464,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -7054,6 +7516,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 106,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -7094,8 +7562,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 106
           }
         }
       ]
@@ -7230,6 +7703,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -7279,6 +7755,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 107,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -7319,8 +7801,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 107
           }
         }
       ]
@@ -7455,6 +7942,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -7504,6 +7994,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 108,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -7544,8 +8040,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 108
           }
         }
       ]
@@ -7680,6 +8181,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -7729,6 +8233,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 109,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -7769,8 +8279,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 109
           }
         }
       ]
@@ -7905,6 +8420,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -7954,6 +8472,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 110,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -7994,8 +8518,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 110
           }
         }
       ]
@@ -8130,6 +8659,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -8179,6 +8711,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 111,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -8219,8 +8757,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 111
           }
         }
       ]
@@ -8355,6 +8898,15 @@
               1.0
             ]
           }
+        },
+        {
+          "LightGroup": {}
+        },
+        {
+          "LightColorGroup": {}
+        },
+        {
+          "TransformSpectrogram": {}
         }
       ]
     },
@@ -8390,6 +8942,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -8439,6 +8994,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 130,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -8479,8 +9040,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 130
           }
         }
       ]
@@ -8615,6 +9181,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -8664,6 +9233,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 131,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -8704,8 +9279,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 131
           }
         }
       ]
@@ -8840,6 +9420,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -8889,6 +9472,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 140,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -8929,8 +9518,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 140
           }
         }
       ]
@@ -9065,6 +9659,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -9114,6 +9711,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 141,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -9154,8 +9757,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 141
           }
         }
       ]
@@ -9290,6 +9898,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -9339,6 +9950,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 142,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -9379,8 +9996,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 142
           }
         }
       ]
@@ -9515,6 +10137,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -9564,6 +10189,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 143,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -9604,8 +10235,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 143
           }
         }
       ]
@@ -9740,6 +10376,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -9789,6 +10428,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 144,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -9829,8 +10474,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 144
           }
         }
       ]
@@ -9965,6 +10615,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -10014,6 +10667,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 145,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -10054,8 +10713,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 145
           }
         }
       ]
@@ -10190,6 +10854,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -10239,6 +10906,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 146,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -10279,8 +10952,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 146
           }
         }
       ]
@@ -10415,6 +11093,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -10464,6 +11145,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 147,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -10504,8 +11191,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 147
           }
         }
       ]
@@ -10640,6 +11332,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -10689,6 +11384,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 148,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -10729,8 +11430,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 148
           }
         }
       ]
@@ -10865,6 +11571,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -10914,6 +11623,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 149,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -10954,8 +11669,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 149
           }
         }
       ]
@@ -11090,6 +11810,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -11139,6 +11862,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 132,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -11179,8 +11908,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 132
           }
         }
       ]
@@ -11315,6 +12049,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -11364,6 +12101,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 150,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -11404,8 +12147,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 150
           }
         }
       ]
@@ -11540,6 +12288,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -11589,6 +12340,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 151,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -11629,8 +12386,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 151
           }
         }
       ]
@@ -11765,6 +12527,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -11814,6 +12579,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 152,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -11854,8 +12625,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 152
           }
         }
       ]
@@ -11990,6 +12766,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -12039,6 +12818,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 153,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -12079,8 +12864,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 153
           }
         }
       ]
@@ -12215,6 +13005,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -12264,6 +13057,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 154,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -12304,8 +13103,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 154
           }
         }
       ]
@@ -12440,6 +13244,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -12489,6 +13296,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 155,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -12529,8 +13342,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 155
           }
         }
       ]
@@ -12665,6 +13483,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -12714,6 +13535,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 156,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -12754,8 +13581,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 156
           }
         }
       ]
@@ -12890,6 +13722,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -12939,6 +13774,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 157,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -12979,8 +13820,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 157
           }
         }
       ]
@@ -13115,6 +13961,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -13164,6 +14013,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 133,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -13204,8 +14059,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 133
           }
         }
       ]
@@ -13340,6 +14200,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -13389,6 +14252,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 134,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -13429,8 +14298,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 134
           }
         }
       ]
@@ -13565,6 +14439,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -13614,6 +14491,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 135,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -13654,8 +14537,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 135
           }
         }
       ]
@@ -13790,6 +14678,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -13839,6 +14730,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 136,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -13879,8 +14776,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 136
           }
         }
       ]
@@ -14015,6 +14917,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -14064,6 +14969,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 137,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -14104,8 +15015,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 137
           }
         }
       ]
@@ -14240,6 +15156,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -14289,6 +15208,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 138,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -14329,8 +15254,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 138
           }
         }
       ]
@@ -14465,6 +15395,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -14514,6 +15447,12 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 139,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -14554,8 +15493,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.0,
             "bloomFogIntensityMultiplier": 0.5,
-            "length": 0.65,
-            "width": 0.12
+            "tubeLength": 0.65,
+            "tubeWidth": 0.12
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 139
           }
         }
       ]
@@ -14725,6 +15669,15 @@
               1.0
             ]
           }
+        },
+        {
+          "LightGroup": {}
+        },
+        {
+          "LightColorGroup": {}
+        },
+        {
+          "LightTranslationGroup": {}
         }
       ]
     },
@@ -14760,6 +15713,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -14800,8 +15756,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 4.0,
             "bloomFogIntensityMultiplier": 12.0,
-            "length": 1.0,
-            "width": 0.2
+            "tubeLength": 1.0,
+            "tubeWidth": 0.2
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 97
           }
         }
       ]
@@ -14840,7 +15801,10 @@
           }
         },
         {
-          "SpriteRenderer": {}
+          "SpriteLightWithId": {
+            "spriteLightId": 97,
+            "intensity": 1.0
+          }
         }
       ]
     },
@@ -14876,6 +15840,15 @@
               1.0
             ]
           }
+        },
+        {
+          "LightGroup": {}
+        },
+        {
+          "LightColorGroup": {}
+        },
+        {
+          "LightTranslationGroup": {}
         }
       ]
     },
@@ -14911,6 +15884,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -14951,8 +15927,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 4.0,
             "bloomFogIntensityMultiplier": 12.0,
-            "length": 1.0,
-            "width": 0.2
+            "tubeLength": 1.0,
+            "tubeWidth": 0.2
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 97
           }
         }
       ]
@@ -14991,7 +15972,10 @@
           }
         },
         {
-          "SpriteRenderer": {}
+          "SpriteLightWithId": {
+            "spriteLightId": 97,
+            "intensity": 1.0
+          }
         }
       ]
     },
@@ -15027,6 +16011,15 @@
               1.0
             ]
           }
+        },
+        {
+          "LightGroup": {}
+        },
+        {
+          "LightColorGroup": {}
+        },
+        {
+          "LightTranslationGroup": {}
         }
       ]
     },
@@ -15062,6 +16055,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -15102,8 +16098,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 4.0,
             "bloomFogIntensityMultiplier": 8.0,
-            "length": 2.5,
-            "width": 0.2
+            "tubeLength": 2.5,
+            "tubeWidth": 0.2
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 97
           }
         }
       ]
@@ -15142,7 +16143,10 @@
           }
         },
         {
-          "SpriteRenderer": {}
+          "SpriteLightWithId": {
+            "spriteLightId": 97,
+            "intensity": 1.0
+          }
         }
       ]
     },
@@ -15183,8 +16187,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 4.0,
             "bloomFogIntensityMultiplier": 8.0,
-            "length": 2.5,
-            "width": 0.2
+            "tubeLength": 2.5,
+            "tubeWidth": 0.2
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 97
           }
         }
       ]
@@ -15221,6 +16230,15 @@
               1.0
             ]
           }
+        },
+        {
+          "LightGroup": {}
+        },
+        {
+          "LightColorGroup": {}
+        },
+        {
+          "LightTranslationGroup": {}
         }
       ]
     },
@@ -15256,6 +16274,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -15296,8 +16317,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 4.0,
             "bloomFogIntensityMultiplier": 12.0,
-            "length": 1.0,
-            "width": 0.2
+            "tubeLength": 1.0,
+            "tubeWidth": 0.2
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 97
           }
         }
       ]
@@ -15336,7 +16362,10 @@
           }
         },
         {
-          "SpriteRenderer": {}
+          "SpriteLightWithId": {
+            "spriteLightId": 97,
+            "intensity": 1.0
+          }
         }
       ]
     },
@@ -15372,6 +16401,18 @@
               1.0
             ]
           }
+        },
+        {
+          "LightGroup": {}
+        },
+        {
+          "LightColorGroup": {}
+        },
+        {
+          "LightTranslationGroup": {}
+        },
+        {
+          "LightRotationGroup": {}
         }
       ]
     },
@@ -15407,6 +16448,12 @@
               1.0
             ]
           }
+        },
+        {
+          "LightGroup": {}
+        },
+        {
+          "LightColorGroup": {}
         }
       ]
     },
@@ -15442,6 +16489,12 @@
               1.0
             ]
           }
+        },
+        {
+          "LightGroup": {}
+        },
+        {
+          "LightColorGroup": {}
         }
       ]
     },
@@ -15477,6 +16530,12 @@
               1.0
             ]
           }
+        },
+        {
+          "LightGroup": {}
+        },
+        {
+          "LightColorGroup": {}
         }
       ]
     },
@@ -15687,6 +16746,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -15771,6 +16833,12 @@
               1.69500041
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 81,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -15811,8 +16879,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 2.0,
             "bloomFogIntensityMultiplier": 0.35,
-            "length": 3.46,
-            "width": 0.34
+            "tubeLength": 3.46,
+            "tubeWidth": 0.34
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 81
           }
         }
       ]
@@ -15982,6 +17055,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -16066,6 +17142,12 @@
               1.69500041
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 82,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -16106,8 +17188,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 2.0,
             "bloomFogIntensityMultiplier": 0.35,
-            "length": 3.46,
-            "width": 0.34
+            "tubeLength": 3.46,
+            "tubeWidth": 0.34
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 82
           }
         }
       ]
@@ -16277,6 +17364,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -16361,6 +17451,12 @@
               1.69500041
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 83,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -16401,8 +17497,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 2.0,
             "bloomFogIntensityMultiplier": 0.35,
-            "length": 3.46,
-            "width": 0.34
+            "tubeLength": 3.46,
+            "tubeWidth": 0.34
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 83
           }
         }
       ]
@@ -16572,6 +17673,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -16656,6 +17760,12 @@
               1.69500041
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 84,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -16696,8 +17806,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 2.0,
             "bloomFogIntensityMultiplier": 0.35,
-            "length": 3.46,
-            "width": 0.34
+            "tubeLength": 3.46,
+            "tubeWidth": 0.34
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 84
           }
         }
       ]
@@ -16832,6 +17947,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -16881,6 +17999,12 @@
               1.69500041
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 67,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -16916,6 +18040,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -16950,6 +18077,12 @@
               1.0,
               1.0
             ]
+          }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 158,
+            "materialLightIntensity": 1.0
           }
         }
       ]
@@ -17000,6 +18133,20 @@
               1.38099992
             ]
           }
+        },
+        {
+          "CustomBoundingBox": {
+            "customBoundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "customBoundSize": [
+              3.0,
+              3.0,
+              2.0
+            ]
+          }
         }
       ]
     },
@@ -17035,6 +18182,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -17069,6 +18219,12 @@
               1.0,
               1.0
             ]
+          }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 162,
+            "materialLightIntensity": 1.0
           }
         }
       ]
@@ -17117,6 +18273,20 @@
               0.0,
               1.5,
               1.38099992
+            ]
+          }
+        },
+        {
+          "CustomBoundingBox": {
+            "customBoundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "customBoundSize": [
+              3.0,
+              3.0,
+              2.0
             ]
           }
         }
@@ -17329,6 +18499,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -17413,6 +18586,12 @@
               1.69500041
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 85,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -17453,8 +18632,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 2.0,
             "bloomFogIntensityMultiplier": 0.35,
-            "length": 3.46,
-            "width": 0.34
+            "tubeLength": 3.46,
+            "tubeWidth": 0.34
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 85
           }
         }
       ]
@@ -17624,6 +18808,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -17708,6 +18895,12 @@
               1.69500041
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 86,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -17748,8 +18941,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 2.0,
             "bloomFogIntensityMultiplier": 0.35,
-            "length": 3.46,
-            "width": 0.34
+            "tubeLength": 3.46,
+            "tubeWidth": 0.34
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 86
           }
         }
       ]
@@ -17919,6 +19117,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -18003,6 +19204,12 @@
               1.69500041
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 87,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -18043,8 +19250,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 2.0,
             "bloomFogIntensityMultiplier": 0.35,
-            "length": 3.46,
-            "width": 0.34
+            "tubeLength": 3.46,
+            "tubeWidth": 0.34
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 87
           }
         }
       ]
@@ -18214,6 +19426,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -18298,6 +19513,12 @@
               1.69500041
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 88,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -18338,8 +19559,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 2.0,
             "bloomFogIntensityMultiplier": 0.35,
-            "length": 3.46,
-            "width": 0.34
+            "tubeLength": 3.46,
+            "tubeWidth": 0.34
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 88
           }
         }
       ]
@@ -18474,6 +19700,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -18523,6 +19752,12 @@
               1.69500041
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 68,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -18558,6 +19793,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -18592,6 +19830,12 @@
               1.0,
               1.0
             ]
+          }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 159,
+            "materialLightIntensity": 1.0
           }
         }
       ]
@@ -18642,6 +19886,20 @@
               1.38099992
             ]
           }
+        },
+        {
+          "CustomBoundingBox": {
+            "customBoundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "customBoundSize": [
+              3.0,
+              3.0,
+              2.0
+            ]
+          }
         }
       ]
     },
@@ -18677,6 +19935,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -18711,6 +19972,12 @@
               1.0,
               1.0
             ]
+          }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 163,
+            "materialLightIntensity": 1.0
           }
         }
       ]
@@ -18759,6 +20026,20 @@
               0.0,
               1.5,
               1.38099992
+            ]
+          }
+        },
+        {
+          "CustomBoundingBox": {
+            "customBoundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "customBoundSize": [
+              3.0,
+              3.0,
+              2.0
             ]
           }
         }
@@ -18971,6 +20252,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -19055,6 +20339,12 @@
               1.69500041
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 89,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -19095,8 +20385,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 2.0,
             "bloomFogIntensityMultiplier": 0.35,
-            "length": 3.46,
-            "width": 0.34
+            "tubeLength": 3.46,
+            "tubeWidth": 0.34
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 89
           }
         }
       ]
@@ -19266,6 +20561,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -19350,6 +20648,12 @@
               1.69500041
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 90,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -19390,8 +20694,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 2.0,
             "bloomFogIntensityMultiplier": 0.35,
-            "length": 3.46,
-            "width": 0.34
+            "tubeLength": 3.46,
+            "tubeWidth": 0.34
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 90
           }
         }
       ]
@@ -19561,6 +20870,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -19645,6 +20957,12 @@
               1.69500041
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 91,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -19685,8 +21003,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 2.0,
             "bloomFogIntensityMultiplier": 0.35,
-            "length": 3.46,
-            "width": 0.34
+            "tubeLength": 3.46,
+            "tubeWidth": 0.34
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 91
           }
         }
       ]
@@ -19856,6 +21179,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -19940,6 +21266,12 @@
               1.69500041
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 92,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -19980,8 +21312,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 2.0,
             "bloomFogIntensityMultiplier": 0.35,
-            "length": 3.46,
-            "width": 0.34
+            "tubeLength": 3.46,
+            "tubeWidth": 0.34
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 92
           }
         }
       ]
@@ -20116,6 +21453,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -20165,6 +21505,12 @@
               1.69500041
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 69,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -20200,6 +21546,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -20234,6 +21583,12 @@
               1.0,
               1.0
             ]
+          }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 160,
+            "materialLightIntensity": 1.0
           }
         }
       ]
@@ -20284,6 +21639,20 @@
               1.38099992
             ]
           }
+        },
+        {
+          "CustomBoundingBox": {
+            "customBoundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "customBoundSize": [
+              3.0,
+              3.0,
+              2.0
+            ]
+          }
         }
       ]
     },
@@ -20319,6 +21688,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -20353,6 +21725,12 @@
               1.0,
               1.0
             ]
+          }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 164,
+            "materialLightIntensity": 1.0
           }
         }
       ]
@@ -20401,6 +21779,20 @@
               0.0,
               1.5,
               1.38099992
+            ]
+          }
+        },
+        {
+          "CustomBoundingBox": {
+            "customBoundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "customBoundSize": [
+              3.0,
+              3.0,
+              2.0
             ]
           }
         }
@@ -20613,6 +22005,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -20697,6 +22092,12 @@
               1.69500041
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 93,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -20737,8 +22138,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 2.0,
             "bloomFogIntensityMultiplier": 0.35,
-            "length": 3.46,
-            "width": 0.34
+            "tubeLength": 3.46,
+            "tubeWidth": 0.34
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 93
           }
         }
       ]
@@ -20908,6 +22314,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -20992,6 +22401,12 @@
               1.69500041
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 94,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -21032,8 +22447,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 2.0,
             "bloomFogIntensityMultiplier": 0.35,
-            "length": 3.46,
-            "width": 0.34
+            "tubeLength": 3.46,
+            "tubeWidth": 0.34
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 94
           }
         }
       ]
@@ -21203,6 +22623,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -21287,6 +22710,12 @@
               1.69500041
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 95,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -21327,8 +22756,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 2.0,
             "bloomFogIntensityMultiplier": 0.35,
-            "length": 3.46,
-            "width": 0.34
+            "tubeLength": 3.46,
+            "tubeWidth": 0.34
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 95
           }
         }
       ]
@@ -21498,6 +22932,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -21582,6 +23019,12 @@
               1.69500041
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 96,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -21622,8 +23065,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 2.0,
             "bloomFogIntensityMultiplier": 0.35,
-            "length": 3.46,
-            "width": 0.34
+            "tubeLength": 3.46,
+            "tubeWidth": 0.34
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 96
           }
         }
       ]
@@ -21758,6 +23206,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -21807,6 +23258,12 @@
               1.69500041
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 70,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -21842,6 +23299,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -21876,6 +23336,12 @@
               1.0,
               1.0
             ]
+          }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 161,
+            "materialLightIntensity": 1.0
           }
         }
       ]
@@ -21926,6 +23392,20 @@
               1.38099992
             ]
           }
+        },
+        {
+          "CustomBoundingBox": {
+            "customBoundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "customBoundSize": [
+              3.0,
+              3.0,
+              2.0
+            ]
+          }
         }
       ]
     },
@@ -21961,6 +23441,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -21995,6 +23478,12 @@
               1.0,
               1.0
             ]
+          }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 165,
+            "materialLightIntensity": 1.0
           }
         }
       ]
@@ -22043,6 +23532,20 @@
               0.0,
               1.5,
               1.38099992
+            ]
+          }
+        },
+        {
+          "CustomBoundingBox": {
+            "customBoundCenter": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "customBoundSize": [
+              3.0,
+              3.0,
+              2.0
             ]
           }
         }
@@ -22153,6 +23656,15 @@
               1.0
             ]
           }
+        },
+        {
+          "LightGroup": {}
+        },
+        {
+          "LightTranslationGroup": {}
+        },
+        {
+          "LightRotationGroup": {}
         }
       ]
     },
@@ -22222,6 +23734,25 @@
               1.0,
               1.0
             ]
+          }
+        },
+        {
+          "LightGroup": {}
+        },
+        {
+          "LightColorGroup": {}
+        },
+        {
+          "LightRotationGroup": {}
+        },
+        {
+          "LightTranslationGroup": {}
+        },
+        {
+          "LightGroupCircularLayouter": {
+            "circularRadius": 10.0,
+            "circularAngle": 360.0,
+            "groupId": 1
           }
         }
       ]
@@ -22293,6 +23824,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -22412,6 +23946,9 @@
               3.7252903E-09
             ]
           }
+        },
+        {
+          "MaterialLightWithId": {}
         }
       ]
     },
@@ -22452,8 +23989,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.1,
             "bloomFogIntensityMultiplier": 0.15,
-            "length": 300.0,
-            "width": 0.02
+            "tubeLength": 300.0,
+            "tubeWidth": 0.02
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 26
           }
         }
       ]
@@ -22574,6 +24116,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -22693,6 +24238,9 @@
               3.7252903E-09
             ]
           }
+        },
+        {
+          "MaterialLightWithId": {}
         }
       ]
     },
@@ -22733,8 +24281,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.1,
             "bloomFogIntensityMultiplier": 0.15,
-            "length": 300.0,
-            "width": 0.02
+            "tubeLength": 300.0,
+            "tubeWidth": 0.02
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 27
           }
         }
       ]
@@ -22855,6 +24408,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -22974,6 +24530,9 @@
               3.7252903E-09
             ]
           }
+        },
+        {
+          "MaterialLightWithId": {}
         }
       ]
     },
@@ -23014,8 +24573,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.1,
             "bloomFogIntensityMultiplier": 0.15,
-            "length": 300.0,
-            "width": 0.02
+            "tubeLength": 300.0,
+            "tubeWidth": 0.02
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 36
           }
         }
       ]
@@ -23136,6 +24700,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -23255,6 +24822,9 @@
               3.7252903E-09
             ]
           }
+        },
+        {
+          "MaterialLightWithId": {}
         }
       ]
     },
@@ -23295,8 +24865,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.1,
             "bloomFogIntensityMultiplier": 0.15,
-            "length": 300.0,
-            "width": 0.02
+            "tubeLength": 300.0,
+            "tubeWidth": 0.02
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 37
           }
         }
       ]
@@ -23417,6 +24992,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -23536,6 +25114,9 @@
               3.7252903E-09
             ]
           }
+        },
+        {
+          "MaterialLightWithId": {}
         }
       ]
     },
@@ -23576,8 +25157,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.1,
             "bloomFogIntensityMultiplier": 0.15,
-            "length": 300.0,
-            "width": 0.02
+            "tubeLength": 300.0,
+            "tubeWidth": 0.02
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 38
           }
         }
       ]
@@ -23698,6 +25284,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -23817,6 +25406,9 @@
               3.7252903E-09
             ]
           }
+        },
+        {
+          "MaterialLightWithId": {}
         }
       ]
     },
@@ -23857,8 +25449,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.1,
             "bloomFogIntensityMultiplier": 0.15,
-            "length": 300.0,
-            "width": 0.02
+            "tubeLength": 300.0,
+            "tubeWidth": 0.02
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 39
           }
         }
       ]
@@ -23979,6 +25576,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -24098,6 +25698,9 @@
               3.7252903E-09
             ]
           }
+        },
+        {
+          "MaterialLightWithId": {}
         }
       ]
     },
@@ -24138,8 +25741,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.1,
             "bloomFogIntensityMultiplier": 0.15,
-            "length": 300.0,
-            "width": 0.02
+            "tubeLength": 300.0,
+            "tubeWidth": 0.02
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 40
           }
         }
       ]
@@ -24260,6 +25868,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -24379,6 +25990,9 @@
               3.7252903E-09
             ]
           }
+        },
+        {
+          "MaterialLightWithId": {}
         }
       ]
     },
@@ -24419,8 +26033,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.1,
             "bloomFogIntensityMultiplier": 0.15,
-            "length": 300.0,
-            "width": 0.02
+            "tubeLength": 300.0,
+            "tubeWidth": 0.02
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 41
           }
         }
       ]
@@ -24541,6 +26160,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -24660,6 +26282,9 @@
               3.7252903E-09
             ]
           }
+        },
+        {
+          "MaterialLightWithId": {}
         }
       ]
     },
@@ -24700,8 +26325,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.1,
             "bloomFogIntensityMultiplier": 0.15,
-            "length": 300.0,
-            "width": 0.02
+            "tubeLength": 300.0,
+            "tubeWidth": 0.02
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 42
           }
         }
       ]
@@ -24822,6 +26452,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -24941,6 +26574,9 @@
               3.7252903E-09
             ]
           }
+        },
+        {
+          "MaterialLightWithId": {}
         }
       ]
     },
@@ -24981,8 +26617,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.1,
             "bloomFogIntensityMultiplier": 0.15,
-            "length": 300.0,
-            "width": 0.02
+            "tubeLength": 300.0,
+            "tubeWidth": 0.02
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 43
           }
         }
       ]
@@ -25103,6 +26744,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -25222,6 +26866,9 @@
               3.7252903E-09
             ]
           }
+        },
+        {
+          "MaterialLightWithId": {}
         }
       ]
     },
@@ -25262,8 +26909,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.1,
             "bloomFogIntensityMultiplier": 0.15,
-            "length": 300.0,
-            "width": 0.02
+            "tubeLength": 300.0,
+            "tubeWidth": 0.02
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 44
           }
         }
       ]
@@ -25384,6 +27036,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -25503,6 +27158,9 @@
               3.7252903E-09
             ]
           }
+        },
+        {
+          "MaterialLightWithId": {}
         }
       ]
     },
@@ -25543,8 +27201,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.1,
             "bloomFogIntensityMultiplier": 0.15,
-            "length": 300.0,
-            "width": 0.02
+            "tubeLength": 300.0,
+            "tubeWidth": 0.02
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 45
           }
         }
       ]
@@ -25665,6 +27328,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -25784,6 +27450,9 @@
               3.7252903E-09
             ]
           }
+        },
+        {
+          "MaterialLightWithId": {}
         }
       ]
     },
@@ -25824,8 +27493,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.1,
             "bloomFogIntensityMultiplier": 0.15,
-            "length": 300.0,
-            "width": 0.02
+            "tubeLength": 300.0,
+            "tubeWidth": 0.02
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 28
           }
         }
       ]
@@ -25946,6 +27620,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -26065,6 +27742,9 @@
               3.7252903E-09
             ]
           }
+        },
+        {
+          "MaterialLightWithId": {}
         }
       ]
     },
@@ -26105,8 +27785,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.1,
             "bloomFogIntensityMultiplier": 0.15,
-            "length": 300.0,
-            "width": 0.02
+            "tubeLength": 300.0,
+            "tubeWidth": 0.02
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 29
           }
         }
       ]
@@ -26227,6 +27912,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -26346,6 +28034,9 @@
               3.7252903E-09
             ]
           }
+        },
+        {
+          "MaterialLightWithId": {}
         }
       ]
     },
@@ -26386,8 +28077,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.1,
             "bloomFogIntensityMultiplier": 0.15,
-            "length": 300.0,
-            "width": 0.02
+            "tubeLength": 300.0,
+            "tubeWidth": 0.02
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 30
           }
         }
       ]
@@ -26508,6 +28204,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -26627,6 +28326,9 @@
               3.7252903E-09
             ]
           }
+        },
+        {
+          "MaterialLightWithId": {}
         }
       ]
     },
@@ -26667,8 +28369,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.1,
             "bloomFogIntensityMultiplier": 0.15,
-            "length": 300.0,
-            "width": 0.02
+            "tubeLength": 300.0,
+            "tubeWidth": 0.02
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 31
           }
         }
       ]
@@ -26789,6 +28496,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -26908,6 +28618,9 @@
               3.7252903E-09
             ]
           }
+        },
+        {
+          "MaterialLightWithId": {}
         }
       ]
     },
@@ -26948,8 +28661,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.1,
             "bloomFogIntensityMultiplier": 0.15,
-            "length": 300.0,
-            "width": 0.02
+            "tubeLength": 300.0,
+            "tubeWidth": 0.02
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 32
           }
         }
       ]
@@ -27070,6 +28788,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -27189,6 +28910,9 @@
               3.7252903E-09
             ]
           }
+        },
+        {
+          "MaterialLightWithId": {}
         }
       ]
     },
@@ -27229,8 +28953,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.1,
             "bloomFogIntensityMultiplier": 0.15,
-            "length": 300.0,
-            "width": 0.02
+            "tubeLength": 300.0,
+            "tubeWidth": 0.02
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 33
           }
         }
       ]
@@ -27351,6 +29080,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -27470,6 +29202,9 @@
               3.7252903E-09
             ]
           }
+        },
+        {
+          "MaterialLightWithId": {}
         }
       ]
     },
@@ -27510,8 +29245,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.1,
             "bloomFogIntensityMultiplier": 0.15,
-            "length": 300.0,
-            "width": 0.02
+            "tubeLength": 300.0,
+            "tubeWidth": 0.02
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 34
           }
         }
       ]
@@ -27632,6 +29372,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -27751,6 +29494,9 @@
               3.7252903E-09
             ]
           }
+        },
+        {
+          "MaterialLightWithId": {}
         }
       ]
     },
@@ -27791,8 +29537,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.1,
             "bloomFogIntensityMultiplier": 0.15,
-            "length": 300.0,
-            "width": 0.02
+            "tubeLength": 300.0,
+            "tubeWidth": 0.02
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 35
           }
         }
       ]
@@ -27878,6 +29629,15 @@
               1.0
             ]
           }
+        },
+        {
+          "LightGroup": {}
+        },
+        {
+          "LightTranslationGroup": {}
+        },
+        {
+          "LightRotationGroup": {}
         }
       ]
     },
@@ -27947,6 +29707,25 @@
               1.0,
               1.0
             ]
+          }
+        },
+        {
+          "LightGroup": {}
+        },
+        {
+          "LightColorGroup": {}
+        },
+        {
+          "LightRotationGroup": {}
+        },
+        {
+          "LightTranslationGroup": {}
+        },
+        {
+          "LightGroupCircularLayouter": {
+            "circularRadius": 3.5,
+            "circularAngle": 360.0,
+            "groupId": 3
           }
         }
       ]
@@ -28018,6 +29797,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -28137,6 +29919,9 @@
               3.7252903E-09
             ]
           }
+        },
+        {
+          "MaterialLightWithId": {}
         }
       ]
     },
@@ -28177,8 +29962,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.1,
             "bloomFogIntensityMultiplier": 0.15,
-            "length": 300.0,
-            "width": 0.02
+            "tubeLength": 300.0,
+            "tubeWidth": 0.02
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 47
           }
         }
       ]
@@ -28299,6 +30089,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -28418,6 +30211,9 @@
               3.7252903E-09
             ]
           }
+        },
+        {
+          "MaterialLightWithId": {}
         }
       ]
     },
@@ -28458,8 +30254,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.1,
             "bloomFogIntensityMultiplier": 0.15,
-            "length": 300.0,
-            "width": 0.02
+            "tubeLength": 300.0,
+            "tubeWidth": 0.02
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 48
           }
         }
       ]
@@ -28580,6 +30381,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -28699,6 +30503,9 @@
               3.7252903E-09
             ]
           }
+        },
+        {
+          "MaterialLightWithId": {}
         }
       ]
     },
@@ -28739,8 +30546,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.1,
             "bloomFogIntensityMultiplier": 0.15,
-            "length": 300.0,
-            "width": 0.02
+            "tubeLength": 300.0,
+            "tubeWidth": 0.02
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 57
           }
         }
       ]
@@ -28861,6 +30673,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -28980,6 +30795,9 @@
               3.7252903E-09
             ]
           }
+        },
+        {
+          "MaterialLightWithId": {}
         }
       ]
     },
@@ -29020,8 +30838,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.1,
             "bloomFogIntensityMultiplier": 0.15,
-            "length": 300.0,
-            "width": 0.02
+            "tubeLength": 300.0,
+            "tubeWidth": 0.02
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 58
           }
         }
       ]
@@ -29142,6 +30965,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -29261,6 +31087,9 @@
               3.7252903E-09
             ]
           }
+        },
+        {
+          "MaterialLightWithId": {}
         }
       ]
     },
@@ -29301,8 +31130,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.1,
             "bloomFogIntensityMultiplier": 0.15,
-            "length": 300.0,
-            "width": 0.02
+            "tubeLength": 300.0,
+            "tubeWidth": 0.02
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 59
           }
         }
       ]
@@ -29423,6 +31257,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -29542,6 +31379,9 @@
               3.7252903E-09
             ]
           }
+        },
+        {
+          "MaterialLightWithId": {}
         }
       ]
     },
@@ -29582,8 +31422,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.1,
             "bloomFogIntensityMultiplier": 0.15,
-            "length": 300.0,
-            "width": 0.02
+            "tubeLength": 300.0,
+            "tubeWidth": 0.02
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 60
           }
         }
       ]
@@ -29704,6 +31549,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -29823,6 +31671,9 @@
               3.7252903E-09
             ]
           }
+        },
+        {
+          "MaterialLightWithId": {}
         }
       ]
     },
@@ -29863,8 +31714,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.1,
             "bloomFogIntensityMultiplier": 0.15,
-            "length": 300.0,
-            "width": 0.02
+            "tubeLength": 300.0,
+            "tubeWidth": 0.02
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 61
           }
         }
       ]
@@ -29985,6 +31841,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -30104,6 +31963,9 @@
               3.7252903E-09
             ]
           }
+        },
+        {
+          "MaterialLightWithId": {}
         }
       ]
     },
@@ -30144,8 +32006,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.1,
             "bloomFogIntensityMultiplier": 0.15,
-            "length": 300.0,
-            "width": 0.02
+            "tubeLength": 300.0,
+            "tubeWidth": 0.02
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 62
           }
         }
       ]
@@ -30266,6 +32133,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -30385,6 +32255,9 @@
               3.7252903E-09
             ]
           }
+        },
+        {
+          "MaterialLightWithId": {}
         }
       ]
     },
@@ -30425,8 +32298,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.1,
             "bloomFogIntensityMultiplier": 0.15,
-            "length": 300.0,
-            "width": 0.02
+            "tubeLength": 300.0,
+            "tubeWidth": 0.02
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 63
           }
         }
       ]
@@ -30547,6 +32425,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -30666,6 +32547,9 @@
               3.7252903E-09
             ]
           }
+        },
+        {
+          "MaterialLightWithId": {}
         }
       ]
     },
@@ -30706,8 +32590,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.1,
             "bloomFogIntensityMultiplier": 0.15,
-            "length": 300.0,
-            "width": 0.02
+            "tubeLength": 300.0,
+            "tubeWidth": 0.02
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 64
           }
         }
       ]
@@ -30828,6 +32717,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -30947,6 +32839,9 @@
               3.7252903E-09
             ]
           }
+        },
+        {
+          "MaterialLightWithId": {}
         }
       ]
     },
@@ -30987,8 +32882,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.1,
             "bloomFogIntensityMultiplier": 0.15,
-            "length": 300.0,
-            "width": 0.02
+            "tubeLength": 300.0,
+            "tubeWidth": 0.02
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 65
           }
         }
       ]
@@ -31109,6 +33009,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -31228,6 +33131,9 @@
               3.7252903E-09
             ]
           }
+        },
+        {
+          "MaterialLightWithId": {}
         }
       ]
     },
@@ -31268,8 +33174,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.1,
             "bloomFogIntensityMultiplier": 0.15,
-            "length": 300.0,
-            "width": 0.02
+            "tubeLength": 300.0,
+            "tubeWidth": 0.02
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 66
           }
         }
       ]
@@ -31390,6 +33301,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -31509,6 +33423,9 @@
               3.7252903E-09
             ]
           }
+        },
+        {
+          "MaterialLightWithId": {}
         }
       ]
     },
@@ -31549,8 +33466,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.1,
             "bloomFogIntensityMultiplier": 0.15,
-            "length": 300.0,
-            "width": 0.02
+            "tubeLength": 300.0,
+            "tubeWidth": 0.02
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 49
           }
         }
       ]
@@ -31671,6 +33593,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -31790,6 +33715,9 @@
               3.7252903E-09
             ]
           }
+        },
+        {
+          "MaterialLightWithId": {}
         }
       ]
     },
@@ -31830,8 +33758,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.1,
             "bloomFogIntensityMultiplier": 0.15,
-            "length": 300.0,
-            "width": 0.02
+            "tubeLength": 300.0,
+            "tubeWidth": 0.02
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 50
           }
         }
       ]
@@ -31952,6 +33885,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -32071,6 +34007,9 @@
               3.7252903E-09
             ]
           }
+        },
+        {
+          "MaterialLightWithId": {}
         }
       ]
     },
@@ -32111,8 +34050,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.1,
             "bloomFogIntensityMultiplier": 0.15,
-            "length": 300.0,
-            "width": 0.02
+            "tubeLength": 300.0,
+            "tubeWidth": 0.02
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 51
           }
         }
       ]
@@ -32233,6 +34177,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -32352,6 +34299,9 @@
               3.7252903E-09
             ]
           }
+        },
+        {
+          "MaterialLightWithId": {}
         }
       ]
     },
@@ -32392,8 +34342,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.1,
             "bloomFogIntensityMultiplier": 0.15,
-            "length": 300.0,
-            "width": 0.02
+            "tubeLength": 300.0,
+            "tubeWidth": 0.02
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 52
           }
         }
       ]
@@ -32514,6 +34469,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -32633,6 +34591,9 @@
               3.7252903E-09
             ]
           }
+        },
+        {
+          "MaterialLightWithId": {}
         }
       ]
     },
@@ -32673,8 +34634,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.1,
             "bloomFogIntensityMultiplier": 0.15,
-            "length": 300.0,
-            "width": 0.02
+            "tubeLength": 300.0,
+            "tubeWidth": 0.02
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 53
           }
         }
       ]
@@ -32795,6 +34761,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -32914,6 +34883,9 @@
               3.7252903E-09
             ]
           }
+        },
+        {
+          "MaterialLightWithId": {}
         }
       ]
     },
@@ -32954,8 +34926,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.1,
             "bloomFogIntensityMultiplier": 0.15,
-            "length": 300.0,
-            "width": 0.02
+            "tubeLength": 300.0,
+            "tubeWidth": 0.02
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 54
           }
         }
       ]
@@ -33076,6 +35053,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -33195,6 +35175,9 @@
               3.7252903E-09
             ]
           }
+        },
+        {
+          "MaterialLightWithId": {}
         }
       ]
     },
@@ -33235,8 +35218,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.1,
             "bloomFogIntensityMultiplier": 0.15,
-            "length": 300.0,
-            "width": 0.02
+            "tubeLength": 300.0,
+            "tubeWidth": 0.02
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 55
           }
         }
       ]
@@ -33357,6 +35345,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -33476,6 +35467,9 @@
               3.7252903E-09
             ]
           }
+        },
+        {
+          "MaterialLightWithId": {}
         }
       ]
     },
@@ -33516,8 +35510,13 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.1,
             "bloomFogIntensityMultiplier": 0.15,
-            "length": 300.0,
-            "width": 0.02
+            "tubeLength": 300.0,
+            "tubeWidth": 0.02
+          }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 56
           }
         }
       ]
@@ -33603,6 +35602,12 @@
               1.0
             ]
           }
+        },
+        {
+          "LightGroup": {}
+        },
+        {
+          "LightRotationGroup": {}
         }
       ]
     },
@@ -33638,6 +35643,18 @@
               1.0
             ]
           }
+        },
+        {
+          "LightGroup": {}
+        },
+        {
+          "LightColorGroup": {}
+        },
+        {
+          "LightTranslationGroup": {}
+        },
+        {
+          "LightRotationGroup": {}
         }
       ]
     },
@@ -33923,9 +35940,17 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.3,
             "bloomFogIntensityMultiplier": 2.0,
-            "length": 1000.0,
-            "width": 0.1
+            "tubeLength": 1000.0,
+            "tubeWidth": 0.1
           }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 75
+          }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -34309,9 +36334,17 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.3,
             "bloomFogIntensityMultiplier": 2.0,
-            "length": 1000.0,
-            "width": 0.1
+            "tubeLength": 1000.0,
+            "tubeWidth": 0.1
           }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 76
+          }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -34445,6 +36478,12 @@
               1.0
             ]
           }
+        },
+        {
+          "LightGroup": {}
+        },
+        {
+          "LightRotationGroup": {}
         }
       ]
     },
@@ -34480,6 +36519,18 @@
               1.0
             ]
           }
+        },
+        {
+          "LightGroup": {}
+        },
+        {
+          "LightColorGroup": {}
+        },
+        {
+          "LightTranslationGroup": {}
+        },
+        {
+          "LightRotationGroup": {}
         }
       ]
     },
@@ -34765,9 +36816,17 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.3,
             "bloomFogIntensityMultiplier": 2.0,
-            "length": 1000.0,
-            "width": 0.1
+            "tubeLength": 1000.0,
+            "tubeWidth": 0.1
           }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 77
+          }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -35151,9 +37210,17 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.3,
             "bloomFogIntensityMultiplier": 2.0,
-            "length": 1000.0,
-            "width": 0.1
+            "tubeLength": 1000.0,
+            "tubeWidth": 0.1
           }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 78
+          }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -35287,6 +37354,12 @@
               1.0
             ]
           }
+        },
+        {
+          "LightGroup": {}
+        },
+        {
+          "LightColorGroup": {}
         }
       ]
     },
@@ -35327,9 +37400,17 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.3,
             "bloomFogIntensityMultiplier": 1.0,
-            "length": 1000.0,
-            "width": 0.03
+            "tubeLength": 1000.0,
+            "tubeWidth": 0.03
           }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 79
+          }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -35465,7 +37546,10 @@
           }
         },
         {
-          "SpriteRenderer": {}
+          "SpriteLightWithId": {
+            "spriteLightId": 79,
+            "intensity": 0.4
+          }
         }
       ]
     },
@@ -35501,6 +37585,12 @@
               1.0
             ]
           }
+        },
+        {
+          "LightGroup": {}
+        },
+        {
+          "LightColorGroup": {}
         }
       ]
     },
@@ -35541,9 +37631,17 @@
           "TubeBloomPrePassLight": {
             "colorAlphaMultiplier": 1.3,
             "bloomFogIntensityMultiplier": 1.0,
-            "length": 1000.0,
-            "width": 0.03
+            "tubeLength": 1000.0,
+            "tubeWidth": 0.03
           }
+        },
+        {
+          "TubeBloomPrePassLightWithId": {
+            "tubeLightId": 80
+          }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -35679,7 +37777,10 @@
           }
         },
         {
-          "SpriteRenderer": {}
+          "SpriteLightWithId": {
+            "spriteLightId": 80,
+            "intensity": 0.4
+          }
         }
       ]
     },
@@ -35750,9 +37851,6 @@
               1.0
             ]
           }
-        },
-        {
-          "SpriteRenderer": {}
         }
       ]
     },
@@ -35788,9 +37886,6 @@
               1.0
             ]
           }
-        },
-        {
-          "SpriteRenderer": {}
         }
       ]
     },
@@ -35826,9 +37921,6 @@
               1.0
             ]
           }
-        },
-        {
-          "SpriteRenderer": {}
         }
       ]
     },
@@ -35864,9 +37956,6 @@
               1.0
             ]
           }
-        },
-        {
-          "SpriteRenderer": {}
         }
       ]
     },
@@ -35902,9 +37991,6 @@
               1.0
             ]
           }
-        },
-        {
-          "SpriteRenderer": {}
         }
       ]
     },
@@ -35940,9 +38026,6 @@
               1.0
             ]
           }
-        },
-        {
-          "SpriteRenderer": {}
         }
       ]
     },
@@ -35978,9 +38061,6 @@
               1.0
             ]
           }
-        },
-        {
-          "SpriteRenderer": {}
         }
       ]
     },
@@ -37507,6 +39587,20 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "MeshCollider": {
+            "meshBoundsCenter": [
+              0.0,
+              -0.02,
+              19.35
+            ],
+            "meshBoundsSize": [
+              3.67164826,
+              3.20374966E-06,
+              26.8700142
+            ]
+          }
         }
       ]
     },
@@ -37556,6 +39650,20 @@
               6.1232336E-17
             ]
           }
+        },
+        {
+          "MeshCollider": {
+            "meshBoundsCenter": [
+              0.0,
+              -0.03,
+              0.002
+            ],
+            "meshBoundsSize": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
         }
       ]
     },
@@ -37591,9 +39699,6 @@
               1.0
             ]
           }
-        },
-        {
-          "SpriteRenderer": {}
         }
       ]
     },
@@ -37629,9 +39734,6 @@
               1.0
             ]
           }
-        },
-        {
-          "SpriteRenderer": {}
         }
       ]
     },
@@ -37667,6 +39769,12 @@
               1.0
             ]
           }
+        },
+        {
+          "LightGroup": {}
+        },
+        {
+          "LightRotationGroup": {}
         }
       ]
     },
@@ -37702,6 +39810,15 @@
               1.0
             ]
           }
+        },
+        {
+          "LightGroup": {}
+        },
+        {
+          "LightColorGroup": {}
+        },
+        {
+          "LightTranslationGroup": {}
         }
       ]
     },
@@ -37737,6 +39854,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -37877,6 +39997,12 @@
               1.0
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 71,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -37961,6 +40087,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -38101,6 +40230,12 @@
               1.0
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 72,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -38185,6 +40320,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -38325,6 +40463,12 @@
               1.0
             ]
           }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 73,
+            "materialLightIntensity": 1.0
+          }
         }
       ]
     },
@@ -38409,6 +40553,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightColorGroupParent": {}
         }
       ]
     },
@@ -38548,6 +40695,12 @@
               1.0,
               1.0
             ]
+          }
+        },
+        {
+          "InstancedMaterialLightWithId": {
+            "materialLightId": 74,
+            "materialLightIntensity": 1.0
           }
         }
       ]
@@ -38738,6 +40891,9 @@
               1.0
             ]
           }
+        },
+        {
+          "LightWithIdManager": {}
         }
       ]
     },
@@ -38771,6 +40927,20 @@
               1.0,
               1.0,
               1.0
+            ]
+          }
+        },
+        {
+          "BakedReflectionProbe": {
+            "probeSize": [
+              100.0,
+              100.0,
+              1000.0
+            ],
+            "probePosition": [
+              0.0,
+              0.5,
+              4.0
             ]
           }
         }
@@ -38808,6 +40978,9 @@
               1.0
             ]
           }
+        },
+        {
+          "BloomPrePassBackgroundColorsGradient": {}
         }
       ]
     },
