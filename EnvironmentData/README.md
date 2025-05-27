@@ -17,7 +17,7 @@ It consists of:
 
 Its like Chroma Logs and [bs-env](https://github.com/Top-Cat/bs-env) had a child.
 
-With Environment Data, this are the closest we've ever been to providing access to a variety of object data for a convenient and wide array of usages!
+With Environment Data, this is the closest we've ever been to providing access to a variety of object data for a convenient and wide array of usages!
 
 ```json
 {
