@@ -1,7 +1,5 @@
-# Chroodle
+# Everything has moved to chroodleWeb!
 
-A repo for everything related to the heck suite of mods! 
+Check out https://ugecko.github.io/chroodleWeb/
 
-[Chroma Logs](https://github.com/UGEcko/Chroodle/tree/main/ChromaLogs)
-
-[Wiki](https://github.com/UGEcko/Chroodle/wiki)
+Everything in this repo has now moved to chroodleWeb, unifying the entire repo in one spot with better formatting and rewrites.
