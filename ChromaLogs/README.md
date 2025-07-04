@@ -33,7 +33,7 @@ Environment Releases (Versions shown are currently supported by the Heck Suite).
 |      1.29.1     	|     1.34.2    	|     1.37.1    	|    1.39.1   	|   1.40.0  	|
 |:---------------:	|:-------------:	|:-------------:	|:-----------:	|:---------:	|
 | Default         	| Queen         	| DaftPunk      	| Britney     	| Metallica 	|
-| Triangle        	| LinkinPark2   	| HipHopMixtape 	| Monstercat2 	| RockMixtape |
+| Triangle        	| LinkinPark2   	| HipHopMixtape 	| Monstercat2 	|             |
 | Nice            	| RollingStones 	| Collider      	|             	|           	|
 | BigMirror       	| Lattice       	|               	|             	|           	|
 | KDA             	|               	|               	|             	|           	|
