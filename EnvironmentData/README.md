@@ -2,8 +2,8 @@
 A directory holding extensive Beat Saber environment information.
 
 ### Directory
-- ~~1.29.1~~ (Coming soon)
-- [1.34.2](https://github.com/UGEcko/Chroodle/tree/main/EnvironmentData/1.34.2) (Old version)
+- [1.29.1](https://github.com/UGEcko/Chroodle/tree/main/EnvironmentData/1.29.1) 
+- [1.34.2](https://github.com/UGEcko/Chroodle/tree/main/EnvironmentData/1.34.2) 
 - [1.37.1](https://github.com/UGEcko/Chroodle/tree/main/EnvironmentData/1.37.1)
 - [1.39.1](https://github.com/UGEcko/Chroodle/tree/main/EnvironmentData/1.39.1)
 - [1.40.0](https://github.com/UGEcko/Chroodle/tree/main/EnvironmentData/1.40.0)
@@ -116,9 +116,6 @@ With Environment Data, this is the closest we've ever been to providing access t
 * **MeshCollider**
 * * meshBoundsCenter
 * * meshBoundsSize
-* **CloudsMeshGenerator (1.37.1+ Only)**
-* * cloudsBoundSize
-* * cloudsBoundCenter
 * **CustomBoundingBox**
 * * customBoundCenter
 * * customBoundSize
@@ -181,6 +178,7 @@ With Environment Data, this is the closest we've ever been to providing access t
 * SpectrogramRow
 * VideoPlayer
 * TransformLayouter
+* CloudsMeshGenerator
 
 (See below if you are looking to create your own log with more whitelisted components.)
 
