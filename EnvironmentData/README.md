@@ -1,13 +1,6 @@
 # Environment Data
 A directory holding extensive Beat Saber environment information.
 
-### Directory
-- [1.29.1](https://github.com/UGEcko/Chroodle/tree/main/EnvironmentData/1.29.1) 
-- [1.34.2](https://github.com/UGEcko/Chroodle/tree/main/EnvironmentData/1.34.2) 
-- [1.37.1](https://github.com/UGEcko/Chroodle/tree/main/EnvironmentData/1.37.1)
-- [1.39.1](https://github.com/UGEcko/Chroodle/tree/main/EnvironmentData/1.39.1)
-- [1.40.0](https://github.com/UGEcko/Chroodle/tree/main/EnvironmentData/1.40.0)
-
 ## Structure
 Each environment here is represented as a JSON file. 
 <br>
@@ -29,21 +22,53 @@ With Environment Data, this is the closest we've ever been to providing access t
       "colorRight": [float,float,float],
       "envColorLeft": [float,float,float],
       "envColorRight": [float,float,float],
+      "envColorWhite": [float,float,float],
       "obstacleColor": [float,float,float],
       "envColorLeftBoost": [float,float,float],
-      "envColorRightBoost": [float,float,float]
+      "envColorRightBoost": [float,float,float],
+      "envColorWhiteBoost": [float,float,float]
     },
-    "fogParams": {
+    "fogParams": { // Default fog parameters for the environment
       "offset": float,
       "height": float,
       "startY": float,
-      "attenuation": float
-    }
+      "attenuation": float,
+      "autoExposureLimit": float,
+    },
+    "sizeData": { // Irrelevant
+      "floorType": "",
+      "ceilingType": "",
+      "trackLaneType": ""
+    },
+    "lightTracks": { // Irrelevant
+      "eventTracks": {},
+      "groupPages": {}
+    },
+    "uniqueMaterials": [
+      {
+        "hash": "",
+        "name": "",
+        "shader": "",
+        "color": [float,float,float,float],
+        "enabledShaderKeywords": [string[]], // All enabled shader keywords on the material
+        "shaderProperties": {} // Every shader property value specific to the material
+      }
+    ],
+    "uniqueMeshes": [
+      {
+        "name": "",
+        "hash": "",
+        "boundsSize": [float,float,float],
+        "boundsCenter": [float,float,float]
+      }
+    ]
   },
   "objects": [
     {
       "name": "GameObject Name",
       "id": "ChromaID",
+      "activeSelf": bool, // If the object is active or not
+      "layer": "", // The Unity object layer
       "components": {
         "Transform": {
           "position": [float,float,float],
@@ -59,127 +84,167 @@ With Environment Data, this is the closest we've ever been to providing access t
 }
 ```
 
-## Components
+## Included Components
 
-99% of components will have a `Transform` component, but some may have more to help out with specific cases.
+Most objects will contain a Transform component.
 
-### The following components will be listed with selected properties:
-* **Transform**
-* * position
-* * localPosition
-* * rotation
-* * localRotation
-* * localScale
-* **TrackLaneRingsManager**
-* * ringCount
-* * ringPositionZStep
-* **MeshFilter**
-* * boundCenter
-* * boundSize
-* **TubeBloomPrePassLight**
-* * colorAlphaMultiplier
-* * bloomFogIntensityMultiplier
-* * length
-* * width
-* **TubeBloomPrePassLightWithId**
-* * tubeLightId
-* **DirectionalLightWithId**
-* * lightId
-* **Animator**
-* * animatorParameters
-* * animatorLayerNames
-* **LightManager**
-* * directionalLightDirections
-* * directionalLightPositions
-* **DirectionalLight**
-* * lightIntensity
-* * lightRadius
-* * lightRotation
-* **BakedReflectionProbe**
-* * probeSize
-* * probePosition
-* **SpriteLightWithId**
-* * spriteLightId
-* * intensity
-* **RectangleFakeGlow**
-* * rectangleSize
-* **RectangleFakeGlowWithLightId**
-* * rectangleLightId
-* **EnvironmentBrandingManager**
-* * brandingObjects
-* **ParticleSystemWithLightId**
-* * particleLightId
-* * particleLightIntensity
-* **InstancedMaterialLightWithId**
-* * materialLightId
-* * materialLightIntensity
-* **MeshCollider**
-* * meshBoundsCenter
-* * meshBoundsSize
-* **CustomBoundingBox**
-* * customBoundCenter
-* * customBoundSize
-* **Animation**
-* * clipFrameRate
-* * clipLength
-* **SmoothStepPositionEventEffect**
-* * minY
-* * maxY
-* * stepSize
-* * startPos
-* * easing
-* **LightGroupCircularLayouter**
-* * circularRadius
-* * circularAngle
-* * groupId
-* **SmoothStepPositionGroupEventEffect**
-* * groupMinY
-* * groupMaxY
-* * groupStepSize
-* * groupStartPos
-* * groupEasing
+Please note this is a full list of every single component thats included, you will not need 95% of these.
 
-### The following components will be listed *without* any properties listed:
-* BloomFogEnvironment
-* EnvironmentSceneSetup
-* LightWithIdManager
-* Canvas
+### Unity
+
+* BoxCollider
+* CapsuleCollider
+* MeshCollider
+* SphereCollider
+* Animation
+* Animator
+* ArticulationBody
+* MeshFilter
+* MeshRenderer
 * ParticleSystem
-* Spectrogram
+* RigidBody
+* SpringJoint
+* SpriteRenderer
+* Transform
+
+### Light
+
+* ColorArrayLightWithIds
+* DirectionalLightWithId
+* DirectionalLightWithIds
+* DirectionalLightWithLightGroupIds
+* GlobalShaderColorLightWithIds
+* InstancedMaterialLightWithId
+* LightmapLightsWithIds
+* LightmapLightWithIds
+* MaterialLightWithId
+* MaterialLightWithIds
+* ParticleSystemLightWithId
+* PointLight
+* PointLightWithIds
+* RectangleFakeGlowLightWithLightId
+* SpriteArrayLightWithId
+* SpriteLightWithId
+* TubeBloomPrePassLightWithId
+* LightManager
+* LightWithIdManager
+* DirectionalLight
+* Parametric3SliceSpriteController
+* ParametricBoxController
+* RectangleFakeGlow
+* TubeBloomPrePassLight
+
+### BloomFog
+
+* BloomPrePassBackgroundColorsGradientElementWithLightId
+* BloomPrePassBackgroundColorsGradientTintColorWithLightId
+* BloomPrePassBackgroundColorsGradientTintColorWithLightIds
+* BloomPrePassBackgroundLightWithId
+* BloomPrePassBackgroundColor
 * BloomPrePassBackgroundColorsGradient
-* Mirror
-* SaberBurnMarkArea
-* TrackLaneRing
+* BloomPrePassBackgroundColorsGradientFromColorSchemeColors
+* BloomPrePassBackgroundGradient
+* BloomPrePassBackgroundNonLightInstancedGroupRenderer
+* BloomPrePassBackgroundNonLightRenderer
+* BloomPrePassBackgroundNonLightRendererCore
+* BloomPrePassBackgroundParticleSystemRenderer
+* BloomPrePassBackgroundSpriteRenderer
+* BloomPrePassNonLightPass
+
+### Effects
+
+* FloatFxGroupEffectManager
 * LightColorGroupEffectManager
 * LightRotationGroupEffectManager
-* LightGroup
-* LightGroupLinearLayouter
-* LightRotationGroup
-* ContinuousFireEffect
+* LightTranslationGroupEffectManager
+* TriggerFloatFxGroupEffectManager
+* TrackLaneRingsPositionStepEffectSpawner
+* TrackLaneRingsRotationEffectSpawner
 * BurstFireEffect
-* LightmapLightWithIdsGroupEntry
-* FloatingTransformEffect
-* LightTranslationGroup
-* TransformSpectrogram
-* ColorArrayLightWithIds
-* LevelFailedTextOverride
-* MoveInDirectionEffect
+* ContinuousFireEffect
+* FloatFxGroupEffect
+* HydraulicCarJumpEffect
+* HydraulicCarSuspensionEffect
+* LightColorGroupEffect
+* LightRotationGroupEffect
+* TrackLaneRingsRotationEffect
+* TriggerFloatFxGroupEffect
 * TubeBloomPrePassLightCollisionEffect
 * TubeBloomPrePassLightReflectionEffect
-* MaterialLightWithId
-* BTSCharacterSpawnController
-* RigidBody
-* LightmapLightWithIds
-* ParticleSystemLightWithIds
+
+
+### Event Effects
+
+* BackgroundTextureGradientSwitchEventEffect
+* ColliderEventEffect
+* GameObjectIntSwitchEventEffect
 * GameObjectSwitchEventEffect
-* FloorLightTilesGrid
+* LightPairRotationEventEffect
+* LightPairSinMoveEventEffect
+* LightSwitchEventEffect
+* LightRotationEventEffect
+* MeshRendererSwitchEventEffect
+* MovementBeatmapEventEffect
+* ParticleSystemContinuousEventEffect
+* ParticleSystemEmitEventEffect
+* ParticleSystemEventEffect
+* PhysicsPositionsMovementEventEffect
+* SmoothStepPositionEventEffect
+* SmoothStepPositionGroupEventEffect
+* TextureIntSwitchEventEffect
+
+
+### Groups
+
+* AlphaFloatFxGroupEffectTarget
+* CombineGroupIdToVector4FloatFxGroupEffectTarget
+* FloatArrayMaterialPropertyEffectTarget
+* FloatFxGroupEffectCollectionTarget
+* FloatLocalScaleEffect
+* FloatMaterialPropertyEffectTarget
+* FloatSDFPointScaleEffect
+* FloatTextureProcessor3DMappingFloatEffectTarget
+* FloatTextureProcessor3DMappingVectorEffectTarget
+* FloatTextureProcessor3DMaterialSwitchEffectTarget
+* FloatTextureProcessor3DParameterEffectTarget
+* FloatTextureProcessor3DPresetEffectTarget
+* MoveInDirectionEffect
+* Parametric3SliceSpriteWidthEndFloatFxEffectTarget
+* SpectrogramMultiplierFloatFxEffectTarget
+* StepFloatMaterialPropertyEffectTarget
+* SwitchGameObjectArrayEffectTarget
+* SwitchGameObjectEffectTarget
+* VertexDisplacementFloatFxGroupEffectTarget
+* FloatFxGroup
 * LightColorGroup
-* LightColorGroupParent
-* SpectrogramRow
-* VideoPlayer
-* TransformLayouter
-* CloudsMeshGenerator
+* LightGroupCircularLayouter
+* LightRotationGroup
+* LightTranslationGroup
 
-(See below if you are looking to create your own log with more whitelisted components.)
+### MaterialPropertyBlock
 
-## Data Usage (Coming Soon)
+* MaterialPropertyBlockColorSetter
+* MaterialPropertyBlockController
+* MaterialPropertyBlockControllerArrayRandomValueSetter
+* MaterialPropertyBlockControllerRandomValueSetter
+* MaterialPropertyBlockPositionUpdater
+* MaterialPropertyBlockRandomValueSetter
+
+### Other
+
+* BakedLightsNormalizer
+* BakedReflectionProbe
+* CopyPosition
+* CustomBoundingBox
+* EnableRendererWithLightId
+* EnvironmentBrandingManager
+* Mirror
+* ObjectMesh
+* SDFArrayManager
+* SDFPoint
+* Spectrogram
+* SpectrogramRowPropertyAnimator
+* TextureProcessor3D
+* TrackLaneRing
+* TrackLaneRingsManager
+* TransformSpectrogram
